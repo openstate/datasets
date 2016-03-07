@@ -127,10 +127,10 @@ Tiel,Bedrijfschap Medel,4000 HG,Tiel,Provincie Gelderland
 Culemborg,Bedrijfsvoeringsorganisatie West Betuwe (BWB), 4100 AC,Culemborg,Provincie Gelderland
 Geldermalsen,Bedrijfsvoeringsorganisatie West Betuwe (BWB), 4100 AC,Culemborg,Provincie Gelderland
 Tiel,Bedrijfsvoeringsorganisatie West Betuwe (BWB), 4100 AC,Culemborg,Provincie Gelderland
-De Fryske Marren,Bedrijvenpark A7,8501 AA,Joure,Provincie Fryslân
-Heerenveen,Bedrijvenpark A7,8501 AA,Joure,Provincie Fryslân
-Opsterland,Bedrijvenpark Drachten - Beetsterzwaag,9244 CR,Beetsterzwaag,Provincie Fryslân
-Smallingerland,Bedrijvenpark Drachten - Beetsterzwaag,9244 CR,Beetsterzwaag,Provincie Fryslân
+De Fryske Marren,Bedrijvenpark A7,8501 AA,Joure,Provincie FryslÃ¢n
+Heerenveen,Bedrijvenpark A7,8501 AA,Joure,Provincie FryslÃ¢n
+Opsterland,Bedrijvenpark Drachten - Beetsterzwaag,9244 CR,Beetsterzwaag,Provincie FryslÃ¢n
+Smallingerland,Bedrijvenpark Drachten - Beetsterzwaag,9244 CR,Beetsterzwaag,Provincie FryslÃ¢n
 Groningen,Bedrijvenpark Rengers,9621 AL,Slochteren,Provincie Groningen
 Hoogezand-Sappemeer,Bedrijvenpark Rengers,9621 AL,Slochteren,Provincie Groningen
 Slochteren,Bedrijvenpark Rengers,9621 AL,Slochteren,Provincie Groningen
@@ -215,7 +215,6 @@ West Maas en Waal,Belastingsamenwerking Rivierenland (BSR),4003 BX,Tiel,Provinci
 Wijk bij Duurstede,Belastingsamenwerking Rivierenland (BSR),4003 BX,Tiel,Provincie Gelderland
 Bergen op Zoom,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
 Breda,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
-Etten-Leur,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
 Etten-Leur,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
 Oosterhout,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
 Roosendaal,Belastingsamenwerking West-Brabant (BWB),4870 GA,Etten-Leur,Provincie Noord-Brabant
@@ -307,34 +306,34 @@ Zeewolde,Centrum Regeling Sociaal Domein Flevoland,1315 HR,Almelo,Provincie Flev
 Groningen,Centrum voor automatisering Noord-Nederland (CEVAN) (in liquidatie),9700 RM,Groningen,Provincie Groningen
 Aalsmeer,Centrumregeling ambtelijke samenwerking Aalsmeer en Amstelveen,1180 BA,Amstelveen,Provincie Noord-Holland
 Amstelveen,Centrumregeling ambtelijke samenwerking Aalsmeer en Amstelveen,1180 BA,Amstelveen,Provincie Noord-Holland
-Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân,Centrumregeling samenwerking Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân,8911 DH,Leeuwarden,Provincie Fryslân
-Leeuwarden,Centrumregeling samenwerking Dienst Sociale Zaken en Werkgelegenheid Noardwest Fryslân,8911 DH,Leeuwarden,Provincie Fryslân
-Ferwerderadiel,Centrumregeling samenwerking Leeuwarden en Ferwerderadiel,8911 DH,Leeuwarden,Provincie Fryslân
-Leeuwarden,Centrumregeling samenwerking Leeuwarden en Ferwerderadiel,8911 DH,Leeuwarden,Provincie Fryslân
-Achtkarspelen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Ameland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Dantumadiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-De Fryske Marren,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Dongeradeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Ferwerderadiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Franekeradeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Harlingen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Heerenveen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Het Bildt,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Leeuwarden,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Leeuwarderadeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Littenseradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Menameradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Ooststellingwerf,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Opsterland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Schiermonnikoog,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Smallingerland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Súdwest-Fryslân,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Terschelling,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Tytsjerksteradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Vlieland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
-Weststellingwerf,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie Fryslân
+Dienst Sociale Zaken en Werkgelegenheid Noardwest FryslÃ¢n,Centrumregeling samenwerking Dienst Sociale Zaken en Werkgelegenheid Noardwest FryslÃ¢n,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,Centrumregeling samenwerking Dienst Sociale Zaken en Werkgelegenheid Noardwest FryslÃ¢n,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Ferwerderadiel,Centrumregeling samenwerking Leeuwarden en Ferwerderadiel,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,Centrumregeling samenwerking Leeuwarden en Ferwerderadiel,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Achtkarspelen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Ameland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Dantumadiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+De Fryske Marren,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Dongeradeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Ferwerderadiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Franekeradeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Harlingen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Heerenveen,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Het Bildt,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarderadeel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Littenseradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Menameradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Ooststellingwerf,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Opsterland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Schiermonnikoog,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Smallingerland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+SÃºdwest-FryslÃ¢n,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Terschelling,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Tytsjerksteradiel,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Vlieland,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Weststellingwerf,Centrumregeling samenwerking sociaal domein Friese gemeenten,8911 DH,Leeuwarden,Provincie FryslÃ¢n
 Alkmaar,Cocensus,2130 AT,Hoofddorp,Provincie Noord-Holland
 Bergen (NH.),Cocensus,2130 AT,Hoofddorp,Provincie Noord-Holland
 Beverwijk,Cocensus,2130 AT,Hoofddorp,Provincie Noord-Holland
@@ -348,37 +347,37 @@ Wormerland,Cocensus,2130 AT,Hoofddorp,Provincie Noord-Holland
 Hulst,Collectief vervoer Zeeuws-Vlaanderen,4531 GZ,Terneuzen,Provincie Zeeland
 Sluis,Collectief vervoer Zeeuws-Vlaanderen,4531 GZ,Terneuzen,Provincie Zeeland
 Terneuzen,Collectief vervoer Zeeuws-Vlaanderen,4531 GZ,Terneuzen,Provincie Zeeland
-Almere,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Blaricum,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Bunschoten,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Dronten,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Eemnes,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Elburg,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Ermelo,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Gooise Meren,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Harderwijk,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Huizen,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Kampen,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Nijkerk,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Nunspeet,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Oldebroek,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Putten,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Zeewolde,Coöperatie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
-Alkmaar,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Alphen aan den Rijn,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Amersfoort,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Barneveld,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Deventer,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Gorinchem,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Hilversum,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Hoogeveen,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-IJsselstein,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Lelystad,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Nieuwegein,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Nijkerk,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Woerden,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Zandvoort,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
-Zeist,Coöperatie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Almere,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Blaricum,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Bunschoten,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Dronten,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Eemnes,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Elburg,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Ermelo,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Gooise Meren,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Harderwijk,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Huizen,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Kampen,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Nijkerk,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Nunspeet,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Oldebroek,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Putten,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Zeewolde,CoÃ¶peratie Gastvrije Randmeren,3842 DR,Harderwijk,Provincie Gelderland
+Alkmaar,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Alphen aan den Rijn,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Amersfoort,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Barneveld,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Deventer,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Gorinchem,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Hilversum,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Hoogeveen,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+IJsselstein,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Lelystad,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Nieuwegein,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Nijkerk,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Woerden,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Zandvoort,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
+Zeist,CoÃ¶peratie ParkeerService,3811 NB,Amersfoort,Provincie Utrecht
 Bellingwedde,"Cultureel Centrum Oost-Groningen ""De Klinker""",9671 CD,Winschoten,Provincie Groningen
 Oldambt,"Cultureel Centrum Oost-Groningen ""De Klinker""",9671 CD,Winschoten,Provincie Groningen
 Eindhoven,Cure (Reinigingstaken Eindhoven),5652 AC,Eindhoven,Provincie Noord-Brabant
@@ -399,17 +398,17 @@ Ridderkerk,DCMR Milieudienst Rijnmond,3100 AV,Schiedam,Provincie Zuid-Holland
 Schiedam,DCMR Milieudienst Rijnmond,3100 AV,Schiedam,Provincie Zuid-Holland
 Vlaardingen,DCMR Milieudienst Rijnmond,3100 AV,Schiedam,Provincie Zuid-Holland
 Westvoorne,DCMR Milieudienst Rijnmond,3100 AV,Schiedam,Provincie Zuid-Holland
-Dantumadiel,DDFK-gemeenten,9101 LP,Dokkum,Provincie Fryslân
-Dongeradeel,DDFK-gemeenten,9101 LP,Dokkum,Provincie Fryslân
-Ferwerderadiel,DDFK-gemeenten,9101 LP,Dokkum,Provincie Fryslân
-Kollumerland en Nieuwkruisland,DDFK-gemeenten,9101 LP,Dokkum,Provincie Fryslân
+Dantumadiel,DDFK-gemeenten,9101 LP,Dokkum,Provincie FryslÃ¢n
+Dongeradeel,DDFK-gemeenten,9101 LP,Dokkum,Provincie FryslÃ¢n
+Ferwerderadiel,DDFK-gemeenten,9101 LP,Dokkum,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,DDFK-gemeenten,9101 LP,Dokkum,Provincie FryslÃ¢n
 Geldrop-Mierlo,De Dommelvallei,5731 JL,Mierlo,Provincie Noord-Brabant
 Nuenen,De Dommelvallei,5731 JL,Mierlo,Provincie Noord-Brabant
 Son en Breugel,De Dommelvallei,5731 JL,Mierlo,Provincie Noord-Brabant
 Pekela,De Kompanjie (werkorganisatie gemeenten Pekela en Veendam),9640 AB,Veendam,Provincie Groningen
 Veendam,De Kompanjie (werkorganisatie gemeenten Pekela en Veendam),9640 AB,Veendam,Provincie Groningen
 Provincie Drenthe,De Noordelijke Rekenkamer,9401 HJ,Assen,Provincie Drenthe
-Provincie Fryslân,De Noordelijke Rekenkamer,9401 HJ,Assen,Provincie Drenthe
+Provincie FryslÃ¢n,De Noordelijke Rekenkamer,9401 HJ,Assen,Provincie Drenthe
 Provincie Groningen,De Noordelijke Rekenkamer,9401 HJ,Assen,Provincie Drenthe
 Brielle,De Welplaat,3200 AE,Nissewaard,Provincie Zuid-Holland
 Hellevoetsluis,De Welplaat,3200 AE,Nissewaard,Provincie Zuid-Holland
@@ -438,13 +437,13 @@ Sliedrecht,Dienst gezondheidszorg en Jeugd,3318 AL,Dordrecht,Provincie Zuid-Holl
 Strijen,Dienst gezondheidszorg en Jeugd,3318 AL,Dordrecht,Provincie Zuid-Holland
 Zederik,Dienst gezondheidszorg en Jeugd,3318 AL,Dordrecht,Provincie Zuid-Holland
 Zwijndrecht,Dienst gezondheidszorg en Jeugd,3318 AL,Dordrecht,Provincie Zuid-Holland
-Franekeradeel,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Harlingen,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Het Bildt,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Leeuwarderadeel,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Menameradiel,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Terschelling,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
-Vlieland,Dienst sociale zaken en werkgelegenheid Noardwest Fryslân,8800 AA,Franeker,Provincie Fryslân
+Franekeradeel,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Harlingen,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Het Bildt,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Leeuwarderadeel,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Menameradiel,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Terschelling,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
+Vlieland,Dienst sociale zaken en werkgelegenheid Noardwest FryslÃ¢n,8800 AA,Franeker,Provincie FryslÃ¢n
 Alblasserdam,Drechtsteden,3311 RR,Dordrecht,Provincie Zuid-Holland
 Dordrecht,Drechtsteden,3311 RR,Dordrecht,Provincie Zuid-Holland
 Hardinxveld-Giessendam,Drechtsteden,3311 RR,Dordrecht,Provincie Zuid-Holland
@@ -480,21 +479,21 @@ Aa en Hunze,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Appingedam,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Assen,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Aurich (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Barßel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+BarÃŸel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Bellingwedde,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Borger-Odoorn,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Borkum (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Bösel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+BÃ¶sel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Brookmerland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Bunde (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Coevorden,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Delfzijl,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Dornum (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Dörpen (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+DÃ¶rpen (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Eemsmond,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Emden (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Emmen,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Emsbüren (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+EmsbÃ¼ren (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Esens (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Essen (Oldb.) (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Freren (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
@@ -503,24 +502,24 @@ Friesoythe (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Gro
 Geeste (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Groningen,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Grootegast,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Großefehn (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+GroÃŸefehn (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Hage (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Haren,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Haren (Ems) (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Haselünne (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+HaselÃ¼nne (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Herzlake (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Hesel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Hinte (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Hoogeveen,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Hoogezand-Sappemeer,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Ihlow (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Industrie- und Handelskammer für Ostfriesland und Papenburg (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Industrie- und Handelskammer Osnabrück-Emsland-Grafschaft Bentheim (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+Industrie- und Handelskammer fÃ¼r Ostfriesland und Papenburg (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+Industrie- und Handelskammer OsnabrÃ¼ck-Emsland-Grafschaft Bentheim (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Jemgum (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Jever (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Jümme (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+JÃ¼mme (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Kamer van Koophandel,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Krummhörn (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+KrummhÃ¶rn (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Landkreis Aurich (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Landkreis Cloppenburg (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Landkreis Emsland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
@@ -541,7 +540,7 @@ Midden-Drenthe,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Moormerland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Noordenveld,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Norden (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Nordhümmling (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+NordhÃ¼mmling (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Oldambt,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Oldenburgische Industrie- und Handelskammer (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Ostrhauderfehn (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
@@ -554,10 +553,10 @@ Sande (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groninge
 Saterland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Schortens (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Slochteren,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Sögel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+SÃ¶gel (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Spelle (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Stadskanaal,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
-Südbrookmerland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
+SÃ¼dbrookmerland (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Twist (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Tynaarlo,Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
 Uplengen (Duitsland),Eems Dollard Regio,9693 CJ,Bad Nieuweschans,Provincie Groningen
@@ -606,7 +605,7 @@ Goch (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn
 Grave,Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
 Hamminkeln (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
 Heumen,Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
-Hünxe (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
+HÃ¼nxe (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
 Kalkar (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
 Kevelaer (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
 Kleef (Duitsland),Euregio Rijn-Waal,47533 (Duitsland),Kleef (Duitsland),Noordrijn-Westfalen (Duitsland)
@@ -644,41 +643,41 @@ Bodegraven-Reeuwijk,Ferm Werk (voorheen De Sluis),3445 BC,Woerden,Provincie Utre
 Montfoort,Ferm Werk (voorheen De Sluis),3445 BC,Woerden,Provincie Utrecht
 Oudewater,Ferm Werk (voorheen De Sluis),3445 BC,Woerden,Provincie Utrecht
 Woerden,Ferm Werk (voorheen De Sluis),3445 BC,Woerden,Provincie Utrecht
-Berg en Dal,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
-Beuningen,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
-Heumen,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
-Mook en Middelaar,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
-Nijmegen,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
-Wijchen,Financiële Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Berg en Dal,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Beuningen,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Heumen,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Mook en Middelaar,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Nijmegen,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
+Wijchen,FinanciÃ«le Grondslag Stichting Regionaal Bureau voor Toerisme Knooppunt Arnhem-Nijmegen (RBT KAN),6500 HG,Nijmegen,Provincie Gelderland
 Drechterland,Financiering personeelsplan muziekschool West-Friesland,1687 ZG,Wognum,Provincie Noord-Holland
 EnkHuizen,Financiering personeelsplan muziekschool West-Friesland,1687 ZG,Wognum,Provincie Noord-Holland
 Medemblik,Financiering personeelsplan muziekschool West-Friesland,1687 ZG,Wognum,Provincie Noord-Holland
 Provincie Utrecht,Fonds nazorg gesloten stortplaatsen Provincie Utrecht,3508 TH,Utrecht,Provincie Utrecht
-Achtkarspelen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Ameland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Dantumadiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-De Fryske Marren,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Dongeradeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Ferwerderadiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Franekeradeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Harlingen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Heerenveen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Het Bildt,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Leeuwarden,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Leeuwarderadeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Littenseradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Menameradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Ooststellingwerf,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Opsterland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Schiermonnikoog,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Smallingerland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Súdwest-Fryslân,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Terschelling,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Tytsjerksteradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Vlieland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Weststellingwerf,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
-Wetterskip Fryslân,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie Fryslân
+Achtkarspelen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Ameland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Dantumadiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+De Fryske Marren,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Dongeradeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Ferwerderadiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Franekeradeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Harlingen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Heerenveen,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Het Bildt,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Leeuwarden,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Leeuwarderadeel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Littenseradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Menameradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Ooststellingwerf,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Opsterland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Schiermonnikoog,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Smallingerland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+SÃºdwest-FryslÃ¢n,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Terschelling,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Tytsjerksteradiel,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Vlieland,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Weststellingwerf,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
+Wetterskip FryslÃ¢n,Fryske Utfieringstsjinst Miljeu en Omjouwing (FUMO),9001 ZE,Grou,Provincie FryslÃ¢n
 Aa en Hunze,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Achtkarspelen,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Ameland,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
@@ -723,7 +722,7 @@ Ooststellingwerf,Garantievoorziening voormalige Bestuursacademie Noord-Nederland
 Opsterland,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Pekela,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Provincie Drenthe,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
-Provincie Fryslân,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
+Provincie FryslÃ¢n,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Provincie Groningen,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Reiderland,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Scheemda,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
@@ -739,14 +738,14 @@ Tytsjerksteradiel,Garantievoorziening voormalige Bestuursacademie Noord-Nederlan
 Veendam,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Vlagtwedde,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Vlieland,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
-Waterschap ’t Suydevelt,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
+Waterschap â€™t Suydevelt,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Boarn en Klif,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap De Waadkant,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Dollardzijlvest,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Eemszijlvest,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Friesland,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Hunze en Aa's,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
-Waterschap Lauwerswâlden,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
+Waterschap LauwerswÃ¢lden,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Marne-Middelsee,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Meppelerdiep,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Waterschap Noorderzijlvest,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
@@ -755,7 +754,7 @@ Westerveld,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 
 Weststellingwerf,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Winschoten,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Winsum,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
-Wûnseradiel,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
+WÃ»nseradiel,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Wymbritseradiel,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Zuidhorn,Garantievoorziening voormalige Bestuursacademie Noord-Nederland,9700 RM,Groningen,Provincie Groningen
 Bunnik,Gasdistributie Zeist en Omstreken (GZO),3941 HV,Doorn,Provincie Utrecht
@@ -784,7 +783,6 @@ Waterschap Reest en Wieden,Gemeenschappelijk Belastingkantoor gezamenlijke water
 Waterschap Rijn en Ijssel,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
 Waterschap Vallei en Veluwe,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
 Waterschap Vechtstromen,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
-Waterschap Vechtstromen,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
 Waterschap Zuiderzeeland,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
 Zwolle,Gemeenschappelijk Belastingkantoor gezamenlijke waterschappen Locosensus-Tricijn (GBLT),8001 BB,Zwolle,Provincie Overrijssel
 Bunschoten,Gemeenschappelijk Belastingkantoor Lococensus - Tricijn (GBLT),8001 BB,Zwolle,Provincie Overijssel
@@ -803,14 +801,12 @@ Berg en Dal,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811
 Beuningen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Doesburg,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Druten,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
-Druten,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Duiven,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Heumen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Lingewaard,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Middelaar,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Montferland,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Mook en Middelaar,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
-Nijmegen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Nijmegen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Overbetuwe,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Renkum,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
@@ -820,7 +816,6 @@ Rozendaal,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 D
 Ubbergen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 West Maas en Waal,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Westervoort,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
-Wijchen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Wijchen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Zevenaar Beuningen,Gemeenschappelijk Orgaan regionale samenwerking Arnhem-Nijmegen,6811 DG,Arnhem,Provincie Gelderland
 Beemster,Gemeenschappelijk orgaan Stichting Primair Onderwijs Regio Zaanstreek en Waterland (SPOOR),1440 AE,Purmerend,Provincie Noord-Holland
@@ -1208,8 +1203,8 @@ Waterschap Hunze en Aa's,Hefpunt,9700 AB,Groningen,Provincie Groningen
 Waterschap Hunze en Aa's,Hefpunt,9727 DL,Groningen,Provincie Groningen
 Waterschap Noorderzijlvest,Hefpunt,9727 DL,Groningen,Provincie Groningen
 Waterschap Noorderzijlvest,Hefpunt,9700 AB,Groningen,Provincie Groningen
-Wetterskip Fryslân,Hefpunt,9727 DL,Groningen,Provincie Groningen
-Wetterskip Fryslân,Hefpunt,9700 AB,Groningen,Provincie Groningen
+Wetterskip FryslÃ¢n,Hefpunt,9727 DL,Groningen,Provincie Groningen
+Wetterskip FryslÃ¢n,Hefpunt,9700 AB,Groningen,Provincie Groningen
 "Hoogheemraadschap Amstel, Gooi en Vecht ",Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
 Hoogheemraadschap De Stichtse Rijnlanden,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
 Hoogheemraadschap Hollands Noorderkwartier,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
@@ -1232,7 +1227,7 @@ Waterschap Scheldestromen,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrec
 Waterschap Vallei en Veluwe,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
 Waterschap Vechtstromen,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
 Waterschap Zuiderzeeland,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
-Wetterskip Fryslân,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
+Wetterskip FryslÃ¢n,Het Waterschapshuis,3818 LE,Amersfoort,Provincie Utrecht
 Alphen aan den Rijn,Holland-Rijnland,2300 AN,Leiden,Provincie Zuid-Holland
 Hillegom,Holland-Rijnland,2300 AN,Leiden,Provincie Zuid-Holland
 Kaag en Braassem,Holland-Rijnland,2300 AN,Leiden,Provincie Zuid-Holland
@@ -1251,28 +1246,28 @@ Zoeterwoude,Holland-Rijnland,2300 AN,Leiden,Provincie Zuid-Holland
 Duiven,Huisvesting voortgezet onderwijs in de Liemers (GRHVOL),6900 AA,Zevenaar,Provincie Gelderland
 Montferland,Huisvesting voortgezet onderwijs in de Liemers (GRHVOL),6900 AA,Zevenaar,Provincie Gelderland
 Zevenaar,Huisvesting voortgezet onderwijs in de Liemers (GRHVOL),6900 AA,Zevenaar,Provincie Gelderland
-Ameland,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Dantumadiel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-De Fryske Marren,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Dongeradeel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Ferwerderadiel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Franekeradeel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Harlingen,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Heerenveen,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Het Bildt,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Leeuwarden,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Leeuwarderadeel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Littenseradiel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Menameradiel,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Ooststellingwerf,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Opsterland,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Schiermonnikoog,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Smallingerland,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Súdwest-Fryslân,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Terschelling,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Vlieland,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
-Weststellingwerf,Hûs en Hiem,8933 BN,Leeuwarden,Provincie Fryslân
+Ameland,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Dantumadiel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+De Fryske Marren,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Dongeradeel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Ferwerderadiel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Franekeradeel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Harlingen,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Heerenveen,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Het Bildt,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarderadeel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Littenseradiel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Menameradiel,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Ooststellingwerf,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Opsterland,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Schiermonnikoog,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Smallingerland,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+SÃºdwest-FryslÃ¢n,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Terschelling,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Vlieland,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
+Weststellingwerf,HÃ»s en Hiem,8933 BN,Leeuwarden,Provincie FryslÃ¢n
 Bergen op Zoom,ICT-samenwerking West-Brabant West,4761 BJ,Zevenbergen,Provincie Noord-Brabant
 Etten-Leur,ICT-samenwerking West-Brabant West,4761 BJ,Zevenbergen,Provincie Noord-Brabant
 Moerdijk,ICT-samenwerking West-Brabant West,4761 BJ,Zevenbergen,Provincie Noord-Brabant
@@ -1443,18 +1438,18 @@ Noord-Beveland,Leerplicht en RMC-functie Oosterschelderegio,4460 MC,Goes,Provinc
 Reimerswaal,Leerplicht en RMC-functie Oosterschelderegio,4460 MC,Goes,Provincie Zeeland
 Schouwen-Duiveland,Leerplicht en RMC-functie Oosterschelderegio,4460 MC,Goes,Provincie Zeeland
 Tholen,Leerplicht en RMC-functie Oosterschelderegio,4460 MC,Goes,Provincie Zeeland
-Achtkarspelen,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Dantumadiel,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-De Fryske Marren,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Dongeradeel,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Ferwerderadiel,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Franekeradeel,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Harlingen,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Heerenveen,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Het Bildt,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Leeuwarden,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
-Leeuwarderadeel,Marrekrite,8921 AH,Leeuwarden,Provincie Fryslân
+Achtkarspelen,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Dantumadiel,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+De Fryske Marren,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Dongeradeel,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Ferwerderadiel,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Franekeradeel,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Harlingen,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Heerenveen,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Het Bildt,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarderadeel,Marrekrite,8921 AH,Leeuwarden,Provincie FryslÃ¢n
 Ermelo,Meerinzicht,3850 AH,Ermelo,Provincie Gelderland
 Harderwijk,Meerinzicht,3850 AH,Ermelo,Provincie Gelderland
 Zeewolde,Meerinzicht,3850 AH,Ermelo,Provincie Gelderland
@@ -1831,30 +1826,17 @@ Medemblik,Ondersteuning Bestuurlijke samenwerking West-Friesland,1620 AR,Hoorn,P
 Opmeer,Ondersteuning Bestuurlijke samenwerking West-Friesland,1620 AR,Hoorn,Provincie Noord-Holland
 Stede Broec,Ondersteuning Bestuurlijke samenwerking West-Friesland,1620 AR,Hoorn,Provincie Noord-Holland
 Borsele,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Borsele,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Goes,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Goes,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Hulst,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Hulst,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Kapelle,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Kapelle,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Middelburg,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Middelburg,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Noord-Beveland,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Noord-Beveland,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Reimerswaal,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Reimerswaal,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Schouwen-Duiveland,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Schouwen-Duiveland,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Sluis,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Sluis,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Terneuzen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Terneuzen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Tholen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Tholen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Veere,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Veere,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
-Vlissingen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Vlissingen,Openbaar lichaam afvalstoffenverwijdering Zeeland (OLAZ),4500 AA,Oostburg,Provincie Zeeland
 Almelo,Openbaar Lichaam Crematoria Twente,7546 PE,Enschede,Provincie Overrijssel
 Berkelland,Openbaar Lichaam Crematoria Twente,7546 PE,Enschede,Provincie Overrijssel
@@ -2041,9 +2023,9 @@ Provincie Utrecht,Recreatie Midden-Nederland,3533 HH,Utrecht,Provincie Utrecht
 Recreatieschap Stichtse Groenlanden,Recreatie Midden-Nederland,3533 HH,Utrecht,Provincie Utrecht
 "Recreatieschap Utrechtse Heuvelrug, Vallei- en Kromme Rijngebied",Recreatie Midden-Nederland,3533 HH,Utrecht,Provincie Utrecht
 Recreatieschap Vinkeveense Plassen,Recreatie Midden-Nederland,3533 HH,Utrecht,Provincie Utrecht
-Deventer,Recreatiegemeenschap Salland,8100 AC  ,Raalte,Provincie Overrijssel
-Olst-Wijhe,Recreatiegemeenschap Salland,8100 AC  ,Raalte,Provincie Overrijssel
-Raalte,Recreatiegemeenschap Salland,8100 AC  ,Raalte,Provincie Overrijssel
+Deventer,Recreatiegemeenschap Salland,8100 ACÂ  ,Raalte,Provincie Overrijssel
+Olst-Wijhe,Recreatiegemeenschap Salland,8100 ACÂ  ,Raalte,Provincie Overrijssel
+Raalte,Recreatiegemeenschap Salland,8100 ACÂ  ,Raalte,Provincie Overrijssel
 Alkmaar,Recreatieschap Alkmaarder- en Uitgeestermeer,1911 MT,Uitgeest,Provincie Noord-Holland
 Beverwijk,Recreatieschap Alkmaarder- en Uitgeestermeer,1911 MT,Uitgeest,Provincie Noord-Holland
 Castricum,Recreatieschap Alkmaarder- en Uitgeestermeer,1911 MT,Uitgeest,Provincie Noord-Holland
@@ -2597,14 +2579,9 @@ Baarn,"Samenwerking Werk en Inkomen Baarn, Bunschoten en Soest",3762 AV,Soest,Pr
 Bunschoten,"Samenwerking Werk en Inkomen Baarn, Bunschoten en Soest",3762 AV,Soest,Provincie Utrecht
 Soest,"Samenwerking Werk en Inkomen Baarn, Bunschoten en Soest",3762 AV,Soest,Provincie Utrecht
 Binnenmaas,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
-Binnenmaas,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
-Cromstrijen,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
 Cromstrijen,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
 Korendijk,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
-Korendijk,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
 Oud-Beijerland,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
-Oud-Beijerland,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
-Strijen,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
 Strijen,Samenwerkingsorgaan Hoeksche Waard,3290 EA,Strijen,Provincie Zuid-Holland
 De Wolden,Samenwerkingsorganisatie De Wolden Hoogeveen,7900 PA,Hoogeveen,Provincie Drenthe
 Hoogeveen,Samenwerkingsorganisatie De Wolden Hoogeveen,7900 PA,Hoogeveen,Provincie Drenthe
@@ -2626,11 +2603,11 @@ Leek,Samenwerkingsverband afvalbeheer Regio Centraal Groningen,9712 HW,Groningen
 Marum,Samenwerkingsverband afvalbeheer Regio Centraal Groningen,9712 HW,Groningen,Provincie Groningen
 Ten Boer,Samenwerkingsverband afvalbeheer Regio Centraal Groningen,9712 HW,Groningen,Provincie Groningen
 Zuidhorn,Samenwerkingsverband afvalbeheer Regio Centraal Groningen,9712 HW,Groningen,Provincie Groningen
-Ameland,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie Fryslân
-Schiermonnikoog,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie Fryslân
-Terschelling,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie Fryslân
-Texel,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie Fryslân
-Vlieland,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie Fryslân
+Ameland,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie FryslÃ¢n
+Schiermonnikoog,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie FryslÃ¢n
+Terschelling,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie FryslÃ¢n
+Texel,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie FryslÃ¢n
+Vlieland,Samenwerkingsverband De Waddeneilanden,8860 AE,Harlingen,Provincie FryslÃ¢n
 Cuijk,Samenwerkingsverband kleinschalig collectief vervoer Brabant-Noordoost,5401 EJ,Uden,Provincie Noord-Brabant
 Grave,Samenwerkingsverband kleinschalig collectief vervoer Brabant-Noordoost,5401 EJ,Uden,Provincie Noord-Brabant
 Landerd,Samenwerkingsverband kleinschalig collectief vervoer Brabant-Noordoost,5401 EJ,Uden,Provincie Noord-Brabant
@@ -2642,9 +2619,9 @@ Uden,Samenwerkingsverband kleinschalig collectief vervoer Brabant-Noordoost,5401
 Veghel,Samenwerkingsverband kleinschalig collectief vervoer Brabant-Noordoost,5401 EJ,Uden,Provincie Noord-Brabant
 Albrandswaard,samenwerkingsverband Midden-IJsselmonde,2991 AA,Barendrecht,Provincie Zuid-Holland
 Barendrecht,samenwerkingsverband Midden-IJsselmonde,2991 AA,Barendrecht,Provincie Zuid-Holland
-Provincie Drenthe,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie Fryslân
-Provincie Fryslân,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie Fryslân
-Provincie Groningen,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie Fryslân
+Provincie Drenthe,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie FryslÃ¢n
+Provincie FryslÃ¢n,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie FryslÃ¢n
+Provincie Groningen,Samenwerkingsverband Noord Nederland,9727 KB,Groningen,Provincie FryslÃ¢n
 Ermelo,Samenwerkingsverband Regionale Vuilverwerking Ullerberg (ReVu),3852 PT,Ermelo,Provincie Gelderland
 Harderwijk,Samenwerkingsverband Regionale Vuilverwerking Ullerberg (ReVu),3852 PT,Ermelo,Provincie Gelderland
 Nijkerk,Samenwerkingsverband Regionale Vuilverwerking Ullerberg (ReVu),3852 PT,Ermelo,Provincie Gelderland
@@ -2687,15 +2664,15 @@ Zaanstad,Schadeschap Luchthaven Schiphol,2130 AS,Hoofddorp,Provincie Noord-Holla
 Beuningen,School logopedische Dienst Maas en Waal (SLD),6658 AG,Beneden-Leeuwen,Provincie Gelderland
 West Maas en Waal,School logopedische Dienst Maas en Waal (SLD),6658 AG,Beneden-Leeuwen,Provincie Gelderland
 Wijchen,School logopedische Dienst Maas en Waal (SLD),6658 AG,Beneden-Leeuwen,Provincie Gelderland
-Beverwijk,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Bloemendaal,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Haarlem,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Haarlemmerliede en Spaarnwoude,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Heemskerk,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Heemstede,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Uitgeest,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Velsen,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
-Zandvoort,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en Coördinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Beverwijk,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Bloemendaal,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Haarlem,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Haarlemmerliede en Spaarnwoude,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Heemskerk,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Heemstede,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Uitgeest,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Velsen,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
+Zandvoort,Schoolverzuim en Voortijdig Schoolverlaten regio West-Kennemerland (Samenwerking leerplicht/Regionale Meld- en CoÃ¶rdinatiefunctie voortijdig schoolverlaten (RMC)),2000 CE,Haarlem,Provincie Noord-Holland
 Amersfoort,Servicebureau | Gemeenten (opgeheven),3811 LM,Amersfoort,Provincie Utrecht
 Baarn,Servicebureau | Gemeenten (opgeheven),3811 LM,Amersfoort,Provincie Utrecht
 Bunschoten,Servicebureau | Gemeenten (opgeheven),3811 LM,Amersfoort,Provincie Utrecht
@@ -2744,14 +2721,14 @@ Stadskanaal,Sociale Recherche Noord- en Oost-Groningen,9950 AA,Winsum,Provincie 
 Veendam,Sociale Recherche Noord- en Oost-Groningen,9950 AA,Winsum,Provincie Groningen
 Vlagtwedde,Sociale Recherche Noord- en Oost-Groningen,9950 AA,Winsum,Provincie Groningen
 Winsum,Sociale Recherche Noord- en Oost-Groningen,9950 AA,Winsum,Provincie Groningen
-Achtkarspelen,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Heerenveen,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Leeuwarden,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Ooststellingwerf,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Opsterland,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Smallingerland,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Tytsjerksteradiel,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
-Weststellingwerf,Sociale werkvoorziening Fryslân,9200 AM,Drachten,Provincie Fryslân
+Achtkarspelen,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Heerenveen,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Leeuwarden,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Ooststellingwerf,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Opsterland,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Smallingerland,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Tytsjerksteradiel,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
+Weststellingwerf,Sociale werkvoorziening FryslÃ¢n,9200 AM,Drachten,Provincie FryslÃ¢n
 Almelo,SOWECO,7600 AH,Almelo,Provincie Overrijssel
 Hellendoorn,SOWECO,7601 AH,Almelo,Provincie Overrijssel
 Rijssen-Holten,SOWECO,7602 AH,Almelo,Provincie Overrijssel
@@ -2826,7 +2803,6 @@ Heumen,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 Lingewaard,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 Montferland,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 Mook en Middelaar,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
-Mook en Middelaar,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 Nijmegen,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 "Overbetuwe,",Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
 Renkum,Stadsregio Arnhem-Nijmegen,6503 GB,Nijmegen,Provincie Gelderland
@@ -2857,7 +2833,7 @@ Wijdemeren,Stichting basisonderwijs Gooi en Vechtstreek / Stichting Villa Primai
 Nunspeet,Stichting D.G. van Beuningenfonds,8070 AB,Nunspeet,Provincie Gelderland
 Provincie Drenthe,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
 Provincie Flevoland,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
-Provincie Fryslân,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
+Provincie FryslÃ¢n,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
 Provincie Gelderland,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
 Provincie Groningen,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
 Provincie Limburg,Stichting Landelijk Meldpunt Afvalstoffen,2598 AC,'s-Gravenhage,Provincie Zuid-Holland
@@ -2895,9 +2871,9 @@ Duiven,Streekarchivariaat De Liemers en Doesburg,6900 AA,Zevenaar,Provincie Geld
 Rijnwaarden,Streekarchivariaat De Liemers en Doesburg,6900 AA,Zevenaar,Provincie Gelderland
 Westervoort,Streekarchivariaat De Liemers en Doesburg,6900 AA,Zevenaar,Provincie Gelderland
 Zevenaar,Streekarchivariaat De Liemers en Doesburg,6900 AA,Zevenaar,Provincie Gelderland
-Ameland,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie Fryslân
-Dongeradeel,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie Fryslân
-Schiermonnikoog,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie Fryslân
+Ameland,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie FryslÃ¢n
+Dongeradeel,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie FryslÃ¢n
+Schiermonnikoog,Streekarchivariaat Noord-Oost Friesland,9100 AJ,Dokkum,Provincie FryslÃ¢n
 Elburg,StreekarchivariaatNoordwest-Veluwe,8080 AB,Elburg,Provincie Gelderland
 Ermelo,StreekarchivariaatNoordwest-Veluwe,8080 AB,Elburg,Provincie Gelderland
 Harderwijk,StreekarchivariaatNoordwest-Veluwe,8080 AB,Elburg,Provincie Gelderland
@@ -2922,9 +2898,9 @@ Bodegraven-Reeuwijk,Toezichthoudend orgaan Stichting Klasse,2740 AK,Waddinxveen,
 Gouda,Toezichthoudend orgaan Stichting Klasse,2740 AK,Waddinxveen,Provincie Zuid-Holland
 Waddinxveen,Toezichthoudend orgaan Stichting Klasse,2740 AK,Waddinxveen,Provincie Zuid-Holland
 Woerden,Toezichthoudend orgaan Stichting Klasse,2740 AK,Waddinxveen,Provincie Zuid-Holland
-"Ministerie van Onderwijs, Cultuur en Wetenschap",Tresoar,8911 DH,Leeuwarden,Provincie Fryslân
-Provincie Fryslân,Tresoar,8911 DH,Leeuwarden,Provincie Fryslân
-Stichting Frysk Letterkundich Museum en Dokumintaasjesintrum,Tresoar,8911 DH,Leeuwarden,Provincie Fryslân
+"Ministerie van Onderwijs, Cultuur en Wetenschap",Tresoar,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Provincie FryslÃ¢n,Tresoar,8911 DH,Leeuwarden,Provincie FryslÃ¢n
+Stichting Frysk Letterkundich Museum en Dokumintaasjesintrum,Tresoar,8911 DH,Leeuwarden,Provincie FryslÃ¢n
 Apeldoorn,Tribuut belastingsamenwerking,8161 CK,Epe,Provincie Gelderland
 Epe,Tribuut belastingsamenwerking,8161 CK,Epe,Provincie Gelderland
 Lochem,Tribuut belastingsamenwerking,8161 CK,Epe,Provincie Gelderland
@@ -3082,30 +3058,30 @@ Lelystad,Veiligheidsregio Flevoland,8200 AM,Lelystad,Provincie Flevoland
 Noordoostpolder,Veiligheidsregio Flevoland,8200 AM,Lelystad,Provincie Flevoland
 Urk,Veiligheidsregio Flevoland,8200 AM,Lelystad,Provincie Flevoland
 Zeewolde,Veiligheidsregio Flevoland,8200 AM,Lelystad,Provincie Flevoland
-Achtkarspelen,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Ameland,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Dantumadiel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-De Fryske Marren,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Dongeradeel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Ferwerderadiel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Franekeradeel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Harlingen,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Heerenveen,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-het Bildt,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Leeuwarden,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Leeuwarderadeel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Littenseradiel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Menameradiel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Ooststellingwerf,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Opsterland,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Schiermonnikoog,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Smallingerland,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Súdwest-Fryslân,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Terschelling,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Tytsjerksteradiel,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Vlieland,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
-Weststellingwerf,Veiligheidsregio Fryslân,8901 BK,Leeuwarden,Provincie Fryslân
+Achtkarspelen,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Ameland,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Dantumadiel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+De Fryske Marren,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Dongeradeel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Ferwerderadiel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Franekeradeel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Harlingen,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Heerenveen,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+het Bildt,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarden,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Leeuwarderadeel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Littenseradiel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Menameradiel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Ooststellingwerf,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Opsterland,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Schiermonnikoog,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Smallingerland,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+SÃºdwest-FryslÃ¢n,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Terschelling,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Tytsjerksteradiel,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Vlieland,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
+Weststellingwerf,Veiligheidsregio FryslÃ¢n,8901 BK,Leeuwarden,Provincie FryslÃ¢n
 Berg en Dal,Veiligheidsregio Gelderland-Zuid (VRGZ),6524 TV,Nijmegen,Provincie Gelderland
 Beuningen,Veiligheidsregio Gelderland-Zuid (VRGZ),6524 TV,Nijmegen,Provincie Gelderland
 Buren,Veiligheidsregio Gelderland-Zuid (VRGZ),6524 TV,Nijmegen,Provincie Gelderland
@@ -3447,9 +3423,9 @@ De Marne,Vuilverwerkingsbedrijf Noord-Groningen,9980 AA,Uithuizen,Provincie Gron
 Eemsmond,Vuilverwerkingsbedrijf Noord-Groningen,9980 AA,Uithuizen,Provincie Groningen
 Loppersum,Vuilverwerkingsbedrijf Noord-Groningen,9980 AA,Uithuizen,Provincie Groningen
 Winsum,Vuilverwerkingsbedrijf Noord-Groningen,9980 AA,Uithuizen,Provincie Groningen
-Provincie Fryslân,Waddenfonds,8911 BS,Leeuwarden,Provincie Fryslân
-Provincie Groningen,Waddenfonds,8911 BS,Leeuwarden,Provincie Fryslân
-Provincie Noord-Holland,Waddenfonds,8911 BS,Leeuwarden,Provincie Fryslân
+Provincie FryslÃ¢n,Waddenfonds,8911 BS,Leeuwarden,Provincie FryslÃ¢n
+Provincie Groningen,Waddenfonds,8911 BS,Leeuwarden,Provincie FryslÃ¢n
+Provincie Noord-Holland,Waddenfonds,8911 BS,Leeuwarden,Provincie FryslÃ¢n
 De Dommel,Waterschap De Dommel en Waterschap Brabantse Delta,4801 DZ,Breda,Provincie Noord-Brabant
 Waterschap Brabantse Delta,Waterschap De Dommel en Waterschap Brabantse Delta,4801 DZ,Breda,Provincie Noord-Brabant
 Binnenmaas,Wegschap Dordtse kil,3300 AH,Dordrecht,Provincie Zuid-Holland
@@ -3495,12 +3471,12 @@ Gemert-Bakel,Werkbedrijf Atlant de Peel (WADP),5705 AX,Helmond,Provincie Noord-B
 Helmond,Werkbedrijf Atlant de Peel (WADP),5705 AX,Helmond,Provincie Noord-Brabant
 Laarbeek,Werkbedrijf Atlant de Peel (WADP),5705 AX,Helmond,Provincie Noord-Brabant
 Someren,Werkbedrijf Atlant de Peel (WADP),5705 AX,Helmond,Provincie Noord-Brabant
-Dantumadiel,Werkleerbedrijf NoardEast Fryslân (NEF),9101 PA,Dokkum,Provincie Fryslân
-Dongeradeel,Werkleerbedrijf NoardEast Fryslân (NEF),9101 PA,Dokkum,Provincie Fryslân
-Ferwerderadiel,Werkleerbedrijf NoardEast Fryslân (NEF),9101 PA,Dokkum,Provincie Fryslân
-Kollumerland en Nieuwkruisland,Werkleerbedrijf NoardEast Fryslân (NEF),9101 PA,Dokkum,Provincie Fryslân
-Achtkarspelen,Werkmaatschappij 8KTD,9251 GH,Burgum,Provincie Fryslân
-Tytsjerksteradiel,Werkmaatschappij 8KTD,9251 GH,Burgum,Provincie Fryslân
+Dantumadiel,Werkleerbedrijf NoardEast FryslÃ¢n (NEF),9101 PA,Dokkum,Provincie FryslÃ¢n
+Dongeradeel,Werkleerbedrijf NoardEast FryslÃ¢n (NEF),9101 PA,Dokkum,Provincie FryslÃ¢n
+Ferwerderadiel,Werkleerbedrijf NoardEast FryslÃ¢n (NEF),9101 PA,Dokkum,Provincie FryslÃ¢n
+Kollumerland en Nieuwkruisland,Werkleerbedrijf NoardEast FryslÃ¢n (NEF),9101 PA,Dokkum,Provincie FryslÃ¢n
+Achtkarspelen,Werkmaatschappij 8KTD,9251 GH,Burgum,Provincie FryslÃ¢n
+Tytsjerksteradiel,Werkmaatschappij 8KTD,9251 GH,Burgum,Provincie FryslÃ¢n
 Cuijk,"Werkorganisatie Cuijk, Grave, Mill en Sint Hubert (CGM)",5431 BV,Cuijk,Provincie Noord-Brabant
 Grave en Mill,"Werkorganisatie Cuijk, Grave, Mill en Sint Hubert (CGM)",5431 BV,Cuijk,Provincie Noord-Brabant
 Sint Hubert,"Werkorganisatie Cuijk, Grave, Mill en Sint Hubert (CGM)",5431 BV,Cuijk,Provincie Noord-Brabant
@@ -3592,16 +3568,16 @@ Appingedam,Werkvoorzieningschap Fivelingo en omgeving,9902 SR,Appingedam,Provinc
 Delfzijl,Werkvoorzieningschap Fivelingo en omgeving,9902 SR,Appingedam,Provincie Groningen
 Loppersum,Werkvoorzieningschap Fivelingo en omgeving,9902 SR,Appingedam,Provincie Groningen
 Ten Boer,Werkvoorzieningschap Fivelingo en omgeving,9902 SR,Appingedam,Provincie Groningen
-De Fryske Marren,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Franekeradeel,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Harlingen,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Het Bildt,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Leeuwarderadeel,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Littenseradiel,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Menameradiel,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Súdwest-Fryslân,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Terschelling,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
-Vlieland,Werkvoorzieningschap Fryslân-West,8601 WJ,Sneek,Provincie Fryslân
+De Fryske Marren,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Franekeradeel,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Harlingen,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Het Bildt,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Leeuwarderadeel,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Littenseradiel,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Menameradiel,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+SÃºdwest-FryslÃ¢n,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Terschelling,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
+Vlieland,Werkvoorzieningschap FryslÃ¢n-West,8601 WJ,Sneek,Provincie FryslÃ¢n
 Gennep,"Werkvoorzieningschap Gennep, Mook en Middelaar",6590 HD,Gennep,Provincie Limburg
 Mook en Middelaar,"Werkvoorzieningschap Gennep, Mook en Middelaar",6590 HD,Gennep,Provincie Limburg
 Lelystad,Werkvoorzieningschap IJsselmeergroep Concern voor werk,8203 AA,Lelystad,Provincie Flevoland
@@ -3760,29 +3736,17 @@ Middelburg,Zeeuws Archief,4330 AB,Middelburg,Provincie Zeeland
 Rijk,Zeeuws Archief,4330 AB,Middelburg,Provincie Zeeland
 Veere,Zeeuws Archief,4330 AB,Middelburg,Provincie Zeeland
 Borsele,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Borsele,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Goes,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Goes,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Hulst,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Hulst,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Kapelle,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Kapelle,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Middelburg,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Middelburg,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Noord-Beveland,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Noord-Beveland,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Reimerswaal,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Reimerswaal,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Schouwen-Duiveland,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Schouwen-Duiveland,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Sluis,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Sluis,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Terneuzen,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Tholen,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Tholen,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Veere,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Veere,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
-Vlissingen,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Vlissingen,Zeeuwse muziekschool,4331 GS ,Middelburg,Provincie Zeeland
 Provincie Limburg,Zuidelijke Rekenkamer,5611 EG,Eindhoven,Provincie Noord-Brabant
 Provincie Noord Brabant,Zuidelijke Rekenkamer,5611 EG,Eindhoven,Provincie Noord-Brabant
