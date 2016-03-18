@@ -1,0 +1,58 @@
+{
+  "resources": [
+    {
+      "name": "mirtgebieden",
+      "path": "mirtgebieden.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17602,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"MIRT-gebieden\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "omgevingsdienstenregionaleuitvoeringsdiensten",
+      "path": "omgevingsdienstenregionaleuitvoeringsdiensten.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 22898,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Omgevingsdiensten (Regionale uitvoeringsdiensten)\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "regionaleuitvoeringsdienstenbrzo",
+      "path": "regionaleuitvoeringsdienstenbrzo.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 24039,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Regionale Uitvoeringsdiensten - BRZO\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Fysiek",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0"
+}

@@ -1,0 +1,154 @@
+{
+  "resources": [
+    {
+      "name": "arrondissementen1",
+      "path": "arrondissementen1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17696,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Arrondissementen \";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "coropplusregios",
+      "path": "coropplusregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 19264,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"COROP plusregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "coropregios",
+      "path": "coropregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18870,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"COROP regio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "coropsubregios",
+      "path": "coropsubregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 19027,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"COROP subregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "nuts1regioslandsdelen",
+      "path": "nuts1regioslandsdelen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18336,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"NUTS-1 Regio's (Landsdelen)\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "nuts2regiosprovincies",
+      "path": "nuts2regiosprovincies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17081,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"NUTS-2 Regio's (Provincies)\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "nuts3regios",
+      "path": "nuts3regios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18871,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"NUTS-3 Regio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "provincies",
+      "path": "provincies.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 16944,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Provincies\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "ressorten1",
+      "path": "ressorten1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18449,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Ressorten\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Bestuurlijk",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0"
+}
