@@ -1,0 +1,304 @@
+{
+  "resources": [
+    {
+      "name": "overzicht.doorvoer.militaire.goederen-2005-2015",
+      "path": "Overzicht.doorvoer.militaire.goederen-2005-2015.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 1487709,
+      "schema": {
+        "fields": [
+          {
+            "name": "Datum aanvraag",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Consent nummer",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Aantal",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Goederen omschrijving",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "land van herkomst",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "land van bestemming (**)",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Ad-hoc J/N (***)",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "VP/AN (****)",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Vervoermiddel",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Plaats van uitgang",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "overzicht.dual-use.goederen-2004-2015",
+      "path": "Overzicht.dual-use.goederen-2004-2015.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 973801,
+      "schema": {
+        "fields": [
+          {
+            "name": "Datum afgifte",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "nummer",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "SG-Post",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Omschrijving goederen",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Opgegeven eindgebruik",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "D/T",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Land van eindbestemming",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Land van herkomst",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Waarde(€)",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Datum verval",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "overzicht.uitvoer.militaire.goederen.2004-2014",
+      "path": "Overzicht.uitvoer.militaire.goederen.2004-2014.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 2745548,
+      "schema": {
+        "fields": [
+          {
+            "name": "afgifte datum",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "nummer",
+            "type": "integer",
+            "description": ""
+          },
+          {
+            "name": "SGP",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "CAT",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "goederen omschrijving",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "D/T",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "Verl.",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "V/N",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "U/D",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "T.v.v.",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "land van bestemming",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "land van eindbestemming",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "oorsprong /herkomst",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "land van oorsprong",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "waarde (€)",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "verval datum",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "overzichten-wapenexport-gecombineerd",
+      "path": "Overzichten-wapenexport-gecombineerd.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 5146603,
+      "schema": {
+        "fields": [
+          {
+            "name": "datum",
+            "type": "datetime",
+            "description": ""
+          },
+          {
+            "name": "nummer",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "omschrijving",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "gebruik",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "aantal",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "type",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "catdt",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "herkomst",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "bestemming",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "waarde",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Column 11",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Column 12",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Column 13",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "Column 14",
+            "type": "number",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "name": "dutcharmsexports",
+  "title": "",
+  "description": "In de maandrapportages <a href=\"https://www.rijksoverheid.nl/onderwerpen/exportcontrole-strategische-goederen/inhoud/rapportages-dual-use-en-militaire-goederen/rapportages-strategische-goederen\" target=\"_blank\">militaire goederen</a> en de maandrapportages <a href=\"https://www.rijksoverheid.nl/onderwerpen/exportcontrole-strategische-goederen/inhoud/rapportages-dual-use-en-militaire-goederen/rapportages-uitvoer-dual-use-goederen\" target=\"_blank\">dual-use goederen</a> staat informatie over de afgegeven vergunningen. Per maand publiceert de overheid een lijst waarop staat: 1. voor welke goederen een vergunning is afgegeven; 2. wat het land van herkomst en de bestemming is; 3. wat de goederen waard zijn; 4. wanneer de vergunning vervalt",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0"
+}

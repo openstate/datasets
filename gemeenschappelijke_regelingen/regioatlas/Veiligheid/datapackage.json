@@ -1,0 +1,90 @@
+{
+  "resources": [
+    {
+      "name": "politieeenheden",
+      "path": "politieeenheden.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18011,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Politie-eenheden\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "regionaalinformatieenexpertisecentra",
+      "path": "regionaalinformatieenexpertisecentra.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 19838,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Regionaal Informatie en Expertise Centra\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "veiligheidshuizen",
+      "path": "veiligheidshuizen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 23409,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Veiligheidshuizen\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "veiligheidsregios",
+      "path": "veiligheidsregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17948,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Veiligheidsregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "vptregios2014",
+      "path": "vptregios2014.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18216,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"VPT-regio's 2014\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Veiligheid",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0"
+}

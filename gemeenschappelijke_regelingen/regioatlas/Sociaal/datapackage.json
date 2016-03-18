@@ -1,0 +1,282 @@
+{
+  "resources": [
+    {
+      "name": "arbeidsmarktregios",
+      "path": "arbeidsmarktregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17846,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Arbeidsmarktregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "centrumgemeentemaatschappelijkeopvangbeschermdwonen",
+      "path": "centrumgemeentemaatschappelijkeopvangbeschermdwonen.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15466,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Centrumgemeente maatschappelijke opvang & beschermd wonen\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "centrumgemeentenvrouwenopvanggeweldinhuiselijkekring",
+      "path": "centrumgemeentenvrouwenopvanggeweldinhuiselijkekring.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15482,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Centrumgemeenten vrouwenopvang / geweld in huiselijke kring\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "ggds",
+      "path": "ggds.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 20078,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"GGD's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "hlzregioshervorminglangdurigezorg",
+      "path": "hlzregioshervorminglangdurigezorg.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18113,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"HLZ-regio's (Hervorming Langdurige Zorg)\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "intergemeentelijkesocialediensten",
+      "path": "intergemeentelijkesocialediensten.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 6733,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Intergemeentelijke sociale diensten\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "jeugdzorgregios1",
+      "path": "jeugdzorgregios1.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17443,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Jeugdzorgregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "kamervankoophandel",
+      "path": "kamervankoophandel.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15121,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Kamer van Koophandel\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "passendonderwijsprimaironderwijs",
+      "path": "passendonderwijsprimaironderwijs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15538,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Passend Onderwijs - Primair Onderwijs \";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "passendonderwijsvoortgezetonderwijs",
+      "path": "passendonderwijsvoortgezetonderwijs.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15686,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Passend Onderwijs - Voortgezet Onderwijs\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "rcfkenniscentrahandhaving",
+      "path": "rcfkenniscentrahandhaving.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 19929,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"RCF Kenniscentra Handhaving\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "regionaleplatformsarbeidsmarkt",
+      "path": "regionaleplatformsarbeidsmarkt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17671,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Regionale Platforms Arbeidsmarkt\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "rmcregiosregionaalmeldencoordinatiepunt",
+      "path": "rmcregiosregionaalmeldencoordinatiepunt.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 18471,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"RMC-regio's (Regionaal Meld- en Coördinatiepunt)\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "socialewerkvoorziening",
+      "path": "socialewerkvoorziening.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17375,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Sociale Werkvoorziening\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "veiligthuisregios",
+      "path": "veiligthuisregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 15974,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Veilig Thuis regio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "wmoregios",
+      "path": "wmoregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 17842,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"WMO-regio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "zorgkantoorregios",
+      "path": "zorgkantoorregios.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 21966,
+      "schema": {
+        "fields": [
+          {
+            "name": "﻿\"Gemeente\";\"CBS\";\"Zorgkantoorregio's\";\"Inwoneraantal van regio\"",
+            "type": "string",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "name": "Sociaal",
+  "title": "",
+  "description": "",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "ODC-PDDL-1.0"
+}
