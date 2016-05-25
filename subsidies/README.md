@@ -1,6 +1,6 @@
 # Subsidies
 
-A dataset of all 25163 subsidies granted by various ministries of the Dutch government in 2015. The source is the website for the [State Budget] (http://opendata.rijksbegroting.nl/). Here you can find the whole dataset in CSV.
+A dataset of all 25163 subsidies granted by various ministries of the Dutch government in 2015. The source is the website for the [State Budget] (http://opendata.rijksbegroting.nl/). Here you can find the whole dataset in CSV and JSON.
 
 columns: Overheid (government ministry); Regeling (subsidy scheme); Ontvanger (Recipient); Realisatie (Amount); Jaar (Year)
 
