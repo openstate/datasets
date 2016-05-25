@@ -5,5 +5,5 @@ A dataset of all 25163 subsidies granted by various ministries of the Dutch gove
 columns: Overheid (government ministry); Regeling (subsidy scheme); Ontvanger (Recipient); Realisatie (Amount); Jaar (Year)
 
 Data is used in a tool called [Subsidietrekker.nl] (http://subsidietrekker.nl)
-An analysis of the data can be found on the website of [Open State Foundation] (http://www.openstate.eu/en/2016/05/ministries-subsidies-2015/)
+An analysis of the data can be found on the website of [Open State Foundation] (http://www.openstate.eu/en/2016/05/ministries-subsidies-2015/).
 
