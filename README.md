@@ -6,3 +6,4 @@ A collection of datasets which we have enriched and want to share for reuse by o
 - Rapportages dual-use en militaire goederen
 - Open Coalitieakkoorden
 - EU Whoiswho
+- Subsidies ministeries 2015
