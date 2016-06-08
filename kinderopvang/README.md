@@ -1,4 +1,4 @@
-# Kinderopvang
+# Risicoprofielen kinderopvang
 
 Een dataset op basis van gegevens uit het [Landelijk Register Kinderopvang en Peuterspeelzalen] (http://www.landelijkregisterkinderopvang.nl/pp/zoeken/RegistratienummerZoekScherm.jsf) en een verzoek tot informatie om risicoprofielen van kinderopvang. Het risicoprofiel is een planningsinstrument voor de GGD dat gebruikt wordt om een inschatting te maken of er veel of weinig toezicht nodig is op een locatie. Lees hier de [toelichting van GGD-Amsterdam] (http://www.ggd.amsterdam.nl/jeugd/toezicht/risicogestuurd/) over risico-profielen. Deze data is van weinig gemeenten openbaar.
 
