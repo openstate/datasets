@@ -1,0 +1,391 @@
+gemeente,provincie,stand op 01/01/2016,taakstelling 1e helft 2016,taakstelling 1e helft 2016 inclusief voor/achter,realisatie januari 2016,realisatie februari 2016,realisatie maart 2016,realisatie april 2016,realisatie mei 2016,realisatie juni 2016,realisatie tot 1 juli 2016,achter/voor realisatie tot juli 2016,achterstand tot 1 juli 2016,voorsprong realisatie tot 1 juli 2016
+Aa en Hunze,Provincie Drenthe,11,30,41,1,6,0,4,7,3,21,20,20,
+Assen,Provincie Drenthe,13,79,92,14,15,12,8,5,35,89,3,3,
+Borger-Odoorn,Provincie Drenthe,17,30,47,2,11,3,1,3,3,23,24,24,
+Coevorden,Provincie Drenthe,15,42,57,21,7,7,7,8,1,51,6,6,
+De Wolden,Provincie Drenthe,10,28,38,4,1,11,3,6,1,26,12,12,
+Emmen,Provincie Drenthe,72,127,199,11,34,11,22,11,20,109,90,90,
+Hoogeveen,Provincie Drenthe,15,65,80,9,16,15,26,5,22,93,-13,,-13
+Meppel,Provincie Drenthe,15,39,54,18,8,8,4,1,4,43,11,11,
+Midden-Drenthe,Provincie Drenthe,17,40,57,11,13,5,-1,9,2,39,18,18,
+Noordenveld,Provincie Drenthe,6,37,43,12,5,9,13,2,6,47,-4,,-4
+Tynaarlo,Provincie Drenthe,7,39,46,1,0,7,4,7,26,45,1,1,
+Westerveld,Provincie Drenthe,-5,23,18,3,3,5,4,0,23,38,-20,,-20
+Almere,Provincie Flevoland,181,232,413,20,22,48,23,60,86,259,154,154,
+Dronten,Provincie Flevoland,-9,48,39,6,1,8,6,2,4,27,12,12,
+Lelystad,Provincie Flevoland,10,90,100,7,9,8,9,5,58,96,4,4,
+Noordoostpolder,Provincie Flevoland,21,55,76,6,5,12,7,11,10,51,25,25,
+Urk,Provincie Flevoland,3,24,27,2,0,11,1,2,11,27,0,,0
+Zeewolde,Provincie Flevoland,-3,26,23,4,4,8,0,0,11,27,-4,,-4
+Achtkarspelen,Provincie Friesland,-5,33,28,3,0,5,2,11,9,30,-2,,-2
+Ameland,Provincie Friesland,0,0,0,0,0,0,0,0,0,0,0,,0
+Dantumadeel,Provincie Friesland,-1,23,22,1,4,2,9,7,6,29,-7,,-7
+De Friese Meren,Provincie Friesland,45,61,106,9,6,5,6,4,7,37,69,69,
+Dongeradeel,Provincie Friesland,-10,29,19,4,4,8,2,3,3,24,-5,,-5
+Ferwerderadeel,Provincie Friesland,-2,11,9,3,0,7,6,2,2,20,-11,,-11
+Franekeradeel,Provincie Friesland,4,24,28,-1,3,3,2,0,3,10,18,18,
+Harlingen,Provincie Friesland,-1,19,18,1,0,1,3,1,0,6,12,12,
+Heerenveen,Provincie Friesland,-11,59,48,3,6,4,6,5,6,30,18,18,
+Het Bildt,Provincie Friesland,6,13,19,5,1,2,2,0,5,15,4,4,
+Kollumerland,Provincie Friesland,-5,16,11,5,0,2,1,5,6,19,-8,,-8
+Leeuwarden,Provincie Friesland,3,139,142,6,13,18,30,19,54,140,2,2,
+Leeuwarderadeel,Provincie Friesland,2,13,15,1,0,1,2,-1,2,5,10,10,
+Littenseradiel,Provincie Friesland,14,13,27,0,1,3,3,0,13,20,7,7,
+Menaldumadeel,Provincie Friesland,-4,16,12,1,2,0,2,1,0,6,6,6,
+Ooststellingwerf,Provincie Friesland,-1,31,30,1,6,0,6,5,9,27,3,3,
+Opsterland,Provincie Friesland,5,36,41,13,10,1,2,2,11,39,2,2,
+Schiermonnikoog,Provincie Friesland,0,0,0,0,0,0,0,0,0,0,0,,0
+Smallingerland,Provincie Friesland,12,66,78,9,6,1,12,10,18,56,22,22,
+Súdwest Fryslân,Provincie Friesland,34,99,133,10,14,8,11,12,10,65,68,68,
+Terschelling,Provincie Friesland,0,0,0,0,0,0,0,0,0,0,0,,0
+Tytjerksteradiel,Provincie Friesland,13,38,51,0,13,3,5,5,7,33,18,18,
+Vlieland,Provincie Friesland,0,0,0,0,0,0,0,0,0,0,0,,0
+Weststellingwerf,Provincie Friesland,0,30,30,1,12,-1,14,6,17,49,-19,,-19
+Aalten,Provincie Gelderland,-13,32,19,2,2,1,4,2,4,15,4,4,
+Apeldoorn,Provincie Gelderland,32,186,218,25,13,25,23,17,109,212,6,6,
+Arnhem,Provincie Gelderland,87,181,268,30,81,39,37,67,82,336,-68,,-68
+Barneveld,Provincie Gelderland,33,65,98,14,9,18,11,1,44,97,1,1,
+Berg en Dal,Provincie Gelderland,28,41,69,15,5,7,9,12,6,54,15,15,
+Berkelland,Provincie Gelderland,28,53,81,12,3,12,15,12,29,83,-2,,-2
+Beuningen,Provincie Gelderland,9,30,39,4,4,3,7,2,2,22,17,17,
+Bronckhorst,Provincie Gelderland,-5,44,39,22,11,9,3,5,5,55,-16,,-16
+Brummen,Provincie Gelderland,3,25,28,4,13,3,1,1,4,26,2,2,
+Buren,Provincie Gelderland,1,31,32,4,4,2,2,2,4,18,14,14,
+Culemborg,Provincie Gelderland,17,33,50,1,17,5,4,0,2,29,21,21,
+Doesburg,Provincie Gelderland,-2,14,12,1,6,1,3,0,9,20,-8,,-8
+Doetinchem,Provincie Gelderland,-17,67,50,3,15,11,4,13,24,70,-20,,-20
+Druten,Provincie Gelderland,5,22,27,7,3,8,2,1,0,21,6,6,
+Duiven,Provincie Gelderland,10,30,40,5,9,6,0,2,5,27,13,13,
+Ede,Provincie Gelderland,7,131,138,10,4,10,19,16,45,104,34,34,
+Elburg,Provincie Gelderland,-7,27,20,4,1,1,1,1,2,10,10,10,
+Epe,Provincie Gelderland,4,38,42,8,1,8,4,3,1,25,17,17,
+Ermelo,Provincie Gelderland,4,31,35,4,1,3,0,0,4,12,23,23,
+Geldermalsen,Provincie Gelderland,2,31,33,2,1,15,8,-2,15,39,-6,,-6
+Harderwijk,Provincie Gelderland,-2,54,52,4,9,1,2,3,7,26,26,26,
+Hattem,Provincie Gelderland,-1,14,13,1,3,0,2,0,1,7,6,6,
+Heerde,Provincie Gelderland,2,22,24,5,4,0,3,2,6,20,4,4,
+Heumen,Provincie Gelderland,23,20,43,8,4,19,14,4,4,53,-10,,-10
+Lingewaal,Provincie Gelderland,-2,14,12,2,9,0,0,2,10,23,-11,,-11
+Lingewaard,Provincie Gelderland,-1,54,53,4,6,23,10,1,8,52,1,1,
+Lochem,Provincie Gelderland,5,40,45,1,8,2,1,16,7,35,10,10,
+Maasdriel,Provincie Gelderland,14,29,43,0,9,6,5,3,3,26,17,17,
+Montferland,Provincie Gelderland,9,42,51,12,5,11,4,4,0,36,15,15,
+Nederbetuwe,Provincie Gelderland,-1,27,26,2,0,3,1,2,1,9,17,17,
+Neerijnen,Provincie Gelderland,-19,15,-4,0,0,1,0,0,3,4,-8,,-8
+Nijkerk,Provincie Gelderland,41,48,89,6,11,9,31,19,5,81,8,8,
+Nijmegen,Provincie Gelderland,11,201,212,47,46,33,42,24,43,235,-23,,-23
+Nunspeet,Provincie Gelderland,1,32,33,19,6,7,0,2,2,36,-3,,-3
+Oldebroek,Provincie Gelderland,3,28,31,4,8,29,7,0,3,51,-20,,-20
+Oost-Gelre,Provincie Gelderland,16,35,51,2,9,6,12,7,1,37,14,14,
+Oude IJsselstreek,Provincie Gelderland,-27,47,20,10,8,8,11,3,2,42,-22,,-22
+Overbetuwe,Provincie Gelderland,19,55,74,5,3,3,7,5,16,39,35,35,
+Putten,Provincie Gelderland,17,29,46,14,1,0,3,1,4,23,23,23,
+Renkum,Provincie Gelderland,4,37,41,-2,0,15,0,5,3,21,20,20,
+Rheden,Provincie Gelderland,4,52,56,3,2,8,15,22,7,57,-1,,-1
+Rijnwaarden,Provincie Gelderland,7,13,20,8,0,1,5,2,-5,11,9,9,
+Rozendaal,Provincie Gelderland,0,0,0,0,4,0,0,4,0,8,-8,,-8
+Scherpenzeel,Provincie Gelderland,-5,12,7,0,4,1,1,2,4,12,-5,,-5
+Tiel,Provincie Gelderland,5,49,54,9,2,3,10,11,8,43,11,11,
+Voorst,Provincie Gelderland,-4,29,25,3,3,12,1,1,3,23,2,2,
+Wageningen,Provincie Gelderland,20,45,65,15,19,13,1,12,20,80,-15,,-15
+West Maas en Waal,Provincie Gelderland,-4,22,18,5,0,0,8,2,0,15,3,3,
+Westervoort,Provincie Gelderland,4,18,22,3,8,0,0,3,5,19,3,3,
+Wijchen,Provincie Gelderland,5,49,54,6,18,5,1,5,8,43,11,11,
+Winterswijk,Provincie Gelderland,-12,35,23,3,5,6,6,3,6,29,-6,,-6
+Zaltbommel,Provincie Gelderland,1,33,34,4,0,0,8,9,4,25,9,9,
+Zevenaar,Provincie Gelderland,-5,0,-5,0,0,0,0,1,0,1,-6,,-6
+Zutphen,Provincie Gelderland,11,55,66,1,10,5,13,16,34,79,-13,,-13
+Appingedam,Provincie Groningen,1,15,16,2,0,3,0,1,4,10,6,6,
+Bedum,Provincie Groningen,1,13,14,1,6,2,0,1,2,12,2,2,
+Bellingwedde,Provincie Groningen,-2,11,9,0,0,0,0,2,1,3,6,6,
+De Marne,Provincie Groningen,-2,12,10,1,1,1,4,0,3,10,0,,0
+Delfzijl,Provincie Groningen,-3,30,27,3,2,2,0,1,1,9,18,18,
+Eemsmond,Provincie Groningen,2,19,21,2,1,2,0,1,6,12,9,9,
+Groningen,Provincie Groningen,46,236,282,30,23,30,45,30,27,185,97,97,
+Grootegast,Provincie Groningen,6,15,21,1,3,1,-1,0,1,5,16,16,
+Haren,Provincie Groningen,10,23,33,3,0,11,3,1,0,18,15,15,
+Hoogezand-Sappemeer,Provincie Groningen,-18,41,23,0,4,4,6,13,5,32,-9,,-9
+Leek,Provincie Groningen,-2,23,21,0,0,0,2,3,4,9,12,12,
+Loppersum,Provincie Groningen,-11,12,1,3,0,0,0,0,1,4,-3,,-3
+Marum,Provincie Groningen,3,13,16,0,0,0,2,1,3,6,10,10,
+Menterwolde,Provincie Groningen,1,15,16,1,0,0,4,0,3,8,8,8,
+Oldambt,Provincie Groningen,22,46,68,3,6,5,9,0,15,38,30,30,
+Pekela,Provincie Groningen,2,15,17,0,4,12,0,3,0,19,-2,,-2
+Slochteren,Provincie Groningen,9,19,28,0,12,2,1,2,3,20,8,8,
+Stadskanaal,Provincie Groningen,15,39,54,3,12,3,1,7,4,30,24,24,
+Ten Boer,Provincie Groningen,3,9,12,0,0,0,0,0,2,2,10,10,
+Veendam,Provincie Groningen,14,33,47,0,8,3,1,0,4,16,31,31,
+Vlagtwedde,Provincie Groningen,1,20,21,2,0,0,1,1,2,6,15,15,
+Winsum,Provincie Groningen,0,17,17,7,1,2,1,1,1,13,4,4,
+Zuidhorn,Provincie Groningen,-1,22,21,0,2,2,1,1,6,12,9,9,
+Beek,Provincie Limburg,-4,20,16,4,1,1,3,0,0,9,7,7,
+Beesel,Provincie Limburg,5,16,21,6,2,0,10,0,0,18,3,3,
+Bergen L,Provincie Limburg,6,16,22,0,1,8,1,1,15,26,-4,,-4
+Brunssum,Provincie Limburg,3,34,37,3,2,10,1,8,10,34,3,3,
+Echt-Susteren,Provincie Limburg,4,38,42,7,11,0,1,0,6,25,17,17,
+Eijsden-Margraten,Provincie Limburg,40,30,70,1,11,0,0,0,1,13,57,57,
+Gennep,Provincie Limburg,8,21,29,3,7,4,4,9,4,31,-2,,-2
+Gulpen-Wittem,Provincie Limburg,-7,18,11,0,1,0,0,3,3,7,4,4,
+Heerlen,Provincie Limburg,-2,103,101,13,22,18,24,30,26,133,-32,,-32
+Horst aan de Maas,Provincie Limburg,3,49,52,3,4,7,25,12,7,58,-6,,-6
+Kerkrade,Provincie Limburg,-8,55,47,0,3,13,2,1,12,31,16,16,
+Landgraaf,Provincie Limburg,-3,44,41,14,3,2,3,9,37,68,-27,,-27
+Leudal,Provincie Limburg,5,43,48,5,4,1,2,4,24,40,8,8,
+Maasgouw,Provincie Limburg,-3,28,25,0,0,0,1,5,4,10,15,15,
+Maastricht,Provincie Limburg,-2,144,142,36,11,26,18,16,80,187,-45,,-45
+Meerssen,Provincie Limburg,11,23,34,0,1,0,1,1,2,5,29,29,
+Mook en Middelaar,Provincie Limburg,3,10,13,0,1,0,2,1,9,13,0,,0
+Nederweert,Provincie Limburg,-6,20,14,0,0,1,0,3,0,4,10,10,
+Nuth,Provincie Limburg,-5,19,14,0,0,2,1,0,1,4,10,10,
+Onderbanken,Provincie Limburg,-2,10,8,1,0,3,3,1,0,8,0,,0
+Peel en Maas,Provincie Limburg,11,52,63,7,1,14,0,9,15,46,17,17,
+Roerdalen,Provincie Limburg,-6,25,19,4,0,0,6,4,10,24,-5,,-5
+Roermond,Provincie Limburg,-6,68,62,2,8,1,9,4,37,61,1,1,
+Schinnen,Provincie Limburg,12,16,28,10,5,3,1,0,5,24,4,4,
+Simpelveld,Provincie Limburg,0,13,13,3,2,2,5,0,1,13,0,,0
+Sittard-Geleen,Provincie Limburg,13,111,124,31,12,9,11,12,46,121,3,3,
+Stein,Provincie Limburg,-3,30,27,2,0,8,5,0,5,20,7,7,
+Vaals,Provincie Limburg,-9,12,3,-4,1,0,1,2,2,2,1,1,
+Valkenburg a/d Geul,Provincie Limburg,-5,20,15,0,1,4,2,0,1,8,7,7,
+Venlo,Provincie Limburg,29,119,148,21,21,7,10,13,5,77,71,71,
+Venray,Provincie Limburg,-2,51,49,17,3,16,1,6,3,46,3,3,
+Voerendaal,Provincie Limburg,9,15,24,0,4,0,4,0,0,8,16,16,
+Weert,Provincie Limburg,17,58,75,21,11,3,6,2,10,53,22,22,
+'s Hertogenbosch,Provincie Noord-Brabant,50,178,228,27,39,22,24,37,21,170,58,58,
+Aalburg,Provincie Noord-Brabant,-11,16,5,0,2,0,3,1,3,9,-4,,-4
+Alphen-Chaam,Provincie Noord-Brabant,-3,12,9,1,1,1,1,0,0,4,5,5,
+Asten,Provincie Noord-Brabant,6,20,26,9,0,0,2,4,5,20,6,6,
+Baarle-Nassau,Provincie Noord-Brabant,-3,8,5,0,0,0,3,0,0,3,2,2,
+Bergeijk,Provincie Noord-Brabant,0,22,22,5,2,0,4,8,15,34,-12,,-12
+Bergen op Zoom,Provincie Noord-Brabant,26,78,104,6,9,5,4,7,3,34,70,70,
+Bernheze,Provincie Noord-Brabant,10,35,45,6,0,0,5,11,4,26,19,19,
+Best,Provincie Noord-Brabant,20,34,54,7,2,0,2,0,13,24,30,30,
+Bladel,Provincie Noord-Brabant,9,24,33,0,2,3,4,1,0,10,23,23,
+Boekel,Provincie Noord-Brabant,8,12,20,3,5,1,0,4,0,13,7,7,
+Boxmeer,Provincie Noord-Brabant,-22,34,12,3,2,7,0,1,3,16,-4,,-4
+Boxtel,Provincie Noord-Brabant,-3,36,33,9,1,4,3,10,28,55,-22,,-22
+Breda,Provincie Noord-Brabant,48,214,262,28,27,44,53,37,43,232,30,30,
+Cranendonck,Provincie Noord-Brabant,-3,25,22,0,0,3,1,4,0,8,14,14,
+Cuijk,Provincie Noord-Brabant,6,29,35,5,-3,6,1,7,9,25,10,10,
+Deurne,Provincie Noord-Brabant,-6,38,32,2,6,4,4,1,12,29,3,3,
+Dongen,Provincie Noord-Brabant,-24,30,6,2,0,1,3,1,7,14,-8,,-8
+Drimmelen,Provincie Noord-Brabant,5,32,37,1,7,7,1,0,4,20,17,17,
+Eersel,Provincie Noord-Brabant,6,22,28,1,4,2,0,0,2,9,19,19,
+Eindhoven,Provincie Noord-Brabant,17,263,280,19,28,35,29,25,89,225,55,55,
+Etten-Leur,Provincie Noord-Brabant,7,50,57,3,1,1,5,8,32,50,7,7,
+Geertruidenberg,Provincie Noord-Brabant,2,26,28,8,0,0,0,4,3,15,13,13,
+Geldrop-Mierlo,Provincie Noord-Brabant,2,46,48,5,1,13,14,3,17,53,-5,,-5
+Gemert-Bakel,Provincie Noord-Brabant,4,35,39,6,0,5,5,8,2,26,13,13,
+Gilze en Rijen,Provincie Noord-Brabant,-8,31,23,0,0,10,1,4,6,21,2,2,
+Goirle,Provincie Noord-Brabant,2,28,30,5,1,1,46,5,4,62,-32,,-32
+Grave,Provincie Noord-Brabant,8,16,24,8,1,0,0,0,3,12,12,12,
+Haaren,Provincie Noord-Brabant,1,16,17,1,0,5,0,1,2,9,8,8,
+Halderberge,Provincie Noord-Brabant,-3,35,32,4,0,2,18,2,4,30,2,2,
+Heeze-Leende,Provincie Noord-Brabant,2,19,21,2,0,0,2,3,0,7,14,14,
+Helmond,Provincie Noord-Brabant,0,106,106,2,4,14,17,12,16,65,41,41,
+Heusden,Provincie Noord-Brabant,-25,51,26,1,9,3,1,4,15,33,-7,,-7
+Hilvarenbeek,Provincie Noord-Brabant,-4,18,14,0,0,4,1,1,0,6,8,8,
+Laarbeek,Provincie Noord-Brabant,8,26,34,8,1,0,5,1,1,16,18,18,
+Landerd,Provincie Noord-Brabant,7,18,25,1,0,12,4,10,1,28,-3,,-3
+Loon op Zand,Provincie Noord-Brabant,1,27,28,0,4,10,0,4,3,21,7,7,
+Mill en Sint Hubert,Provincie Noord-Brabant,6,13,19,2,2,1,0,12,2,19,0,,0
+Moerdijk,Provincie Noord-Brabant,-1,44,43,1,5,3,4,4,9,26,17,17,
+Nuenen ca,Provincie Noord-Brabant,12,27,39,5,3,1,2,6,2,19,20,20,
+Oirschot,Provincie Noord-Brabant,-1,22,21,0,1,1,5,4,5,16,5,5,
+Oisterwijk,Provincie Noord-Brabant,13,31,44,5,4,0,10,6,9,34,10,10,
+Oosterhout,Provincie Noord-Brabant,13,64,77,17,2,8,0,9,9,45,32,32,
+Oss,Provincie Noord-Brabant,27,106,133,15,14,3,11,21,17,81,52,52,
+Reusel-De Mierden,Provincie Noord-Brabant,12,15,27,0,6,4,4,0,0,14,13,13,
+Roosendaal,Provincie Noord-Brabant,1,91,92,13,4,3,13,7,36,76,16,16,
+Rucphen,Provincie Noord-Brabant,26,27,53,22,2,0,4,10,2,40,13,13,
+Schijndel,Provincie Noord-Brabant,7,28,35,4,6,7,3,0,5,25,10,10,
+Sint Anthonis,Provincie Noord-Brabant,3,14,17,5,3,0,1,2,6,17,0,,0
+Sint Oedenrode,Provincie Noord-Brabant,25,22,47,9,1,8,0,3,3,24,23,23,
+Sint Michielsgestel,Provincie Noord-Brabant,18,34,52,9,0,2,5,6,4,26,26,26,
+Someren,Provincie Noord-Brabant,7,22,29,11,0,3,10,5,1,30,-1,,-1
+Son en Breugel,Provincie Noord-Brabant,-6,20,14,-1,2,0,0,2,3,6,8,8,
+Steenbergen,Provincie Noord-Brabant,8,28,36,1,1,4,4,5,0,15,21,21,
+Tilburg,Provincie Noord-Brabant,-17,249,232,23,37,25,36,36,97,254,-22,,-22
+Uden,Provincie Noord-Brabant,17,49,66,16,7,2,14,5,10,54,12,12,
+Valkenswaard,Provincie Noord-Brabant,11,36,47,3,8,3,9,7,11,41,6,6,
+Veghel,Provincie Noord-Brabant,0,45,45,4,8,6,2,4,7,31,14,14,
+Veldhoven,Provincie Noord-Brabant,19,52,71,12,1,9,4,5,12,43,28,28,
+Vught,Provincie Noord-Brabant,6,31,37,10,0,1,0,0,26,37,0,,0
+Waalre,Provincie Noord-Brabant,5,20,25,4,0,0,2,0,3,9,16,16,
+Waalwijk,Provincie Noord-Brabant,-4,55,51,0,2,7,17,17,2,45,6,6,
+Werkendam,Provincie Noord-Brabant,-1,32,31,0,12,1,1,1,8,23,8,8,
+Woensdrecht,Provincie Noord-Brabant,30,26,56,0,13,2,21,9,8,53,3,3,
+Woudrichem,Provincie Noord-Brabant,10,17,27,4,1,0,1,10,5,21,6,6,
+Zundert,Provincie Noord-Brabant,9,26,35,2,15,5,0,4,2,28,7,7,
+Aalsmeer,Provincie Noord-Holland,-21,37,16,1,4,0,0,6,0,11,5,5,
+Alkmaar,Provincie Noord-Holland,-4,126,122,26,16,25,12,19,12,110,12,12,
+Amstelveen,Provincie Noord-Holland,-2,103,101,4,13,6,3,3,19,48,53,53,
+Amsterdam,Provincie Noord-Holland,912,965,1877,135,190,131,131,143,132,862,1015,1015,
+Beemster,Provincie Noord-Holland,6,11,17,3,5,0,0,0,3,11,6,6,
+Bergen NH,Provincie Noord-Holland,8,36,44,14,1,1,1,17,6,40,4,4,
+Beverwijk,Provincie Noord-Holland,8,48,56,16,4,8,15,6,9,58,-2,,-2
+Blaricum,Provincie Noord-Holland,-6,11,5,0,0,0,1,5,0,6,-1,,-1
+Bloemendaal,Provincie Noord-Holland,14,27,41,5,1,3,10,15,13,47,-6,,-6
+Castricum,Provincie Noord-Holland,1,41,42,1,7,9,7,1,5,30,12,12,
+Den Helder,Provincie Noord-Holland,8,67,75,21,9,22,7,2,16,77,-2,,-2
+Diemen,Provincie Noord-Holland,14,32,46,6,9,2,0,11,0,28,18,18,
+Drechterland,Provincie Noord-Holland,11,23,34,3,2,0,3,9,2,19,15,15,
+Edam-Volendam,Provincie Noord-Holland,36,42,78,6,2,1,2,4,10,25,53,53,
+Enkhuizen,Provincie Noord-Holland,0,22,22,2,1,9,0,0,5,17,5,5,
+Gooise Meren,Provincie Noord-Holland,3,65,68,7,7,7,21,4,5,51,17,17,
+Haarlem,Provincie Noord-Holland,41,184,225,52,60,17,35,14,32,210,15,15,
+Haarlemmerliede ca,Provincie Noord-Holland,-2,7,5,0,0,0,0,0,0,0,5,5,
+Haarlemmermeer,Provincie Noord-Holland,159,170,329,26,14,13,9,27,23,112,217,217,
+Heemskerk,Provincie Noord-Holland,-18,46,28,7,0,9,4,0,9,29,-1,,-1
+Heemstede,Provincie Noord-Holland,2,32,34,7,4,1,11,10,-4,29,5,5,
+Heerhugowaard,Provincie Noord-Holland,7,63,70,7,9,13,6,11,16,62,8,8,
+Heiloo,Provincie Noord-Holland,2,27,29,2,2,9,1,5,14,33,-4,,-4
+Hilversum,Provincie Noord-Holland,0,103,103,8,10,18,24,6,12,78,25,25,
+Hollands Kroon,Provincie Noord-Holland,6,56,62,22,4,5,0,7,17,55,7,7,
+Hoorn,Provincie Noord-Holland,0,85,85,8,6,6,6,9,25,60,25,25,
+Huizen,Provincie Noord-Holland,-20,49,29,5,1,1,8,-1,2,16,13,13,
+Koggenland,Provincie Noord-Holland,-4,27,23,5,5,7,2,9,0,28,-5,,-5
+Landsmeer,Provincie Noord-Holland,16,13,29,5,1,7,1,-1,0,13,16,16,
+Langedijk,Provincie Noord-Holland,-5,33,28,3,6,5,0,1,2,17,11,11,
+Laren,Provincie Noord-Holland,17,13,30,8,4,5,-1,4,0,20,10,10,
+Medemblik,Provincie Noord-Holland,26,52,78,20,7,6,1,2,2,38,40,40,
+Oostzaan,Provincie Noord-Holland,6,11,17,0,3,0,0,0,4,7,10,10,
+Opmeer,Provincie Noord-Holland,-6,14,8,2,7,0,5,0,0,14,-6,,-6
+Ouder Amstel,Provincie Noord-Holland,-3,16,13,1,3,1,2,0,0,7,6,6,
+Purmerend,Provincie Noord-Holland,9,94,103,18,13,26,9,8,7,81,22,22,
+Schagen,Provincie Noord-Holland,-7,55,48,0,4,1,5,20,5,35,13,13,
+Stede-Broec,Provincie Noord-Holland,-2,26,24,0,0,0,4,0,11,15,9,9,
+Texel,Provincie Noord-Holland,5,16,21,0,7,1,3,0,0,11,10,10,
+Uitgeest,Provincie Noord-Holland,6,16,22,4,4,3,1,4,1,17,5,5,
+Uithoorn,Provincie Noord-Holland,11,34,45,0,9,6,0,2,0,17,28,28,
+Velsen,Provincie Noord-Holland,11,79,90,17,11,9,12,7,4,60,30,30,
+Waterland,Provincie Noord-Holland,21,21,42,5,4,2,0,5,0,16,26,26,
+Weesp,Provincie Noord-Holland,-1,22,21,2,-1,1,3,4,3,12,9,9,
+Wijdemeren,Provincie Noord-Holland,5,28,33,2,1,2,7,4,1,17,16,16,
+Wormerland,Provincie Noord-Holland,5,19,24,8,0,3,3,0,0,14,10,10,
+Zaanstad,Provincie Noord-Holland,7,178,185,20,3,19,16,13,47,118,67,67,
+Zandvoort,Provincie Noord-Holland,-1,20,19,2,0,4,0,22,8,36,-17,,-17
+Almelo,Provincie Overijssel,-182,85,-97,2,11,8,5,0,0,26,-123,,-123
+Borne,Provincie Overijssel,20,26,46,7,16,-1,2,5,1,30,16,16,
+Dalfsen,Provincie Overijssel,5,33,38,2,5,0,14,3,0,24,14,14,
+Deventer,Provincie Overijssel,32,116,148,27,9,22,20,14,71,163,-15,,-15
+Dinkelland,Provincie Overijssel,4,31,35,1,5,0,1,10,3,20,15,15,
+Enschede,Provincie Overijssel,1,187,188,19,14,44,58,48,35,218,-30,,-30
+Haaksbergen,Provincie Overijssel,-5,29,24,3,1,1,0,6,8,19,5,5,
+Hardenberg,Provincie Overijssel,15,70,85,15,4,15,22,19,8,83,2,2,
+Hellendoorn,Provincie Overijssel,5,42,47,4,3,15,3,4,21,50,-3,,-3
+Hengelo,Provincie Overijssel,5,96,101,19,15,13,13,19,21,100,1,1,
+Hof van Twente,Provincie Overijssel,0,41,41,23,5,12,6,6,6,58,-17,,-17
+Kampen,Provincie Overijssel,-1,61,60,6,2,4,9,4,11,36,24,24,
+Losser,Provincie Overijssel,-15,27,12,0,0,0,4,2,1,7,5,5,
+Oldenzaal,Provincie Overijssel,-14,38,24,2,1,6,5,1,13,28,-4,,-4
+Olst-Wijhe,Provincie Overijssel,-2,21,19,2,1,0,16,4,12,35,-16,,-16
+Ommen,Provincie Overijssel,8,21,29,8,1,2,9,2,2,24,5,5,
+Raalte,Provincie Overijssel,27,43,70,19,14,10,11,7,3,64,6,6,
+Rijssen-Holten,Provincie Overijssel,1,45,46,3,4,4,12,6,16,45,1,1,
+Staphorst,Provincie Overijssel,-2,20,18,1,1,2,0,3,1,8,10,10,
+Steenwijkerland,Provincie Overijssel,1,51,52,27,7,8,1,4,2,49,3,3,
+Tubbergen,Provincie Overijssel,-1,25,24,3,2,3,0,3,0,11,13,13,
+Twenterand,Provincie Overijssel,9,40,49,11,6,9,7,7,11,51,-2,,-2
+Wierden,Provincie Overijssel,4,29,33,3,3,3,11,12,5,37,-4,,-4
+Zwartewaterland,Provincie Overijssel,-2,27,25,3,0,0,2,4,2,11,14,14,
+Zwolle,Provincie Overijssel,31,146,177,28,18,17,27,15,51,156,21,21,
+Amersfoort,Provincie Utrecht,90,179,269,15,42,23,23,39,37,179,90,90,
+Baarn,Provincie Utrecht,9,29,38,3,2,3,3,5,3,19,19,19,
+Bunnik,Provincie Utrecht,-1,18,17,1,7,0,1,2,0,11,6,6,
+Bunschoten,Provincie Utrecht,13,25,38,1,6,0,0,0,0,7,31,31,
+De Bilt,Provincie Utrecht,48,50,98,8,0,8,4,-3,10,27,71,71,
+De Ronde Venen,Provincie Utrecht,-1,51,50,10,6,10,6,5,3,40,10,10,
+Eemnes,Provincie Utrecht,3,11,14,0,0,0,1,0,0,1,13,13,
+Houten,Provincie Utrecht,12,58,70,7,7,6,1,11,21,53,17,17,
+IJsselstein,Provincie Utrecht,6,40,46,3,5,-1,16,0,6,29,17,17,
+Leusden,Provincie Utrecht,10,35,45,12,1,2,10,2,7,34,11,11,
+Lopik,Provincie Utrecht,-8,17,9,6,0,2,0,0,0,8,1,1,
+Montfoort,Provincie Utrecht,1,17,18,0,5,2,1,0,1,9,9,9,
+Nieuwegein,Provincie Utrecht,7,72,79,14,0,33,30,2,26,105,-26,,-26
+Oudewater,Provincie Utrecht,4,12,16,5,0,1,1,5,1,13,3,3,
+Renswoude,Provincie Utrecht,1,6,7,0,4,0,0,1,0,5,2,2,
+Rhenen,Provincie Utrecht,-3,23,20,0,6,1,4,3,2,16,4,4,
+Soest,Provincie Utrecht,10,54,64,14,15,2,1,7,2,41,23,23,
+Stichtse Vecht,Provincie Utrecht,37,76,113,13,23,16,16,16,7,91,22,22,
+Utrecht,Provincie Utrecht,13,393,406,71,45,33,41,51,47,288,118,118,
+Utrechtse Heuvelrug,Provincie Utrecht,21,57,78,4,3,8,6,18,4,43,35,35,
+Veenendaal,Provincie Utrecht,-3,75,72,5,19,5,0,5,12,46,26,26,
+Vianen,Provincie Utrecht,-5,24,19,6,6,0,0,6,1,19,0,,0
+Wijk bij Duurstede,Provincie Utrecht,5,28,33,6,8,1,0,7,0,22,11,11,
+Woerden,Provincie Utrecht,-15,60,45,2,4,0,5,6,6,23,22,22,
+Woudenberg,Provincie Utrecht,4,15,19,5,1,0,0,6,8,20,-1,,-1
+Zeist,Provincie Utrecht,0,73,73,1,2,3,13,4,11,34,39,39,
+Borsele,Provincie Zeeland,-2,27,25,7,3,2,14,1,3,30,-5,,-5
+Goes,Provincie Zeeland,-15,44,29,1,7,4,9,1,2,24,5,5,
+Hulst,Provincie Zeeland,9,33,42,2,1,9,10,1,7,30,12,12,
+Kapelle,Provincie Zeeland,-7,15,8,3,0,10,1,0,2,16,-8,,-8
+Middelburg,Provincie Zeeland,28,56,84,4,16,11,3,19,2,55,29,29,
+Noord Beveland,Provincie Zeeland,0,9,9,5,0,1,1,3,1,11,-2,,-2
+Reimerswaal,Provincie Zeeland,4,26,30,6,1,11,9,1,2,30,0,,0
+Schouwen-Duiveland,Provincie Zeeland,10,40,50,10,6,3,3,4,11,37,13,13,
+Sluis,Provincie Zeeland,14,28,42,6,11,5,7,0,7,36,6,6,
+Terneuzen,Provincie Zeeland,23,65,88,14,14,5,10,21,12,76,12,12,
+Tholen,Provincie Zeeland,-2,30,28,8,8,1,2,1,3,23,5,5,
+Veere,Provincie Zeeland,5,26,31,0,0,3,0,2,2,7,24,24,
+Vlissingen,Provincie Zeeland,18,53,71,9,12,9,9,5,9,53,18,18,
+Alblasserdam,Provincie Zuid-Holland,1,24,25,0,0,1,5,2,8,16,9,9,
+Albrandswaard,Provincie Zuid-Holland,25,30,55,0,6,7,3,-1,11,26,29,29,
+Alphen a/d Rijn,Provincie Zuid-Holland,6,127,133,11,7,5,29,15,56,123,10,10,
+Barendrecht,Provincie Zuid-Holland,14,56,70,6,4,1,6,3,7,27,43,43,
+Binnenmaas,Provincie Zuid-Holland,-5,34,29,2,2,2,9,2,1,18,11,11,
+Bodegraven-Reewijk,Provincie Zuid-Holland,-5,39,34,3,12,2,0,7,3,27,7,7,
+Brielle,Provincie Zuid-Holland,-13,20,7,0,0,0,0,2,1,3,4,4,
+Capelle a/d IJssel,Provincie Zuid-Holland,4,78,82,9,2,5,8,3,21,48,34,34,
+Cromstrijen,Provincie Zuid-Holland,-2,16,14,0,0,0,0,3,-1,2,12,12,
+Delft,Provincie Zuid-Holland,1,119,120,20,17,19,26,11,21,114,6,6,
+'s Gravenhage,Provincie Zuid-Holland,164,605,769,60,87,76,89,95,227,634,135,135,
+Dordrecht,Provincie Zuid-Holland,30,140,170,16,11,19,13,76,49,184,-14,,-14
+Giessenlanden,Provincie Zuid-Holland,-10,17,7,0,1,6,2,1,11,21,-14,,-14
+Goeree-Overflakkee,Provincie Zuid-Holland,2,57,59,3,0,2,6,6,3,20,39,39,
+Gorinchem,Provincie Zuid-Holland,-14,42,28,10,7,8,2,0,5,32,-4,,-4
+Gouda,Provincie Zuid-Holland,1,84,85,17,2,4,9,2,24,58,27,27,
+Hardinxveld-Giessendam,Provincie Zuid-Holland,2,21,23,3,9,6,2,4,10,34,-11,,-11
+Hellevoetsluis,Provincie Zuid-Holland,5,46,51,9,9,3,0,5,9,35,16,16,
+Hendrik-Ido-Ambacht,Provincie Zuid-Holland,3,35,38,9,1,0,12,1,11,34,4,4,
+Hillegom,Provincie Zuid-Holland,-6,25,19,0,0,6,8,5,0,19,0,,0
+Kaag en Braassem,Provincie Zuid-Holland,3,31,34,5,1,0,3,10,24,43,-9,,-9
+Katwijk,Provincie Zuid-Holland,-21,75,54,19,8,6,18,4,4,59,-5,,-5
+Korendijk,Provincie Zuid-Holland,-5,13,8,0,0,0,0,0,4,4,4,4,
+Krimpen a/d IJssel,Provincie Zuid-Holland,3,35,38,7,2,0,5,5,6,25,13,13,
+Krimpenerwaard,Provincie Zuid-Holland,14,64,78,23,18,4,14,11,5,75,3,3,
+Lansingerland,Provincie Zuid-Holland,2,69,71,1,10,5,4,2,5,27,44,44,
+Leerdam,Provincie Zuid-Holland,-11,25,14,3,11,3,0,1,6,24,-10,,-10
+Leiden,Provincie Zuid-Holland,58,143,201,19,29,37,24,32,18,159,42,42,
+Leiderdorp,Provincie Zuid-Holland,-3,32,29,6,2,11,2,4,2,27,2,2,
+Leidschendam-Voorburg,Provincie Zuid-Holland,2,87,89,10,4,13,9,14,29,79,10,10,
+Lisse,Provincie Zuid-Holland,7,27,34,4,12,1,8,8,1,34,0,,0
+Maassluis,Provincie Zuid-Holland,9,38,47,10,21,22,20,45,-36,82,-35,,-35
+Midden-Delfland,Provincie Zuid-Holland,-4,22,18,0,1,0,0,7,0,8,10,10,
+Molenwaard,Provincie Zuid-Holland,-24,35,11,11,17,7,0,2,12,49,-38,,-38
+Nieuwkoop,Provincie Zuid-Holland,15,32,47,5,4,10,7,16,10,52,-5,,-5
+Nissewaard,Provincie Zuid-Holland,-12,100,88,15,7,4,0,5,21,52,36,36,
+Noordwijk,Provincie Zuid-Holland,0,31,31,0,3,0,2,3,1,9,22,22,
+Noordwijkerhout,Provincie Zuid-Holland,-10,19,9,0,11,7,0,0,0,18,-9,,-9
+Oegstgeest,Provincie Zuid-Holland,-11,28,17,0,1,8,0,3,1,13,4,4,
+Oud Beijerland,Provincie Zuid-Holland,-14,28,14,0,3,1,1,1,2,8,6,6,
+Papendrecht,Provincie Zuid-Holland,-20,38,18,14,0,6,8,3,2,33,-15,,-15
+Pijnacker-Nootdorp,Provincie Zuid-Holland,19,61,80,4,16,4,4,11,13,52,28,28,
+Ridderkerk,Provincie Zuid-Holland,11,54,65,0,2,7,17,11,10,47,18,18,
+Rijswijk,Provincie Zuid-Holland,-19,57,38,4,7,4,5,2,8,30,8,8,
+Rotterdam,Provincie Zuid-Holland,172,734,906,97,70,92,130,107,128,624,282,282,
+Schiedam,Provincie Zuid-Holland,15,91,106,8,11,5,4,3,0,31,75,75,
+Sliedrecht,Provincie Zuid-Holland,4,30,34,8,14,5,0,1,8,36,-2,,-2
+Strijen,Provincie Zuid-Holland,-2,11,9,0,4,1,4,0,0,9,0,,0
+Teylingen,Provincie Zuid-Holland,-9,42,33,0,0,4,3,5,1,13,20,20,
+Vlaardingen,Provincie Zuid-Holland,-17,85,68,23,5,19,10,6,31,94,-26,,-26
+Voorschoten,Provincie Zuid-Holland,4,30,34,3,0,2,6,0,25,36,-2,,-2
+Waddinxveen,Provincie Zuid-Holland,-12,31,19,0,0,1,3,0,2,6,13,13,
+Wassenaar,Provincie Zuid-Holland,-9,31,22,4,3,3,2,1,15,28,-6,,-6
+Westland,Provincie Zuid-Holland,5,123,128,14,10,11,28,12,8,83,45,45,
+Westvoorne,Provincie Zuid-Holland,4,17,21,0,5,2,1,8,6,22,-1,,-1
+Zederik,Provincie Zuid-Holland,-2,17,15,5,8,5,0,7,5,30,-15,,-15
+Zoetermeer,Provincie Zuid-Holland,26,146,172,10,19,30,45,15,54,173,-1,,-1
+Zoeterwoude,Provincie Zuid-Holland,4,10,14,4,1,4,0,13,0,22,-8,,-8
+Zuidplas,Provincie Zuid-Holland,-16,48,32,19,3,18,4,0,2,46,-14,,-14
+Zwijndrecht,Provincie Zuid-Holland,-10,53,43,6,13,10,17,-21,7,32,11,11,
