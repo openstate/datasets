@@ -5,6 +5,7 @@ Github URL: https://github.com/openstate/datasets/tree/master/osn
 Team: Lex Arjan TimdH?, ChristiaanSchouten, StefandeK? / ChristophK?,LEX + ARJAN Van te voren data op halen. 
 
 GENERAL IDEA
+
 We want to identify the governments with a unique name or ID. However, there
 is no central database of governments. Our ambition is to have an
 updatable list of governments in the Netherlands, that is completely
@@ -13,6 +14,7 @@ basis by rebuilding the list based on all sources. OSN is short for
 overheids service nummer, which means government service nummer ;-)
 
 A DEFINITION OF GOVERNMENT 
+
 This is a though question... Or current definition is that a part of
 government does not equal a whole government. Meaning that city departments
 do not map onto 1 city(!) The list we try to gather, however can contain city
@@ -22,6 +24,7 @@ more complex relations between the seperate governments; such as
 
 
 PROCESS OF ADDING OR UPDATING SOURCES
+
 This document describes a LIST of SOURCES. If you happen to know a
 new source, either web or file or API which identifies governments then
 please do PUSH your suggestion to this LIST OF SOURCES.  Together with this
@@ -45,8 +48,8 @@ colom, updated with you new records as rows.
 
 6) From there we will figure things out :-D
 
-
 LIST OF SOURCES
+
 * to-do:Almanak Rijksoverheid 
 ftp://oorg.asp4all.nl/20160815220000.xml (logius)
 Rijksoverheid almanak (link https://almanak.overheid.nl/)
@@ -54,10 +57,10 @@ Waardelijsten overheidsorganisatie OWMS - http://standaarden.overheid.nl/owms/te
 Dit zijn de gecontroleerde waardelijsten (controlled vocabularies of vocabulary encoding schemes) van OWMS - http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten
 Geimporteerd in Google Sheets: https://docs.google.com/spreadsheets/d/1uwBa7_rH4DUptOS1uCRCb1MmPjzlzQGnHXK_60nW2VA/edit#gid=0
 Op tabblad 2 staat uitgebreide data 
+
 * to-do:Nationale ombudsman
 https://www.nationaleombudsman.nl/overheidsinstanties
 Nationale Ombudsman heeft een lijst van organisaties. De Nationale ombudsman behandelt klachten over de overheid. Hieronder  vallen bijna alle overheidsorganisaties: ministeries, waterschappen,  provincies, gemeentes, het UWV, de Sociale Verzekeringsbank (SVB) en de  politie. Ook particuliere instellingen met een overheidstaak, zoals de  Stichting Centraal Bureau Rijvaardigheidsbewijzen (CBR), vinden wij een  overheidsorganisatie. 
-
 
 * to-do: Erfgoedinspectie
 https://www.erfgoedinspectie.nl/toezichtvelden/archieven/inhoud/geinspecteerde-instellingen
@@ -73,47 +76,44 @@ https://www.communicatierijk.nl/vakkennis/r/rijkswebsites-verplichte-richtlijnen
 Websiteregister Rijksoverheid geeft voor *alle* websites van de Rijksoverheid aan welke organisatie én evt. subafdeling eigenaar is.
 
 *to-do:
+https://register.digikoppeling.nl/overview/index
 OIN register geeft een overzicht van alle uitgegeven openbare overheidsidentificatienummers. Elke overheidsorganisatie die digitaal zaken doet kan een uniek Overheidsidentificatienummer (OIN) krijgen. Het OIN is een uniek identificerend nummer dat gebruikt wordt in de digitale communicatie tussen overheden.
 
-https://register.digikoppeling.nl/overview/index
-
-*to-do:
-ZBO register - 
+*to-do:ZBO register - 
 https://almanak.zboregister.overheid.nl/
 
-*to-do:
-Agentschappen - Rijksoverheid - 
+*to-do:Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
-*to-do:
-Werken bij de overheid - een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. Er is een API http://docs.api.cso20.net/
+*to-do:Werken bij de overheid
+http://docs.api.cso20.net/
+Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. 
 
-*to-do:
-Mijn overheid - lijst met aangesloten overheidsorganisaties in MijnOverheid - 
+*to-do:Mijn overheid
 https://mijn.overheid.nl/contact/overzicht
+Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
+
 
 *to-do:
-Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 http://kennisopenbaarbestuur.nl:80/tnglite/olap?guid=1e8a0ab4-f368-4d5e-9cff-348a294f0634
+Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 
 *to-do:Nationaal Archief TOCO / Actorenregister
 http://www.gahetna.nl/over-ons/open-data/archiefinventarissen-en-scans-archieven#TOCO
 arjan: Datadump hier: https://www.gahetna.nl/sites/default/files/bijlagen/ibro_dump_13012015.sql_.zip
-
 arjan: Database online te raadplegen hier: https://ibro.nationaalarchief.nl/
-
 https://ibro.nationaalarchief.nl/index.php/;actor/browse?page=2&type=suborganisation&limit=1000
 https://ibro.nationaalarchief.nl/index.php/directie-consulaire-zaken-en-visumbeleid;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac?sf_format=xml
 
 *to-do:CBS
-
+http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
  (namen van gemeenten, cbs unieke identifieer van gemeenten uit Openspending)
 - kan sicco of breyten een voorbeeld copy pasten van wat er in de CBS datafeed zit? ' bv. Gemeente Amsterdam id:ams0001
 - tzt. link naar gdrive doc
 - natuurlijk ook voor GRA
-- lijst van gemeenten in CBS : http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
+- lijst van gemeenten in CBS : 
 Key: "GM0363 ",Title: "Amsterdam",Description: "Begindatum voor 1830"
 Key: "GM1728 ", Title: "Bladel", Description: "Ontstaan per 01-01-1997"
 Key: "GM0063 ",Title: "het Bildt",Description: "Begindatum voor 1830", 
@@ -138,23 +138,26 @@ Ministeries
 Adviescolleges
 Zelfstandige bestuursorganen (externe link)
 Rechterlijke macht
-Linkt naar https://www.rechtspraak.nl/ , bevat https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Landelijke-diensten, maar ook gerechtshoven. juridische opbouw onduidelijk
 Politie en brandweer
 Caribisch Nederland (BES-eilanden)
 Aruba, Curaçao en Sint Maarten
+
+*to-do: Rechtspraak
+ https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Landelijke-diensten
+ Ook gerechtshoven. juridische opbouw onduidelijk
 
 
 *to-do:Staatsdeelnemingen
 LINK NEEDED
 
 *to-do:Kadaster
-als bron om overheden te identificeren
 https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=Amstel%201,%20Amsterdam&objectId=0363010011872295&geometry.x=121833&geometry.y=486756&zoomlevel=13&detailsObjectId=0363010011872295
-Bronhouder ID 0363 Naam Amsterdam (dus elk huis in Amsterdam komt van bronhouder Amsterdam met ID 0363 (!!!)
+Als bron om overheden te identificeren. Bronhouder ID 0363 Naam Amsterdam (dus elk huis in Amsterdam komt van bronhouder Amsterdam met ID 0363 (!!!)
 
 *to-do:Kvk
-als bron om overheden (en vestigingen / organisatie onderdelen, enz)  te identificeren?
-https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amsterdam&start=0&prefproduct=&prefpayment=, Stadhuis , Hoofdvestiging, KvK 34366966 , Vestigingsnr. 000007678460 , Amstel 1 ,Amsterdam, http://www.amsterdam.nl
+https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amsterdam&start=0&prefproduct=&prefpayment=
+Als bron om overheden (en vestigingen / organisatie onderdelen, enz)  te identificeren?
+vb. velden: , Stadhuis , Hoofdvestiging, KvK 34366966 , Vestigingsnr. 000007678460 , Amstel 1 ,Amsterdam, http://www.amsterdam.nl
 Stadsarchief Amsterdam, KvK 34366966, Vestigingsnr. 000007679092, Vijzelstraat 32, Amsterdam, Nevenvestiging, http://www.stadsarchief.amsterdam.nl
 https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amstelveen&start=0&prefproduct=&prefpayment= , Raadhuis Amstelveen, Hoofdvestiging, KvK 34365024, Vestigingsnr. 000015305678, Laan Nieuwer-Amstel 1, Amstelveen, http://www.amstelveen.nl
 
@@ -169,9 +172,8 @@ Formaat:
 - 1 tabel voor alle organisaties cq. bedrijven. Met unieke identifiers en eventueel een URL naar een formele bron houder + doel organisatie
 Naam:' gemeente Amsterdam' , CBSID: Ams001, CBSURL:' http' , ToCo: 020010, toCoURL:' http' , RijksAlmak: 'rijks id=978654' , RijksalamankURL:'http' ,kvk: 8654332, KVKURL: ' ' 
 Naam:' stadsregio Amsterdam' , CBSID: null, ToCo: null, RijksAlmak: ' null' , ' rijks id=null' , kvk: 8654332
-- 1 tabel voor relaties tussen organisaties; een relatie moet opwaarts of neerwaarts zijn (ivm preventie van loops)
+- 1 tabel voor gerichte relaties tussen organisaties; een relatie moet opwaarts of neerwaarts zijn
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Amsterdam' 
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Amstelveen' 
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Bijlmer' 
-(hopelijk komt er 1 identifier voor alles , anders maken we een OSF id)
-Relatie typen: GRA, Deelneming, Nevenvestiging, 'Rijks Almanak organisatie onderdeel,
+Relatie typen: GRA, Deelneming, Nevenvestiging, 'Rijks Almanak organisatie onderdeel' , etc.
