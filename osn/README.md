@@ -1,10 +1,10 @@
-OSN datasets
+#OSN datasets
 
 Github URL: https://github.com/openstate/datasets/tree/master/osn
 
 Team: Lex, Arjan, Tim e.a. 
 
-GENERAL IDEA
+##GENERAL IDEA
 
 To identify governments with a unique identifier. However, there is no central database of governments. Our ambition is to have an
 updatable list of governments in the Netherlands, that is completely transparant. This means that a count of all governments can be done on a regular basis by rebuilding the list based on all sources. OSN is short for Overheids Service Nummer, which means government service number.
@@ -83,7 +83,7 @@ Erfgoedinspectie heeft een lijst van organisaties met archiefwettelijk toezicht.
 http://www.rekenkamer.nl/Publicaties/Dossiers/B/Bestuur_op_afstand/Overzicht_met_rechtspersonen_met_een_wettelijke_taak_RWT
 Overzicht met rechtspersonen met een wettelijke taak (RWT). Rechtspersonen met een wettelijke taak zijn instellingen op afstand van het Rijk. Naast rechtspersonen met een wettelijke taak (rwt’s) zijn er andere instellingen op afstand van het Rijk, bijvoorbeeld de zelfstandige bestuursorganen (zbo’s). De categorieën zbo's en rwt’s komen grotendeels overeen, maar er zijn ook belangrijke verschillen. De Comptabiliteitswet definieert rechtspersonen met een wettelijke taak (rwt’s) als 'rechtspersonen voor zover die een bij of krachtens de wet geregelde taak uitoefenen en daartoe geheel of gedeeltelijk worden bekostigd uit de opbrengst van bij of krachtens de wet ingestelde heffingen'. De definiërende kenmerken van een rwt zijn: rechtspersoon; wettelijke taak; wettelijke heffing. Een instelling op afstand van het Rijk die aan alle bovenstaande criteria voldoet kan beschouwd worden als een rwt. RWT’s hebben een eigen bestuurlijke verantwoordelijkheid.
 
-* to-do:WNT Register
+* to-do: WNT Register
 https://www.topinkomens.nl/voor-wnt-instellingen/inhoud/wnt-register
 WNT register wordt door het ministerie van Binnenlandse Zaken en  Koninkrijksrelaties (BZK) bijgehouden om instellingen die onder de WNT (Wet normering topinkomens) vallen te kunnen informeren over deze wet en om toezicht op de naleving  van de WNT te houden. Een instelling of rechtspersoon valt onder de WNT  als één of meer van de criteria uit de WNT van toepassing zijn. De  toepasselijkheid van de WNT vloeit voort uit de wet zelf, nl. de  artikelen 1.2 en 1.3 van de WNT. Als een instelling niet in het register  staat, is het mogelijk dat de WNT toch van toepassing is. Zorginstellingen, onderwijs- en emancipatie-instellingen en  woningcorporaties zijn niet in het register opgenomen, omdat van die  deelsectoren reeds aparte registers worden bijgehouden. Volgens artikel 1.2 van de WNT is de wet van toepassing op alle  krachtens publiekrecht ingestelde instellingen. De wet geeft specifiek aan wie bij het rijk, provincies, gemeenten en waterschappen als topfunctionaris wordt aangemerkt en onder de WNT valt. Voor onder meer zorginstellingen, onderwijsinstellingen, woningcorporaties en organisaties op het gebied van ontwikkelingssamenwerking gelden in de WNT specifieke staffels. Deze zijn vastgesteld in ministeriële regelingen, de zogeheten sectorale bezoldigingsnorm. De WNT-verplichtingen (publicatieplicht en meldingsplicht) gelden  ook voor door de overheid gesubsidieerde instellingen. Tot slot is er  nog een categorie instellingen waarop de WNT van toepassing is die is samengevoegd tot de categorie "overige instellingen". Door de overheid gesubsidieerde instellingen ontvangen een subsidie  van minstens € 500.000,-- per jaar. Deze maakt voor ten minste 50% deel  uit van de inkomsten van dat jaar en wordt voor een periode van  tenminste drie jaar verstrekt. Een voorbeeld hiervan is in veel  gemeenten de openbare bibliotheek. Overige instellingen (1) Instellingen die zijn ingesteld op basis van een wet/met een wettelijke taak (bijvoorbeeld Gemeenschappelijke Regelingen); (2) Zelfstandige bestuursorganen (ZBO ’s); (3) Instellingen waarbij de overheid één of meer leden van het bestuur of raad van toezicht benoemt; (4) Openbare lichamen voor beroep en bedrijf. 
 data https://docs.google.com/spreadsheets/d/1MeOoDaDYdACmxDoQtilK-0TGf6sNyMeeiLpsiF6niQU/
@@ -92,29 +92,29 @@ data https://docs.google.com/spreadsheets/d/1MeOoDaDYdACmxDoQtilK-0TGf6sNyMeeiLp
 https://www.communicatierijk.nl/vakkennis/r/rijkswebsites-verplichte-richtlijnen/inhoud/websiteregister
 Websiteregister Rijksoverheid geeft voor *alle* websites van de Rijksoverheid aan welke organisatie én evt. subafdeling eigenaar is. Iedere laatste donderdag van de maand wordt het Websiteregister (ODS, 49 KB) bijgewerkt en gepubliceerd. https://www.communicatierijk.nl/binaries/communicatierijk/documenten/publicaties/2016/05/26/websiteregister/webregister-rijksoverheid-20160825.ods
 
-* to-do:
+* done (manual): OIN register
 https://register.digikoppeling.nl/overview/index
 OIN register geeft een overzicht van alle uitgegeven openbare overheidsidentificatienummers. Elke overheidsorganisatie die digitaal zaken doet kan een uniek Overheidsidentificatienummer (OIN) krijgen. Het OIN is een uniek identificerend nummer dat gebruikt wordt in de digitale communicatie tussen overheden.
 
-* to-do:ZBO register - 
+* to-do: ZBO register - 
 https://almanak.zboregister.overheid.nl/
 
-* to-do:Agentschappen - Rijksoverheid
+* to-do: Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
-* to-do:Werken bij de overheid
+* to-do: Werken bij de overheid
 http://docs.api.cso20.net/
 Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. 
 
-* to-do:Mijn overheid
+* to-do: Mijn overheid
 https://mijn.overheid.nl/contact/overzicht
 Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
 
-* to-do:
+* to-do: Kennisbank Openbaar Bestuur
 http://kennisopenbaarbestuur.nl:80/tnglite/olap?guid=1e8a0ab4-f368-4d5e-9cff-348a294f0634
 Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 
-* to-do:Nationaal Archief TOCO / Actorenregister
+* to-do: Nationaal Archief TOCO / Actorenregister
 http://www.gahetna.nl/over-ons/open-data/archiefinventarissen-en-scans-archieven#TOCO
 Datadump hier: https://www.gahetna.nl/sites/default/files/bijlagen/ibro_dump_13012015.sql_.zip
 Database online te raadplegen hier: https://ibro.nationaalarchief.nl/
@@ -123,7 +123,7 @@ https://ibro.nationaalarchief.nl/index.php/directie-consulaire-zaken-en-visumbel
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac?sf_format=xml
 
-* to-do:CBS
+* to-do: CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
  (namen van gemeenten, cbs unieke identifier van gemeenten)
 - bv. Gemeente Amsterdam id:ams0001
@@ -134,7 +134,7 @@ Key: "GM1728 ", Title: "Bladel", Description: "Ontstaan per 01-01-1997"
 Key: "GM0063 ",Title: "het Bildt",Description: "Begindatum voor 1830", 
 Key: "GM0310 ",Title: "De Bilt", Description: "Gemeentelijke herindeling per 01-01-2001 Begindatum voor 1830"
 
-* to-do:Rijks almanak
+* to-do: Rijks almanak
 - https://almanak.overheid.nl/25698/Gemeente_Amsterdam/ 
 - https://almanak.overheid.nl/28270/Gemeente_Amstelveen/
 - https://almanak.overheid.nl/68820/Ministerie_van_Financi%C3%ABn/ 
