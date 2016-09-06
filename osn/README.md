@@ -2,51 +2,57 @@ OSN datasets
 
 Github URL: https://github.com/openstate/datasets/tree/master/osn
 
-Team: Lex Arjan TimdH?, ChristiaanSchouten, StefandeK? / ChristophK?,LEX + ARJAN Van te voren data op halen. 
+Team: Lex, Arjan, Tim e.a. 
 
 GENERAL IDEA
 
-We want to identify the governments with a unique name or ID. However, there
-is no central database of governments. Our ambition is to have an
-updatable list of governments in the Netherlands, that is completely
-transparant. This means a count of ALL governments can be done on a regular
-basis by rebuilding the list based on all sources. OSN is short for
-overheids service nummer, which means government service nummer ;-)
+To identify governments with a unique identifier. However, there is no central database of governments. Our ambition is to have an
+updatable list of governments in the Netherlands, that is completely transparant. This means that a count of all governments can be done on a regular basis by rebuilding the list based on all sources. OSN is short for Overheids Service Nummer, which means government service number.
 
-A DEFINITION OF GOVERNMENT 
+A DEFINITION OF GOVERNMENT
 
-This is a though question... Or current definition is that a part of
-government does not equal a whole government. Meaning that city departments
-do not map onto 1 city(!) The list we try to gather, however can contain city
-departments as partial governments. In a next phase we envision allowing
-more complex relations between the seperate governments; such as
-'department of' and so on.
+There is much debate about the definition. 
 
+Let's start with definitions used by the government itself:
+
+De overheid bestaat uit drie lagen: de centrale of rijksoverheid, de provincies en de gemeenten. Andere delen van de overheid zijn in eerste instantie op grond van hun functie ingedeeld. 
+
+Rijksoverheid
+Provincies
+Gemeenten
+Hoge Colleges van Staat
+Adviesorganen
+Waterschappen
+Openbare lichamen voor beroep en bedrijf
+Zelfstandige bestuursorganen
+https://www.overheid.nl/zo-werkt-de-overheid/wie-vormen-de-overheid/
 
 PROCESS OF ADDING OR UPDATING SOURCES
 
 This document describes a LIST of SOURCES. If you happen to know a
 new source, either web or file or API which identifies governments then
-please do PUSH your suggestion to this LIST OF SOURCES.  Together with this
-list a STATUS is provided: 'to-do', 'manual' or 'automated'. To move a SOURCE on the LIST from 'to-do'  to 'done'. We foresee the
-following procedure (first assuming an manual addition or update of a source):
+please do PUSH your suggestion to this LIST OF SOURCES.  
+
+Together with this list a STATUS is provided: 'to-do', 'manual' or 'automated'. 
+To move a SOURCE on the LIST from 'to-do' to 'done'. 
+We foresee the following procedure (first assuming an manual addition or update of a source):
 
 1) Gather all raw fetchable data from the source. Put this data in
-preferably in a subfolder ;-)
+preferably in a subfolder.
 
 2) Put your data in a OSN SOURCE TABLE, with one government per row, containing some
-unique identifier, specific for the source. 
+unique identifier, specific for the source.
 
 3) Extend this table with the OSN MASTER TABLE. This table contains per
-colom an identifier per government per source. You need to 'join' your list
+column an identifier per government per source. You need to 'join' your list
 with the master table.
 
-4) Export from this table a new OSN MASTER TABLE, now with your colom as a new
+4) Export from this table a new OSN MASTER TABLE, now with your column as a new
 colom, updated with you new records as rows.
 
 5) Push the new OSN MASTER TABLE, together with your OSN SOURCE TABLE
 
-6) From there we will figure things out :-D
+6) From there we will figure things out.
 
 LIST OF SOURCES
 
@@ -100,8 +106,8 @@ Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bi
 
 *to-do:Nationaal Archief TOCO / Actorenregister
 http://www.gahetna.nl/over-ons/open-data/archiefinventarissen-en-scans-archieven#TOCO
-arjan: Datadump hier: https://www.gahetna.nl/sites/default/files/bijlagen/ibro_dump_13012015.sql_.zip
-arjan: Database online te raadplegen hier: https://ibro.nationaalarchief.nl/
+Datadump hier: https://www.gahetna.nl/sites/default/files/bijlagen/ibro_dump_13012015.sql_.zip
+Database online te raadplegen hier: https://ibro.nationaalarchief.nl/
 https://ibro.nationaalarchief.nl/index.php/;actor/browse?page=2&type=suborganisation&limit=1000
 https://ibro.nationaalarchief.nl/index.php/directie-consulaire-zaken-en-visumbeleid;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;isaar
@@ -109,10 +115,9 @@ https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac
 
 *to-do:CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
- (namen van gemeenten, cbs unieke identifieer van gemeenten uit Openspending)
-- kan sicco of breyten een voorbeeld copy pasten van wat er in de CBS datafeed zit? ' bv. Gemeente Amsterdam id:ams0001
-- tzt. link naar gdrive doc
-- natuurlijk ook voor GRA
+ (namen van gemeenten, cbs unieke identifier van gemeenten)
+- bv. Gemeente Amsterdam id:ams0001
+- ook voor GRA
 - lijst van gemeenten in CBS : 
 Key: "GM0363 ",Title: "Amsterdam",Description: "Begindatum voor 1830"
 Key: "GM1728 ", Title: "Bladel", Description: "Ontstaan per 01-01-1997"
@@ -122,10 +127,10 @@ Key: "GM0310 ",Title: "De Bilt", Description: "Gemeentelijke herindeling per 01-
 *to-do:Rijks almanak
 - https://almanak.overheid.nl/25698/Gemeente_Amsterdam/ 
 - https://almanak.overheid.nl/28270/Gemeente_Amstelveen/
-https://almanak.overheid.nl/68820/Ministerie_van_Financi%C3%ABn/ 
-https://almanak.overheid.nl/68821/Financi%C3%ABn/Algemene_Leiding/
-https://almanak.overheid.nl/68888/Financi%C3%ABn/Directoraat-generaal_Belastingdienst/
-bevat: 
+- https://almanak.overheid.nl/68820/Ministerie_van_Financi%C3%ABn/ 
+- https://almanak.overheid.nl/68821/Financi%C3%ABn/Algemene_Leiding/
+- https://almanak.overheid.nl/68888/Financi%C3%ABn/Directoraat-generaal_Belastingdienst/
+
 De organisaties zijn zelf verantwoordelijk voor de volledigheid, juistheid en actualiteit van de gegevens.
 Gemeenten
 Provincies
@@ -144,31 +149,22 @@ Aruba, Curaçao en Sint Maarten
 
 *to-do: Rechtspraak
  https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Landelijke-diensten
- Ook gerechtshoven. juridische opbouw onduidelijk
-
 
 *to-do:Staatsdeelnemingen
-LINK NEEDED
+https://www.rijksoverheid.nl/onderwerpen/staatsdeelnemingen/inhoud/portefeuille-staatsdeelnemingen
 
 *to-do:Kadaster
 https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=Amstel%201,%20Amsterdam&objectId=0363010011872295&geometry.x=121833&geometry.y=486756&zoomlevel=13&detailsObjectId=0363010011872295
-Als bron om overheden te identificeren. Bronhouder ID 0363 Naam Amsterdam (dus elk huis in Amsterdam komt van bronhouder Amsterdam met ID 0363 (!!!)
+Als bron om overheden te identificeren. Bronhouder ID 0363 Naam Amsterdam (dus elk huis in Amsterdam komt van bronhouder Amsterdam met ID 0363
 
 *to-do:Kvk
 https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amsterdam&start=0&prefproduct=&prefpayment=
-Als bron om overheden (en vestigingen / organisatie onderdelen, enz)  te identificeren?
+Als bron om overheden (en vestigingen / organisatie onderdelen, enz)  te identificeren
 vb. velden: , Stadhuis , Hoofdvestiging, KvK 34366966 , Vestigingsnr. 000007678460 , Amstel 1 ,Amsterdam, http://www.amsterdam.nl
 Stadsarchief Amsterdam, KvK 34366966, Vestigingsnr. 000007679092, Vijzelstraat 32, Amsterdam, Nevenvestiging, http://www.stadsarchief.amsterdam.nl
 https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amstelveen&start=0&prefproduct=&prefpayment= , Raadhuis Amstelveen, Hoofdvestiging, KvK 34365024, Vestigingsnr. 000015305678, Laan Nieuwer-Amstel 1, Amstelveen, http://www.amstelveen.nl
 
-*to-do: TENDERNED (ARJAN)
-
 TEMPORARY NOTES
-- deze bron gebruiken we om via openkvk / christoph van kempen KvK nummers van alle bovengenoemde organisaties op te halen
-- onderliggende bv's.Concern relaties ? (Stefan scraapte die vroeger)
-- Lex / Arjan stuur groslijst (github link) van overheden naar Christoph / Stefan met de vraag om deze informatie te combineren
-Formaat:
-- KISS. CSV , eventueel op Github zodat er gepushed kan worden ;-)
 - 1 tabel voor alle organisaties cq. bedrijven. Met unieke identifiers en eventueel een URL naar een formele bron houder + doel organisatie
 Naam:' gemeente Amsterdam' , CBSID: Ams001, CBSURL:' http' , ToCo: 020010, toCoURL:' http' , RijksAlmak: 'rijks id=978654' , RijksalamankURL:'http' ,kvk: 8654332, KVKURL: ' ' 
 Naam:' stadsregio Amsterdam' , CBSID: null, ToCo: null, RijksAlmak: ' null' , ' rijks id=null' , kvk: 8654332
@@ -176,4 +172,4 @@ Naam:' stadsregio Amsterdam' , CBSID: null, ToCo: null, RijksAlmak: ' null' , ' 
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Amsterdam' 
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Amstelveen' 
 'stadsregio Amsterdam' , 'GRA VAN' , 'gemeente Bijlmer' 
-Relatie typen: GRA, Deelneming, Nevenvestiging, 'Rijks Almanak organisatie onderdeel' , etc.
+Relatie typen: GRA, Deelneming, Nevenvestiging, 'Rijks Almanak organisatie onderdeel' etc.
