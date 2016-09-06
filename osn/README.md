@@ -4,27 +4,18 @@ Github URL: https://github.com/openstate/datasets/tree/master/osn
 
 Team: Lex, Arjan, Tim e.a. 
 
-##GENERAL IDEA
+###GENERAL IDEA
 
 To identify governments with a unique identifier. However, there is no central database of governments. Our ambition is to have an
 updatable list of governments in the Netherlands, that is completely transparant. This means that a count of all governments can be done on a regular basis by rebuilding the list based on all sources. OSN is short for Overheids Service Nummer, which means government service number.
 
-A DEFINITION OF GOVERNMENT
+###A DEFINITION OF GOVERNMENT
 
 There is much debate about the definition. 
 
 Let's start with definitions used by the government itself:
 
-De overheid bestaat uit drie lagen: de centrale of rijksoverheid, de provincies en de gemeenten. Andere delen van de overheid zijn in eerste instantie op grond van hun functie ingedeeld. 
-
-Rijksoverheid
-Provincies
-Gemeenten
-Hoge Colleges van Staat
-Adviesorganen
-Waterschappen
-Openbare lichamen voor beroep en bedrijf
-Zelfstandige bestuursorganen
+De overheid bestaat uit drie lagen: de centrale of rijksoverheid, de provincies en de gemeenten. Andere delen van de overheid zijn in eerste instantie op grond van hun functie ingedeeld. Rijksoverheid, Provincies, Gemeenten, Hoge Colleges van Staat, Adviesorganen, Waterschappen, Openbare lichamen voor beroep en bedrijf, Zelfstandige bestuursorganen.
 https://www.overheid.nl/zo-werkt-de-overheid/wie-vormen-de-overheid/
 
 Een meer juridische definitie is te vinden via het Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
@@ -57,9 +48,9 @@ colom, updated with you new records as rows.
 
 6) From there we will figure things out.
 
-LIST OF SOURCES
+###LIST OF SOURCES
 
-* to-do:Almanak Rijksoverheid 
+* to-do: Almanak Rijksoverheid 
 ftp://oorg.asp4all.nl/20160815220000.xml (logius)
 Rijksoverheid almanak (link https://almanak.overheid.nl/)
 Waardelijsten overheidsorganisatie OWMS - http://standaarden.overheid.nl/owms/terms/Overheidsorganisatie.html
@@ -79,7 +70,7 @@ Nationale Ombudsman heeft een lijst van organisaties. De Nationale ombudsman beh
 https://www.erfgoedinspectie.nl/toezichtvelden/archieven/inhoud/geinspecteerde-instellingen
 Erfgoedinspectie heeft een lijst van organisaties met archiefwettelijk toezicht. Dit zijn overheidsorganisaties die vallen onder het toezicht van de Erfgoedinspecties. In het overzicht staat ook een verwijzing naar de wettelijke grondslag. 
 
-* to-do: RWT register
+* done (manual): RWT register
 http://www.rekenkamer.nl/Publicaties/Dossiers/B/Bestuur_op_afstand/Overzicht_met_rechtspersonen_met_een_wettelijke_taak_RWT
 Overzicht met rechtspersonen met een wettelijke taak (RWT). Rechtspersonen met een wettelijke taak zijn instellingen op afstand van het Rijk. Naast rechtspersonen met een wettelijke taak (rwt’s) zijn er andere instellingen op afstand van het Rijk, bijvoorbeeld de zelfstandige bestuursorganen (zbo’s). De categorieën zbo's en rwt’s komen grotendeels overeen, maar er zijn ook belangrijke verschillen. De Comptabiliteitswet definieert rechtspersonen met een wettelijke taak (rwt’s) als 'rechtspersonen voor zover die een bij of krachtens de wet geregelde taak uitoefenen en daartoe geheel of gedeeltelijk worden bekostigd uit de opbrengst van bij of krachtens de wet ingestelde heffingen'. De definiërende kenmerken van een rwt zijn: rechtspersoon; wettelijke taak; wettelijke heffing. Een instelling op afstand van het Rijk die aan alle bovenstaande criteria voldoet kan beschouwd worden als een rwt. RWT’s hebben een eigen bestuurlijke verantwoordelijkheid.
 
