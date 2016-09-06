@@ -27,6 +27,9 @@ Openbare lichamen voor beroep en bedrijf
 Zelfstandige bestuursorganen
 https://www.overheid.nl/zo-werkt-de-overheid/wie-vormen-de-overheid/
 
+Een meer juridische definitie is te vinden via het Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
+http://wetten.overheid.nl/BWBR0032249/2016-01-01 (deze wet heeft een breder begrip. het gaat hier om rechtspersonen in de publieke en semipublieke sector, inclusief privaatrechtelijke personen die openbaar gezag uitoefenen.
+
 PROCESS OF ADDING OR UPDATING SOURCES
 
 This document describes a LIST of SOURCES. If you happen to know a
@@ -79,7 +82,7 @@ data https://docs.google.com/spreadsheets/d/1MeOoDaDYdACmxDoQtilK-0TGf6sNyMeeiLp
 
 *to-do:Website register
 https://www.communicatierijk.nl/vakkennis/r/rijkswebsites-verplichte-richtlijnen/inhoud/websiteregister
-Websiteregister Rijksoverheid geeft voor *alle* websites van de Rijksoverheid aan welke organisatie én evt. subafdeling eigenaar is.
+Websiteregister Rijksoverheid geeft voor *alle* websites van de Rijksoverheid aan welke organisatie én evt. subafdeling eigenaar is. Iedere laatste donderdag van de maand wordt het Websiteregister (ODS, 49 KB) bijgewerkt en gepubliceerd. https://www.communicatierijk.nl/binaries/communicatierijk/documenten/publicaties/2016/05/26/websiteregister/webregister-rijksoverheid-20160825.ods
 
 *to-do:
 https://register.digikoppeling.nl/overview/index
