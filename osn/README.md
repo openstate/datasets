@@ -58,9 +58,8 @@ Dit zijn de gecontroleerde waardelijsten (controlled vocabularies of vocabulary 
 Geimporteerd in Google Sheets: https://docs.google.com/spreadsheets/d/1uwBa7_rH4DUptOS1uCRCb1MmPjzlzQGnHXK_60nW2VA/edit#gid=0
 Op tabblad 2 staat uitgebreide data 
 
-* to-do: De Overheid.nl Web Metadata Standaard (OWMS) is de metadatastandaard voor informatie van de Nederlandse overheid op internet. De standaard is gebaseerd op de internationale metadatastandaard van het Dublin Core Metadata Initiative (DCMI). http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten 
-
-Er zijn twee groepen van waardelijsten die vergelijkbare typen van waarden bevatten: waardelijsten met namen van organisaties en waardelijsten met namen van bestuursorganen. Overheidsorganisatie is een samenvoeging van de waardelijsten die per organisatietype worden bijgehouden. http://standaarden.overheid.nl/owms/terms/Overheidsorganisatie.html
+* done (manual): De Overheid.nl Web Metadata Standaard (OWMS) is de metadatastandaard voor informatie van de Nederlandse overheid op internet. De standaard is gebaseerd op de internationale metadatastandaard van het Dublin Core Metadata Initiative (DCMI). Er zijn twee groepen van waardelijsten die vergelijkbare typen van waarden bevatten: waardelijsten met namen van organisaties en waardelijsten met namen van bestuursorganen. http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten
+Overheidsorganisatie is een samenvoeging van de waardelijsten die per organisatietype worden bijgehouden. http://standaarden.overheid.nl/owms/terms/Overheidsorganisatie.html
 
 * done (manual): Nationale ombudsman
 https://www.nationaleombudsman.nl/overheidsinstanties
