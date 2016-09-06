@@ -96,26 +96,25 @@ Websiteregister Rijksoverheid geeft voor *alle* websites van de Rijksoverheid aa
 https://register.digikoppeling.nl/overview/index
 OIN register geeft een overzicht van alle uitgegeven openbare overheidsidentificatienummers. Elke overheidsorganisatie die digitaal zaken doet kan een uniek Overheidsidentificatienummer (OIN) krijgen. Het OIN is een uniek identificerend nummer dat gebruikt wordt in de digitale communicatie tussen overheden.
 
-*to-do:ZBO register - 
+* to-do:ZBO register - 
 https://almanak.zboregister.overheid.nl/
 
-*to-do:Agentschappen - Rijksoverheid
+* to-do:Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
-*to-do:Werken bij de overheid
+* to-do:Werken bij de overheid
 http://docs.api.cso20.net/
 Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. 
 
-*to-do:Mijn overheid
+* to-do:Mijn overheid
 https://mijn.overheid.nl/contact/overzicht
 Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
 
-
-*to-do:
+* to-do:
 http://kennisopenbaarbestuur.nl:80/tnglite/olap?guid=1e8a0ab4-f368-4d5e-9cff-348a294f0634
 Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 
-*to-do:Nationaal Archief TOCO / Actorenregister
+* to-do:Nationaal Archief TOCO / Actorenregister
 http://www.gahetna.nl/over-ons/open-data/archiefinventarissen-en-scans-archieven#TOCO
 Datadump hier: https://www.gahetna.nl/sites/default/files/bijlagen/ibro_dump_13012015.sql_.zip
 Database online te raadplegen hier: https://ibro.nationaalarchief.nl/
@@ -124,7 +123,7 @@ https://ibro.nationaalarchief.nl/index.php/directie-consulaire-zaken-en-visumbel
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac?sf_format=xml
 
-*to-do:CBS
+* to-do:CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
  (namen van gemeenten, cbs unieke identifier van gemeenten)
 - bv. Gemeente Amsterdam id:ams0001
@@ -135,7 +134,7 @@ Key: "GM1728 ", Title: "Bladel", Description: "Ontstaan per 01-01-1997"
 Key: "GM0063 ",Title: "het Bildt",Description: "Begindatum voor 1830", 
 Key: "GM0310 ",Title: "De Bilt", Description: "Gemeentelijke herindeling per 01-01-2001 Begindatum voor 1830"
 
-*to-do:Rijks almanak
+* to-do:Rijks almanak
 - https://almanak.overheid.nl/25698/Gemeente_Amsterdam/ 
 - https://almanak.overheid.nl/28270/Gemeente_Amstelveen/
 - https://almanak.overheid.nl/68820/Ministerie_van_Financi%C3%ABn/ 
@@ -158,17 +157,17 @@ Politie en brandweer
 Caribisch Nederland (BES-eilanden)
 Aruba, Curaçao en Sint Maarten
 
-*to-do: Rechtspraak
+* to-do: Rechtspraak
  https://www.rechtspraak.nl/Organisatie-en-contact/Organisatie/Landelijke-diensten
 
-*to-do:Staatsdeelnemingen
+* to-do:Staatsdeelnemingen
 https://www.rijksoverheid.nl/onderwerpen/staatsdeelnemingen/inhoud/portefeuille-staatsdeelnemingen
 
-*to-do:Kadaster
+* to-do:Kadaster
 https://bagviewer.kadaster.nl/lvbag/bag-viewer/index.html#?searchQuery=Amstel%201,%20Amsterdam&objectId=0363010011872295&geometry.x=121833&geometry.y=486756&zoomlevel=13&detailsObjectId=0363010011872295
 Als bron om overheden te identificeren. Bronhouder ID 0363 Naam Amsterdam (dus elk huis in Amsterdam komt van bronhouder Amsterdam met ID 0363
 
-*to-do:Kvk
+* to-do:Kvk
 https://www.kvk.nl/orderstraat/bedrijf-kiezen/?q=gemeente+Amsterdam#!shop?&q=gemeente%20Amsterdam&start=0&prefproduct=&prefpayment=
 Als bron om overheden (en vestigingen / organisatie onderdelen, enz)  te identificeren
 vb. velden: , Stadhuis , Hoofdvestiging, KvK 34366966 , Vestigingsnr. 000007678460 , Amstel 1 ,Amsterdam, http://www.amsterdam.nl
