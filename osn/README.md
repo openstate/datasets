@@ -53,10 +53,6 @@ colom, updated with you new records as rows.
 * to-do: Almanak Rijksoverheid 
 ftp://oorg.asp4all.nl/20160815220000.xml (logius)
 Rijksoverheid almanak (link https://almanak.overheid.nl/)
-Waardelijsten overheidsorganisatie OWMS - http://standaarden.overheid.nl/owms/terms/Overheidsorganisatie.html
-Dit zijn de gecontroleerde waardelijsten (controlled vocabularies of vocabulary encoding schemes) van OWMS - http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten
-Geimporteerd in Google Sheets: https://docs.google.com/spreadsheets/d/1uwBa7_rH4DUptOS1uCRCb1MmPjzlzQGnHXK_60nW2VA/edit#gid=0
-Op tabblad 2 staat uitgebreide data 
 
 * done (manual): De Overheid.nl Web Metadata Standaard (OWMS) is de metadatastandaard voor informatie van de Nederlandse overheid op internet. De standaard is gebaseerd op de internationale metadatastandaard van het Dublin Core Metadata Initiative (DCMI). Er zijn twee groepen van waardelijsten die vergelijkbare typen van waarden bevatten: waardelijsten met namen van organisaties en waardelijsten met namen van bestuursorganen. http://standaarden.overheid.nl/owms/4.0/doc/waardelijsten
 Overheidsorganisatie is een samenvoeging van de waardelijsten die per organisatietype worden bijgehouden. http://standaarden.overheid.nl/owms/terms/Overheidsorganisatie.html
@@ -76,7 +72,6 @@ Overzicht met rechtspersonen met een wettelijke taak (RWT). Rechtspersonen met e
 * done (manual/automated): WNT Register
 https://www.topinkomens.nl/voor-wnt-instellingen/inhoud/wnt-register
 WNT register wordt door het ministerie van Binnenlandse Zaken en  Koninkrijksrelaties (BZK) bijgehouden om instellingen die onder de WNT (Wet normering topinkomens) vallen te kunnen informeren over deze wet en om toezicht op de naleving  van de WNT te houden. Een instelling of rechtspersoon valt onder de WNT  als één of meer van de criteria uit de WNT van toepassing zijn. De  toepasselijkheid van de WNT vloeit voort uit de wet zelf, nl. de  artikelen 1.2 en 1.3 van de WNT. Als een instelling niet in het register  staat, is het mogelijk dat de WNT toch van toepassing is. Zorginstellingen, onderwijs- en emancipatie-instellingen en  woningcorporaties zijn niet in het register opgenomen, omdat van die  deelsectoren reeds aparte registers worden bijgehouden. Volgens artikel 1.2 van de WNT is de wet van toepassing op alle  krachtens publiekrecht ingestelde instellingen. De wet geeft specifiek aan wie bij het rijk, provincies, gemeenten en waterschappen als topfunctionaris wordt aangemerkt en onder de WNT valt. Voor onder meer zorginstellingen, onderwijsinstellingen, woningcorporaties en organisaties op het gebied van ontwikkelingssamenwerking gelden in de WNT specifieke staffels. Deze zijn vastgesteld in ministeriële regelingen, de zogeheten sectorale bezoldigingsnorm. De WNT-verplichtingen (publicatieplicht en meldingsplicht) gelden  ook voor door de overheid gesubsidieerde instellingen. Tot slot is er  nog een categorie instellingen waarop de WNT van toepassing is die is samengevoegd tot de categorie "overige instellingen". Door de overheid gesubsidieerde instellingen ontvangen een subsidie  van minstens € 500.000,-- per jaar. Deze maakt voor ten minste 50% deel  uit van de inkomsten van dat jaar en wordt voor een periode van  tenminste drie jaar verstrekt. Een voorbeeld hiervan is in veel  gemeenten de openbare bibliotheek. Overige instellingen (1) Instellingen die zijn ingesteld op basis van een wet/met een wettelijke taak (bijvoorbeeld Gemeenschappelijke Regelingen); (2) Zelfstandige bestuursorganen (ZBO ’s); (3) Instellingen waarbij de overheid één of meer leden van het bestuur of raad van toezicht benoemt; (4) Openbare lichamen voor beroep en bedrijf.
-data https://docs.google.com/spreadsheets/d/1MeOoDaDYdACmxDoQtilK-0TGf6sNyMeeiLpsiF6niQU/
 
 * done (manual): Website register
 https://www.communicatierijk.nl/vakkennis/r/rijkswebsites-verplichte-richtlijnen/inhoud/websiteregister
@@ -89,7 +84,7 @@ OIN register geeft een overzicht van alle uitgegeven openbare overheidsidentific
 * to-do: ZBO register - 
 https://almanak.zboregister.overheid.nl/
 
-* to-do: Agentschappen - Rijksoverheid
+* done (manual): Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
 * to-do: Werken bij de overheid
