@@ -67,7 +67,7 @@ Dit zijn de gecontroleerde waardelijsten (controlled vocabularies of vocabulary 
 Geimporteerd in Google Sheets: https://docs.google.com/spreadsheets/d/1uwBa7_rH4DUptOS1uCRCb1MmPjzlzQGnHXK_60nW2VA/edit#gid=0
 Op tabblad 2 staat uitgebreide data 
 
-* to-do:Nationale ombudsman
+* done (manual): Nationale ombudsman
 https://www.nationaleombudsman.nl/overheidsinstanties
 Nationale Ombudsman heeft een lijst van organisaties. De Nationale ombudsman behandelt klachten over de overheid. Hieronder  vallen bijna alle overheidsorganisaties: ministeries, waterschappen,  provincies, gemeentes, het UWV, de Sociale Verzekeringsbank (SVB) en de  politie. Ook particuliere instellingen met een overheidstaak, zoals de  Stichting Centraal Bureau Rijvaardigheidsbewijzen (CBR), vinden wij een  overheidsorganisatie. 
 
