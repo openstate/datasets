@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.kvk.nl/schemas/overheidsdiensten/2013/01" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml" targetNamespace="http://www.kvk.nl/schemas/overheidsdiensten/2013/01" elementFormDefault="qualified" version="1.0.0.0">
+	<xs:annotation>
+		<xs:appinfo>Handelsegister overheidsdiensten</xs:appinfo>
+		<xs:documentation xml:lang="nl">
+			Dit schema definieert de handelsregister overheidsdiensten ten behoeve van de INSPIRE richtlijn
+		</xs:documentation>
+	</xs:annotation>
+	<xs:import namespace="http://www.opengis.net/gml" schemaLocation="http://schemas.opengis.net/gml/3.1.1/base/feature.xsd"/>
+	<!--
+		============================================================
+		Type: OverheidsdienstenType
+		De lijst van overheidsdiensten die geleverd moeten worden conform INSPIRE
+		============================================================
+	-->
+	<xs:element name="Overheidsdiensten" type="OverheidsdienstenType" substitutionGroup="gml:_FeatureCollection"/>
+	<xs:complexType name="OverheidsdienstenType">
+		<xs:annotation>
+			<xs:documentation>
+				Type voor de lijst van overheidsdienten ten behoeve van het INSPIRE thema nuts- en overheidsdiensten. En dan alleen specifiek voor de overheidsdiensten, sub thema b.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureCollectionType">
+				<xs:attribute name="lockId" type="xs:string" use="optional"/>
+				<xs:attribute name="scope" type="xs:string" use="optional"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: OverheidsdienstType
+		De overheidsdienst die geleverd moeten worden conform INSPIRE
+		============================================================
+	-->
+	<xs:element name="dienst" type="OverheidsdienstType" substitutionGroup="gml:_Feature"/>
+	<xs:complexType name="OverheidsdienstType">
+		<xs:complexContent>
+			<xs:extension base="DienstType">
+				<xs:sequence>
+					<xs:element name="dienstLocatie" type="LocatieType"/>
+					<xs:element name="dienstSoort" type="DienstSoortType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: LocatieType
+		Locatie type is de serviceLocationType conform de INSPIRE richtlijn. Dit type is
+		niet volledig conform de richtlijn, echter met het type wordt alvast rekening gehouden
+		met de structuur zoals INSPIRE die voorstelt
+		============================================================
+	-->
+	<xs:complexType name="LocatieType">
+		<xs:annotation>
+			<xs:documentation>
+				De locatie waar de dients wordt uitgeoefend. Voorlopig wordt alleen het adres als locatie ondersteund. De overige type locaties die volgens het thema geïmplementeerd kunnen worden,
+				worden eventueel op een later momet toegevoegd.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:FeaturePropertyType">
+				<xs:sequence>
+					<xs:element name="adres" type="AdresType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: AdresType
+		Adres type is het Adresss conform de INSPIRE richtlijn. Dit type is niet volledig
+		conform de richtlijn, echter met het type wordt alvast rekening gehouden
+		met de structuur zoals INSPIRE die voorstelt
+		============================================================
+	-->
+	<xs:complexType name="AdresType">
+		<xs:annotation>
+			<xs:documentation>
+				Het adres bestaat uit de positie (geometrie) en de het adres zelf (locator)
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:FeaturePropertyType">
+				<xs:sequence>
+					<xs:element name="positie" type="PositieType"/>
+					<xs:element name="locator" type="LocatorType"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: PositieType
+		Positie type is de Position conform de INSPIRE richtlijn binnen het type van het
+		Address. Dit type is niet volledig conform de richtlijn, echter met het type wordt 
+		alvast rekening gehouden met de structuur zoals INSPIRE die voorstelt
+		============================================================
+	-->
+	<xs:complexType name="PositieType">
+		<xs:annotation>
+			<xs:documentation>
+				De positie in coördinaten van het adres waar de dienst wordt uitgeoefend. De positie komt overeen met de geometrie van het verblijfsobject, ligplaats en standplaats uit de BAG.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:choice minOccurs="0">
+			<xs:element ref="gml:Point"/>
+			<xs:element ref="gml:Polygon"/>
+		</xs:choice>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: LocatorType
+		Locatie type is de serviceLocationType conform de INSPIRE richtlijn. Dit type is
+		niet volledig conform de richtlijn, echter met het type wordt alvast rekening gehouden
+		met de structuur zoals INSPIRE die voorstelt
+		============================================================
+	-->
+	<xs:complexType name="LocatorType">
+		<xs:annotation>
+			<xs:documentation>
+				Het adres met de bag identificatie zoals deze is geregistreerd in het Handelsregister. De gegevens komen overeen gegevenscatalogus van het Handelsregister
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:FeaturePropertyType">
+				<xs:sequence>
+					<xs:element name="bagId" type="BagIdentificatieType"/>
+					<xs:element name="straatnaam" type="xs:string"/>
+					<xs:element name="huisnummer" type="xs:int"/>
+					<xs:element name="huisletter" nillable="true" minOccurs="0" maxOccurs="1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="1"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="huisnummerToevoeging" nillable="true" minOccurs="0" maxOccurs="1">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:maxLength value="4"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="postcode" type="xs:string"/>
+					<xs:element name="plaats" type="xs:string"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: BagIdentificatieType
+		BagIdentificatieType bevat de de identificatie van het adress confrom de BAG. Zowel
+		de identificatie van de nummeraanduiding als de identificatei van de het adresseer-
+		baarobject is binnen dit type opgenomen
+		============================================================
+	-->
+	<xs:complexType name="BagIdentificatieType">
+		<xs:annotation>
+			<xs:documentation>
+				De identificatie van de nummeraanduiding en het adresseerbaar object uit de BAG
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:FeaturePropertyType">
+				<xs:sequence>
+					<xs:element name="identificatieNummeraanduiding">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="16"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="identificatieAdresseerbaarObject">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="16"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: DienstsoortType
+		Type die aangeeft welke activiteitcode wordt uitgeoefend
+		============================================================
+	-->
+	<xs:complexType name="DienstSoortType">
+		<xs:annotation>
+			<xs:documentation>
+				De betreffende dienst die op het adres wordt uitgeoefend. De dienst is beschreven conform de SBI. De SBI bestaat uit een code en corresponderende omschrijving.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:FeaturePropertyType">
+				<xs:sequence>
+					<xs:element name="activiteitCode" type="xs:integer"/>
+					<xs:element name="activiteitOmschrijving" type="xs:string"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: DienstType
+		Generieke type voor een dienst.
+		============================================================
+	-->
+	<xs:complexType name="DienstType" abstract="true">
+		<xs:annotation>
+			<xs:documentation>
+				Generieke type voor een dienst. Hier is opgenomen de het moment van registratie aanvang en einde. Dit komt overeen met de INSPIRE richtlijn voor beginLifeSpanVersion en endLifeSpanVersion.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="gml:AbstractFeatureType">
+				<xs:sequence>
+					<xs:element name="registratieAanvang" type="TijdstipType"/>
+					<xs:element name="registratieEinde" type="TijdstipType" minOccurs="0" maxOccurs="1"/>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<!--
+		============================================================
+		Type: DatumType, TijdType & TijdstipType
+		Algemene types voor datum, tijd en tijdstip
+		============================================================
+	-->
+	<xs:simpleType name="DatumType">
+		<xs:annotation>
+			<xs:documentation>
+				Type dat de datum in het formaat jjjjmmdd (jaar-maand-dag) aangeeft, waarbij alleen cijfers zijn toegestaan.
+				Spaties betekent dat de datum niet bekend is
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="8"/>
+			<xs:maxLength value="8"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="TijdType">
+		<xs:annotation>
+			<xs:documentation>
+				Type dat de tijd in het formaat hhmmsszzz (uren-minuten-seconden-millis) aangeeft, waarbij alleen cijfers zijn toegestaan.
+			</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="9"/>
+			<xs:maxLength value="9"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:complexType name="TijdstipType">
+		<xs:annotation>
+			<xs:documentation>
+			Type voor de combinatie van datum en tijd
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="datum" type="DatumType"/>
+			<xs:element name="tijd" type="TijdType"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
