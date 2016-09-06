@@ -114,6 +114,10 @@ https://ibro.nationaalarchief.nl/index.php/directie-consulaire-zaken-en-visumbel
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;isaar
 https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac?sf_format=xml
 
+* done (manual): Overheidsdiensten
+Dit is een niet-geharmoniseerde subset in het kader van INSPIRE annex III, thema Administratieve en sociale en overheidsdiensten.
+https://data.overheid.nl/data/dataset/overheidsdiensten (bron: http://geodata.nationaalgeoregister.nl/overheidsdiensten/atom/overheidsdiensten.xml)
+
 * to-do: CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
  (namen van gemeenten, cbs unieke identifier van gemeenten)
