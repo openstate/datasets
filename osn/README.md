@@ -11,8 +11,6 @@ updatable list of governments in the Netherlands, that is completely transparant
 
 ###A DEFINITION OF GOVERNMENT
 This is a though question... Or project definition is that a part of government does not equal a whole government. Meaning that city departments do not map onto 1 city(!) The list we try to gather, however can contain city  -departments as partial governments. In a next phase we envision allowing more complex relations between the seperate governments; such as 'department of' and so on. This is an important notice as for instance some governments have multiple chambre of commerce numbers for seperate divisions. Is such a case a Chambre of Commerce id is not an unique identifier of (the entire) goverment.
- 
-
 
 ###PROCESS OF ADDING OR UPDATING SOURCES
 
@@ -80,15 +78,15 @@ https://almanak.zboregister.overheid.nl/
 * done (manual): Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
-* to-do: Werken bij de overheid
+* done (manual / api entry): Werken bij de overheid
 http://docs.api.cso20.net/
 Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. 
 
-* to-do: Mijn overheid
+* done (manual): Mijn overheid
 https://mijn.overheid.nl/contact/overzicht
 Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
 
-* to-do: Kennisbank Openbaar Bestuur
+* done (manual): Kennisbank Openbaar Bestuur
 http://kennisopenbaarbestuur.nl:80/tnglite/olap?guid=1e8a0ab4-f368-4d5e-9cff-348a294f0634
 Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 
@@ -104,6 +102,10 @@ https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac
 * done (manual): Overheidsdiensten
 Dit is een niet-geharmoniseerde subset in het kader van INSPIRE annex III, thema Administratieve en sociale en overheidsdiensten.
 https://data.overheid.nl/data/dataset/overheidsdiensten (bron: http://geodata.nationaalgeoregister.nl/overheidsdiensten/atom/overheidsdiensten.xml)
+
+* done (manual): VNG ORCA
+Lijst met gemeenten, adressen, uit ORCA database VNG. Bestandsnaam: Adres 2014 - Gemeenten (indeling 2015)
+http://www.waarstaatjegemeente.nl/jive
 
 * to-do: CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten

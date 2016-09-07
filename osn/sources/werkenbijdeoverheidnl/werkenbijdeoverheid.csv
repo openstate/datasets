@@ -1,0 +1,330 @@
+adm_pin,naam,afkorting
+00300,AcademicTransfer,AT
+00351,Universiteit Utrecht,UU
+00363,Wageningen UR,WUR
+00367,Technische Universiteit Delft,TUD
+01000,Overige overheidsinstanties,SOO
+01020,Algemene Rekenkamer,AR
+01030,Ministerie van Algemene Zaken,AZ
+01060,Ministerie van Binnenlandse Zaken en Koninkrijksrelaties,BZK
+01063,Bureau ICT Toetsing,BIT
+01064,SSC-ICT,SSCI
+01069,Beheerorganisatie,BHO
+01070,Ministerie van Buitenlandse Zaken,BZ
+01090,Centraal Bureau voor de Statistiek,CBS
+01100,Centraal Planbureau,EZPB
+01130,Belastingdienst,BD
+01132,Centrum voor ICT,CICT
+01133,Employability Center Belastingdienst,ECBD
+01140,Autoriteit Persoonsgegevens,CBP
+01150,Kenniscentra beroepsonderwijs bedrijfsleven,COLO
+01310,Ministerie van Defensie,DEF
+01312,Koninklijke Marine,KM
+01313,Koninklijke Landmacht,KL
+01314,Koninklijke Luchtmacht,KLU
+01315,Koninklijke Marechaussee,KMAR
+01319,Defensie Interservice Commando,DIC
+01320,Defensie HDP,HDP
+01380,Rijkswaterstaat,RWS
+01410,Eerste Kamer der Staten Generaal,EK
+01420,Ministerie van Economische Zaken,EZ
+01422,Dienst ICT Uitvoering (DICTU),DICT
+01423,Autoriteit Consument & Markt,ACM
+01430,Ministerie van Financiën,FIN
+01460,VWS - Inspectie voor de Gezondheidszorg (IGZ),VWSI
+01470,Auditors / Accountants bij de Rijksoverheid,IODI
+01480,Ministerie van Veiligheid en Justitie,JUS
+01481,Ministerie van Veiligheid en Justitie - Dienst Justitiële Inrichtingen,DJI
+01482,Ministerie van Veiligheid en Justitie - Raad voor de Kinderbescherming,RVDK
+01483,Ministerie van Veiligheid en Justitie - Immigratie- en Naturalisatiedienst,IND
+01484,Ministerie van Veiligheid en Justitie - Centraal Justitieel Incassobureau,CJIB
+01485,Ministerie van Veiligheid en Justitie - Openbaar Ministerie,OM
+01486,Ministerie van Veiligheid en Justitie - Bestuursdepartement,JUSB
+01487,Ministerie van Veiligheid en Justitie - Nederlands Forensisch Instituut,NFI
+01488,Ministerie van Veiligheid en Justitie - Dienst Terugkeer & Vertrek,DTV
+01489,Overige Justitieorganisaties,JUSO
+01491,Ministerie van Veiligheid en Justitie - JustID,JUID
+01492,RDW,RDW
+01493,Nederlands bureau brandweerexamens,NBBE
+01494,Ministerie van Veiligheid en Justitie - Dienst Justis,JTIS
+01496,VWS - De Lindenhorst,VWSL
+01497,Almata,VWSA
+01500,Politie,POL
+01535,Uitvoeringsinstituut Werknemersverzekeringen,UWV
+01580,Nationale Ombudsman,NO
+01590,Waarderingskamer,WK
+01630,"Ministerie van Onderwijs, Cultuur en Wetenschap",OCW
+01632,DUO,DUO
+01640,Centraal Bureau voor Rijvaardigheidsbewijzen,CBR
+01650,De Nederlandsche Bank,DNB
+01670,Centraal Fonds Volkshuisvesting,CFV
+01680,Raad van State,RVS
+01690,Luchtverkeersleiding Nederland,LVNL
+01700,Rechtspraak,RO
+01760,Rijksinstituut voor Volksgezondheid en Milieu,RIVM
+01762,Agentschap College Beoordeling van Geneesmiddelen,ACBG
+01763,Het CIBG,CIBG
+01764,Inspectie Jeugdzorg,VWSJ
+01765,Intravacc,INVC
+01770,Rijkstrainee,RTP
+01771,Rijks ICT Traineeprogramma,RITP
+01810,Bureau Keteninformatisering Werk en Inkomen,BKWI
+01820,Ministerie van Sociale Zaken en Werkgelegenheid,SZW
+01830,Kamer van Koophandel,KVK
+01840,Algemene Inlichtingen- en Veiligheidsdienst,AIVD
+01860,Onderzoeksraad voor Veiligheid,ORVV
+01870,Sociale Verzekeringsbank,SVB
+01880,Nederlandse Zorgautoriteit,NZA
+01890,Raad voor Rechtsbijstand,RVR
+01900,Tweede Kamer der Staten Generaal,TK
+01911,KNMI,KNMI
+01920,Ministerie van Infrastructuur en Milieu,IM
+01930,Kanselarij der Nederlandse Orden,KNO
+01940,"Ministerie van Volksgezondheid, Welzijn en Sport",VWS
+01955,Rijksvastgoedbedrijf,RGD
+01970,Financieel bij de Rijksoverheid,FPRO
+01980,Kabinet van de Koning,KVDK
+01991,Wajong / WSW / WIA,WAJO
+02000,Werken bij Gemeenten,SWBG
+02003,Gemeente Breda,GMCF
+02005,Gemeente Culemborg,GCUL
+02007,Gemeente Den Haag,GMDB
+02008,Gemeente Ede,GEDE
+02010,Gemeente Harderwijk,GMFA
+02011,Gemeente Helmond,GMHL
+02025,Gemeente Tilburg,GMLN
+02029,Gemeente Woudenberg,GWOU
+02032,Gemeente Zoetermeer,GMNS
+02044,Gemeente Alkmaar,GMAR
+02045,Gemeente Almelo,GMAK
+02046,Gemeente Almere,GMAE
+02052,Gemeente Amersfoort,GMAQ
+02071,Gemeente Beek,GMBK
+02073,Gemeente Beesel,GMBS
+02080,Gemeente Bergen,GMBN
+02081,Gemeente Bergen op Zoom,GMBL
+02104,Gemeente Brielle,GMCH
+02105,Gemeente Brummen,GMCJ
+02114,Gemeente Coevorden,GMCV
+02118,Gemeente Dronten,DRON
+02120,Gemeente Westland,GMMV
+02124,Gemeente Delft,GMCZ
+02129,Gemeente Den Helder,GMDH
+02133,Gemeente Deventer,GMDF
+02162,Gemeente Enschede,GMES
+02175,Gemeente Giessenlanden,GMGL
+02178,Gemeente Goirle,GMGE
+02181,Gemeente Gouda,GMEN
+02191,Gemeente Haaren,GHRN
+02192,Gemeente Haarlem,GMEV
+02202,Gemeente Hattem,GMHA
+02205,Gemeente Heemstede,GMFF
+02211,Gemeente Heeze-Leende,GMFJ
+02215,Gemeente Hellevoetsluis,GMFN
+02219,Gemeente Heumen,GMFT
+02220,Gemeente Heusden,GMFU
+02223,Gemeente Hilvarenbeek,GMFW
+02224,Gemeente Hilversum,GMHM
+02229,Gemeente Hoorn,GMH
+02231,Gemeente Houten,GMGC
+02232,Gemeente Huizen,GMGD
+02250,Gemeente Landsmeer,GMLM
+02275,Gemeente Lopik,GMHJ
+02306,Gemeente Muiden,GMID
+02332,Gemeente Oegstgeest,GMOT
+02334,Gemeente Oisterwijk,GMIW
+02347,Gemeente Oss,GMJH
+02351,Gemeente Ouder-Amstel,GMJK
+02363,Rekenkamer Rotterdam,RKRD
+02369,Gemeente Rijnwaarden,GMJZ
+02372,Gemeente Rijswijk,GMKC
+02380,Gemeente Teylingen,GMLK
+02398,Gemeente Sint-Michielsgestel,GMKT
+02400,Gemeente Sint-Oedenrode,GMKU
+02408,Gemeente Soest,GMSO
+02411,Gemeente Nissewaard,GMLD
+02427,Gemeente Texel,TEX
+02437,Gemeente Uithoorn,GMUH
+02442,Gemeente Valkenswaard,GMVD
+02451,Gemeente Vianen,GMMD
+02453,Gemeente Vlagtwedde,GVW
+02459,Gemeente Leidschendam-Voorburg,GMGW
+02463,Vereniging van Nederlandse Gemeenten (VNG),VNG
+02464,Gemeente Waddinxveen,GMWX
+02474,Gemeente Waterland,GMMO
+02478,Gemeente Werkendam,GWKD
+02481,Gemeente Koggenland,GMKG
+02485,Gemeente Wierden,GMWN
+02492,Gemeente Winterswijk,GMWW
+02495,Gemeente Woerden,GMWO
+02501,Gemeente Zaanstad,GMNJ
+02503,Gemeente Zandvoort,GMNL
+02504,Gemeente Zederik,GMNM
+02506,Gemeente Zeewolde,RTW
+02507,Gemeente Zeist,GMNP
+02517,Gemeente Zoeterwoude,GMZW
+02529,Gemeente Pijnacker-Nootdorp,GMJP
+02533,Stadsgewest Haaglanden,SGHL
+02536,Veilligheidsregio Gelderland-Zuid,HVGZ
+02547,Gemeente Maassluis,GMMS
+02552,Brandweer Brabant-Noord,BRBN
+02554,Veiligheidsregio Noord-Holland Noord,VNHN
+02566,DCMR Milieudienst Rijnmond,DCMR
+02569,Gemeente Midden-Delfland,GMHY
+02583,Gemeente Haren,HARE
+02596,Gemeente Wassenaar,GMMN
+02598,Stadsregio Amsterdam,GSRA
+02600,Gemeente Leiderdorp,GMLD
+02601,Gemeente Arnhem,GMAM
+02605,GGD Hart voor Brabant,GGDB
+02606,Gemeente Katwijk,GMGI
+02612,Gemeente Rotterdam,GMKG
+02615,Veiligheidsregio Kennemerland,VRKL
+02620,Gemeente Nijmegen,GMIO
+02623,Veiligheidsregio Hollands Midden,VRFR
+02632,Veiligheidsregio Zuid-Holland Zuid,VZHZ
+02634,Veiligheidsregio Haaglanden,VRHL
+02636,Gemeenschappelijke Regeling Avalex,GRAX
+02637,Gemeente Montferland,MFL
+02639,Gemeente Wijk bij Duurstede,GMOI
+02642,Veiligheidsregio Midden- en West-Brabant,VRMB
+02646,Kenniscentrum Europa decentraal,KED
+02648,GGD Zuid-Holland West,GMOL
+02652,Gemeente Leerdam,GMLE
+02653,Gemeente Leiden,GML
+02655,Gemeente Stichtse Vecht,GSV
+02657,Het Utrechts Archief,DUOP
+02658,Rekenkamer Utrecht,RKU
+02666,Omgevingsdienst Midden-Holland,ODMH
+02668,Werk en Inkomen Lekstroom (WIL),GWIL
+02669,GGD West-Brabant,GGDW
+02670,Omgevingsdienst Noordzeekanaalgebied,NZKG
+02671,Veiligheidsregio Fryslân,VRFR
+02674,Omgevingsdienst Haaglanden,ODH
+02675,Werkorganisatie Duivenvoorde,WODV
+02676,"Gemeenschappelijke Regeling Werkorganisatie CGM (Cuijk , Grave, Mill en Sint Hubert)",GCGM
+02677,Gemeente Landerd,GML
+02678,Avri,AVRI
+02679,Delftse Rekenkamer,DRKR
+02680,Omgevingsdienst Midden- en West-Brabant,OMWB
+02681,Regionaal Informatie en Expertise Centrum Amsterdam Amstelland,DRKR
+02682,Interreg Vlaanderen-Nederland,IRVN
+02683,Gemeente Schagen,GMOB
+02684,Gemeente Cranendonck,GMCD
+02685,GGD Gelderland-Zuid,GGGZ
+02686,Veiligheidsregio Groningen,VRGR
+02687,Bedrijfsvoeringsorganisatie Jeugdzorg IJsselland,BJIJ
+02688,Regio Twente,RTW
+02689,Regionale Uitvoeringsdienst Noord-Holland Noord,RNHN
+02690,Gemeente Amsterdam,ADAM
+02691,Servicepunt71,SEP
+02692,Gemeente Hardinxveld-Giessendam,GMHG
+02693,Metropoolregio Rotterdam Den Haag,MRDH
+02694,Avres Werk-Leerbedrijf,AVRS
+02695,Gemeente Stein,GMS
+02696,Omgevingsdienst Zuid-Holland Zuid,OZHZ
+02697,ABG Gemeenten,ABG
+02698,Duo+,DUOP
+02710,Werken in Haaglanden,MBH
+02711,Omgevingsdienst Brabant Noord,ODBN
+02712,Fonds voor Cultuurparticipatie,FCP
+02713,UW Samenwerking,UWS
+02714,Wigo4it,WGIT
+02715,Ferm Werk,FMWK
+02998,A+O fonds Gemeenten,AOFG
+02999,Werken bij Gemeenten,WBG
+03000,Sector Wetenschappelijke instellingen,SWSI
+03101,Technische Universiteit Eindhoven,TUE
+04060,Jurist bij de Rijksoverheid,JBR
+04070,ICT'ers bij de Rijksoverheid,ICT
+04080,Beleidsmedewerkers,BMEW
+04111,Fiscalisten bij de Rijksoverheid,FRO
+05000,Sector Rijksoverheid,SHR
+06000,Sector Politie,SPOL
+06201,Landelijke Eenheid,NP
+06202,Amsterdam,PLA
+06203,Den Haag,PLDH
+06212,Zeeland - West-Brabant,PLZ
+06220,Rijksrecherche,PRR
+07000,Sector Provincies,SECP
+07010,Provincie Drenthe,PDRE
+07020,Provincie Flevoland,PFLL
+07030,Provincie Fryslan,PFRY
+07040,Provincie Gelderland,PGE
+07050,Provincie Groningen,PGR
+07060,Provincie Limburg,PLIM
+07070,Provincie Noord-Brabant,PNB
+07080,Provincie Noord-Holland,PNH
+07090,Provincie Overijssel,POIJ
+07100,Provincie Utrecht,PUTR
+07110,Provincie Zeeland,PZEE
+07120,Provincie Zuid-Holland,PZH
+07122,Provincie Zuid-Holland - Directie Omgevingsdiensten (DO),DO
+07123,Provincie Zuid-Holland - Directie Ruimte en Mobiliteit (DRM),DRM
+07124,Provincie Zuid-Holland - Directie Leefomgeving en Bestuur (DLB),DLB
+07125,Provincie Zuid-Holland - Dienst Beheer Infrastructuur (DBI),DBI
+07126,Provincie Zuid-Holland - Groenservice Zuid-Holland (GZH),GZH
+07127,Provincie Zuid-Holland - Dienst Muskusrattenbestrijding (DMRB),DMRB
+07128,Provincie Zuid-Holland - Directie concernzaken,DIRC
+07210,Interprovinciaal Overleg,IPO
+07220,A&O Provincies,AOP
+07230,Bij12,BIJ
+07240,Randstedelijke Rekenkamer,RSRK
+09000,Sector Waterschappen,SWS
+09009,Hoogheemraadschap van Delfland,HHDL
+09010,Waterschap De Dommel,WSDD
+09012,Wetterskip Fryslân,WSFR
+09015,Waterschap Groot Salland,WSGS
+09017,Hoogheemraadschap Hollands Noorderkwartier,HHHN
+09028,Waterschap Noorderzijlvest,WSNZ
+09030,Waterschap Peel en Maasvallei,WSPM
+09031,Waterschap Reest en Wieden,WSRW
+09032,Waterschap Regge en Dinkel,WSRD
+09033,Waterschap Rijn en IJssel,WSRY
+09034,Hoogheemraadschap van Rijnland,HHRR
+09035,Waterschap Rivierenland,WSRL
+09036,Waterschap Roer en Overmaas,WSRO
+09038,Hoogheemraadschap van Schieland en de Krimpenerwaard,HHSK
+09040,Hoogheemraadschap De Stichtse Rijnlanden,HHSR
+09041,Waterschap Vallei en Veluwe,WSVE
+09042,Waterschap Velt en Vecht,WSVV
+09043,Waterschap Veluwe,WSV
+09045,Waterschap De Brabantse Delta,WSBD
+09048,Waterschap Scheldestromen,WSZV
+09049,Waterschap Zuiderzeeland,WSZZ
+09050,Waterschap Hollandse Delta,WSHD
+09051,Waterschap Vechtstromen,WVS
+09052,A&O-fonds Waterschappen,AOFW
+09100,Unie van Waterschappen,UNIW
+11000,Zelfstandige Bestuursorganen,ZBSO
+11002,Zorginstituut Nederland,CVZ
+11003,Centraal Orgaan opvang asielzoekers,COA
+11004,Bureau Financieel Toezicht,BFT
+11005,Autoriteit Financiële Markten,AFM
+12000,Werken in het MBO,WMBO
+12100,Middelbaar Beroepsonderwijs en volwasseneneducatie,MBOV
+12102,Albeda College,ALBC
+12127,Lentiz Onderwijsgroep,LEOG
+12146,ROC De Leijgraaf,RODL
+12159,ROC Rivor,ROCR
+12160,ROC Ter AA,ROTA
+12177,Stichting Samenwerking Beroepsonderwijs Bedrijfsleven,SBB
+12178,Stichting IJsselgraaf,SIJ
+20000,Sector Hogescholen,WBHS
+20003,Hogeschool Avans,HSAV
+20011,Fontys Hogescholen,FTYS
+20034,Hogeschool Inholland,HINH
+20039,Hogeschool van Amsterdam,HSVA
+20053,"PC Hogeschool Marnix Academie, Lerarenopleiding Basisonderwijs",HSMX
+20061,Hogeschool Van Hall Larenstein (VHL),HVHL
+20063,Vereniging Hogescholen,VERH
+20100,Werken bij hogescholen,ZSTR
+30000,Mobiliteitsbank,MBHR
+30030,ICT Uitvoeringsorganisatie,ICTU
+30040,Instituut Fysieke Veiligheid,NIFV
+30050,"Skal, Bio Controle",SKAL
+30060,Commissie van Toezicht betreffende de Inlichtingen- en Veiligheidsdiensten,CTIV
+30070,Nederlands-Vlaamse Accreditatieorganisatie,NVAO
+30080,Kansspelautoriteit,KSA
+30090,CAK,CAK
+30110,Stimuleringsfonds voor de Journalistiek,SVDJ
