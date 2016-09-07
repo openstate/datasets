@@ -71,7 +71,6 @@ function parse_org($organisatie, $mother = null) {
         "comment" => ((string) $mother)
     );
     push($item);
-    //var_dump(end($results));
 
     $mother.= "$organisatie->naam - ";
     parse_orgs(($organisatie->organisaties), $mother);
