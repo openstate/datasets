@@ -2,6 +2,7 @@
 
 $filename = '20160815220000.xml';
 $file = file_get_contents($filename);
+$results = [];
 
 if (empty($file))
     die("empty file");
@@ -13,7 +14,8 @@ if (!empty($error))
 
 $namespaces = $xml->getNamespaces();
 $ns = $namespaces["p"];
-if (! isset($ns)) die("namespace error");
+if (!isset($ns))
+    die("namespace error");
 
 foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?   
     parse_orgs($child);
@@ -21,14 +23,14 @@ foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeent
     foreach ($results[0] as $key => $value) {
         $keys[] = $key;
     }
-    $header = '"' . implode('"; "', $keys) . '"' . "\n";
+    $header = '"' . implode('", "', $keys) . '"' . "\n";
 
     foreach ($results as $result) {
-        $values;
+        $values=[];
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
-        $row = '"' . implode('"; "', $values) . '"' . "\n";
+        $row = '"' . implode('", "', $values) . '"' . "\n";
         $rows .= $row;
     }
     file_put_contents("organisaties.csv", $header . $rows);
@@ -63,15 +65,23 @@ function parse_org($organisatie, $mother = null) {
 //            . $organisatie->systemId->systemId . " "
 //            . $organisatie->naam . " " 
 //            . $mother . " "              . "\n");
-    global $results;
-    $results[] = array(
+    $item = array(
         "systemId" => ((string) $organisatie->systemId->systemId),
         "name" => ((string) $organisatie->naam),
-        "mother" => ((string) $mother)
+        "comment" => ((string) $mother)
     );
+    push($item);
+    //var_dump(end($results));
 
     $mother.= "$organisatie->naam - ";
     parse_orgs(($organisatie->organisaties), $mother);
+}
+
+function push($item) {
+    global $results;
+
+    $results[] = $item;     
+    
 }
 
 ?>
