@@ -7,37 +7,32 @@ if (empty($file))
     die("empty file");
 $xml = simplexml_load_string($file);
 $error = libxml_get_errors();
-if (!empty($error)) {
-    print("\n\n\nError:\n");
-    print_r($error);
-    die("\n\n\nEnd of Error\n");
-}
+if (!empty($error))
+    die($error);
+
 
 $namespaces = $xml->getNamespaces();
 $ns = $namespaces["p"];
-print("\nNamespace P found? " . $ns . " \n");
+if (! isset($ns)) die("namespace error");
 
-foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?
-    print("\nChild: " . $child->getname() . " Countsub: " . $child->count() . "\n\n");
+foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?   
     parse_orgs($child);
 
-    // print_r($results);
     foreach ($results[0] as $key => $value) {
         $keys[] = $key;
     }
     $header = '"' . implode('"; "', $keys) . '"' . "\n";
-   
+
     foreach ($results as $result) {
         $values;
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
-        $row = '"' . implode('"; "', $values) . '"' . "\n";      
-        $rows .= $row;    
+        $row = '"' . implode('"; "', $values) . '"' . "\n";
+        $rows .= $row;
     }
-    //echo $header . $rows;
     file_put_contents("organisaties.csv", $header . $rows);
-           
+
     //no parsing of gemeenten yet
     //print_r($results);    
     break;
@@ -46,7 +41,6 @@ foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeent
 // now save results to somedisk
 // assumes $organisaties->getname() ==  organisaties
 function parse_orgs($organisaties, $mother = null) {
-    //print("getname organisaties " . $organisaties->getname() . "\n");
     if ($organisaties->getname() != "organisaties") {
         die("OOOOPS geen organisaties namelijk " . $organisaties->getname() . "\n");
     }
@@ -57,7 +51,6 @@ function parse_orgs($organisaties, $mother = null) {
 }
 
 function parse_org($organisatie, $mother = null) {
-    //print("getname organisatie " . $organisatie->getname() . "\n");
     if ($organisatie->getname() == "organisaties") {
         parse_org(($organisatie->organisatie), $mother);
         return;
