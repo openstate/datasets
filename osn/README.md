@@ -103,6 +103,10 @@ https://ibro.nationaalarchief.nl/index.php/ministerie-van-buitenlandse-zaken;eac
 Dit is een niet-geharmoniseerde subset in het kader van INSPIRE annex III, thema Administratieve en sociale en overheidsdiensten.
 https://data.overheid.nl/data/dataset/overheidsdiensten (bron: http://geodata.nationaalgeoregister.nl/overheidsdiensten/atom/overheidsdiensten.xml)
 
+* done (manual): VNG ORCA
+Lijst met gemeenten, adressen, uit ORCA database VNG. Bestandsnaam: Adres 2014 - Gemeenten (indeling 2015)
+http://www.waarstaatjegemeente.nl/jive
+
 * to-do: CBS
 http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
  (namen van gemeenten, cbs unieke identifier van gemeenten)
