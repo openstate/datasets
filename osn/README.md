@@ -86,7 +86,7 @@ Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstelli
 https://mijn.overheid.nl/contact/overzicht
 Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
 
-* to-do: Kennisbank Openbaar Bestuur
+* done (manual): Kennisbank Openbaar Bestuur
 http://kennisopenbaarbestuur.nl:80/tnglite/olap?guid=1e8a0ab4-f368-4d5e-9cff-348a294f0634
 Kennisbank Openbaar Bestuur - informatie over sociale zekerheid en werknemers bij overheid, openbaar bestuur, veiligheid en onderwijs. Tabellen zijn uit te klappen vaak onderverdeeld per provincie en gemeente. In ieder geval komt hiermee de naam van de gemeente/plaats bij de organisatie. 
 
