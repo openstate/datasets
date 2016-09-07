@@ -10,18 +10,11 @@ To identify governments with a unique identifier. However, there is no central d
 updatable list of governments in the Netherlands, that is completely transparant. This means that a count of all governments can be done on a regular basis by rebuilding the list based on all sources. OSN is short for Overheids Service Nummer, which means government service number.
 
 ###A DEFINITION OF GOVERNMENT
+This is a though question... Or project definition is that a part of government does not equal a whole government. Meaning that city departments do not map onto 1 city(!) The list we try to gather, however can contain city  -departments as partial governments. In a next phase we envision allowing more complex relations between the seperate governments; such as 'department of' and so on. This is an important notice as for instance some governments have multiple chambre of commerce numbers for seperate divisions. Is such a case a Chambre of Commerce id is not an unique identifier of (the entire) goverment.
+ 
 
-There is much debate about the definition. 
 
-Let's start with definitions used by the government itself:
-
-De overheid bestaat uit drie lagen: de centrale of rijksoverheid, de provincies en de gemeenten. Andere delen van de overheid zijn in eerste instantie op grond van hun functie ingedeeld. Rijksoverheid, Provincies, Gemeenten, Hoge Colleges van Staat, Adviesorganen, Waterschappen, Openbare lichamen voor beroep en bedrijf, Zelfstandige bestuursorganen.
-https://www.overheid.nl/zo-werkt-de-overheid/wie-vormen-de-overheid/
-
-Een meer juridische definitie is te vinden via het Wet normering bezoldiging topfunctionarissen publieke en semipublieke sector
-http://wetten.overheid.nl/BWBR0032249/2016-01-01 (deze wet heeft een breder begrip. het gaat hier om rechtspersonen in de publieke en semipublieke sector, inclusief privaatrechtelijke personen die openbaar gezag uitoefenen.
-
-PROCESS OF ADDING OR UPDATING SOURCES
+###PROCESS OF ADDING OR UPDATING SOURCES
 
 This document describes a LIST of SOURCES. If you happen to know a
 new source, either web or file or API which identifies governments then
