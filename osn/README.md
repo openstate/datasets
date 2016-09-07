@@ -11,8 +11,6 @@ updatable list of governments in the Netherlands, that is completely transparant
 
 ###A DEFINITION OF GOVERNMENT
 This is a though question... Or project definition is that a part of government does not equal a whole government. Meaning that city departments do not map onto 1 city(!) The list we try to gather, however can contain city  -departments as partial governments. In a next phase we envision allowing more complex relations between the seperate governments; such as 'department of' and so on. This is an important notice as for instance some governments have multiple chambre of commerce numbers for seperate divisions. Is such a case a Chambre of Commerce id is not an unique identifier of (the entire) goverment.
- 
-
 
 ###PROCESS OF ADDING OR UPDATING SOURCES
 
@@ -80,11 +78,11 @@ https://almanak.zboregister.overheid.nl/
 * done (manual): Agentschappen - Rijksoverheid
 https://www.rijksoverheid.nl/onderwerpen/rijksoverheid/inhoud/agentschappen/lijst-agentschappen
 
-* to-do: Werken bij de overheid
+* done (manual / api entry): Werken bij de overheid
 http://docs.api.cso20.net/
 Een site voor vacatures bij de overheid. Hier leveren zo'n 303 overheidsinstellingen vacatures aan. In een vacature staat meestal ook naam en adres van overheidsinstelling. 
 
-* to-do: Mijn overheid
+* done (manual): Mijn overheid
 https://mijn.overheid.nl/contact/overzicht
 Lijst met aangesloten overheidsorganisaties in MijnOverheid - 
 
