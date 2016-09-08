@@ -45,7 +45,9 @@ foreach ($html->getElementsByTagName('a') as $element) {
                     "cbsId" => ((string) trim($organisatie->Key)),
                     "name" => ((string) $organisatie->Title),
                     "comment" => ((string) 
-                      str_replace("\r\n", '. <br>', $organisatie->Description)                                                
+                     str_replace('"',"'"
+                        ,str_replace("\r\n", '. <br>', $organisatie->Description)                                                
+                      )
                         ));
                 //global $results;
                 $results[] = $item;
