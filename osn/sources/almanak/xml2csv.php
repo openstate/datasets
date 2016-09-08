@@ -66,21 +66,24 @@ function parse_org($organisatie, $mother = null) {
 //            . $organisatie->naam . " " 
 //            . $mother . " "              . "\n");
     $item = array(
-        "systemId" => ((string) $organisatie->systemId->systemId),
+        "almanakId" => ((string) $organisatie->systemId->systemId),
         "name" => ((string) $organisatie->naam),
         "comment" => ((string) $mother)
     );
-    push($item);
+    //push($item);
+    global $results;
+
+    $results[] = $item;     
 
     $mother.= "$organisatie->naam - ";
     parse_orgs(($organisatie->organisaties), $mother);
 }
 
-function push($item) {
-    global $results;
-
-    $results[] = $item;     
-    
-}
+//function push($item) {
+//    global $results;
+//
+//    $results[] = $item;     
+//    
+//}
 
 ?>
