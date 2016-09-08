@@ -1,6 +1,13 @@
 <?php
 
-$filename = '20160815220000.xml';
+// 2016 Copyleft Lex Slaghuis, Open State Foundation 
+// http://www.openstate.eu
+// this could have been done with SimpleXML xpath way more easy and fast
+// but recursion was used to analyze the data and allow relation tracking later on
+// which also can be done with a xpath parent lookup ;-(
+
+// get a file from rijksalmanak (see README)
+$filename = '20160815220000.xml';// needs a harvester / extracter
 $file = file_get_contents($filename);
 $results = [];
 
@@ -11,13 +18,12 @@ $error = libxml_get_errors();
 if (!empty($error))
     die($error);
 
-
 $namespaces = $xml->getNamespaces();
 $ns = $namespaces["p"];
 if (!isset($ns))
     die("namespace error");
 
-foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?      
+foreach ($xml->children($ns) as $child) {
     if ($child->getname() == "gemeenten") {
 
         foreach ($child as $organisatie) {
@@ -50,10 +56,7 @@ foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeent
         $row = '"' . implode('", "', $values) . '"' . "\n";
         $rows .= $row;
     }
-    file_put_contents("organisaties.csv", $header . $rows);
-
-    //no parsing of gemeenten yet
-    //print_r($results);    
+    file_put_contents("organisaties.csv", $header . $rows); 
 }
 
 // now save results to somedisk
@@ -95,10 +98,4 @@ function parse_org($organisatie, $mother = null) {
     parse_orgs(($organisatie->organisaties), $mother);
 }
 
-//function push($item) {
-//    global $results;
-//
-//    $results[] = $item;     
-//    
-//}
 ?>
