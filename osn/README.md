@@ -37,11 +37,11 @@ colom, updated with you new records as rows.
 
 5) Push the new OSN MASTER TABLE, together with your OSN SOURCE TABLE
 
-6) From there we will figure things out.
+6) From there we will figure things out. 
 
 ###LIST OF SOURCES
 
-* to-do: Almanak Rijksoverheid 
+* done Almanak Rijksoverheid 
 ftp://oorg.asp4all.nl/20160815220000.xml (logius)
 Rijksoverheid almanak (link https://almanak.overheid.nl/)
 
@@ -107,16 +107,8 @@ https://data.overheid.nl/data/dataset/overheidsdiensten (bron: http://geodata.na
 Lijst met gemeenten, adressen, uit ORCA database VNG. Bestandsnaam: Adres 2014 - Gemeenten (indeling 2015)
 http://www.waarstaatjegemeente.nl/jive
 
-* to-do: CBS
-http://dataderden.cbs.nl/ODataApi/OData/45006NED/Gemeenten
- (namen van gemeenten, cbs unieke identifier van gemeenten)
-- bv. Gemeente Amsterdam id:ams0001
-- ook voor GRA
-- lijst van gemeenten in CBS : 
-Key: "GM0363 ",Title: "Amsterdam",Description: "Begindatum voor 1830"
-Key: "GM1728 ", Title: "Bladel", Description: "Ontstaan per 01-01-1997"
-Key: "GM0063 ",Title: "het Bildt",Description: "Begindatum voor 1830", 
-Key: "GM0310 ",Title: "De Bilt", Description: "Gemeentelijke herindeling per 01-01-2001 Begindatum voor 1830"
+* done: CBS
+
 
 * to-do: Rijks almanak
 - https://almanak.overheid.nl/25698/Gemeente_Amsterdam/ 
