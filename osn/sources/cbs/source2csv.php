@@ -43,8 +43,8 @@ foreach ($html->getElementsByTagName('a') as $element) {
 //                        . $organisatie->Description . '"' . "\n");
                 $item = array(
                     "cbsId" => ((string) trim($organisatie->Key)),
-                    "name" => ((string) $organisatie->Title),
-                    "comment" => ((string) 
+                    "cbsName" => ((string) $organisatie->Title),
+                    "cbsComment" => ((string) 
                      str_replace('"',"\'"
                         ,str_replace("\r\n", '. <br>', $organisatie->Description)                                                
                       )
@@ -74,8 +74,8 @@ foreach ($results as $result) {
      //   print" nieuw! " . $result['cbsId'] . "\n";
     }
     
-    $deduped[$result['cbsId']] = array( "cbsId"=>$result['cbsId'], "name"=>$result['name']
-        , "comment"=>$result['comment']);
+    $deduped[$result['cbsId']] = array( "cbsId"=>$result['cbsId'], "cbsName"=>$result['cbsName']
+        , "cbsComment"=>$result['cbsComment']);
 }
 
 print(" aantal deduped records " . sizeof($deduped) . "\n");
@@ -86,7 +86,7 @@ foreach($deduped as $key=>$values){
 }
 
 
-file_put_contents("organisaties.csv", $header . $rows);
+file_put_contents("source-cbs.csv", $header . $rows);
 
 
 ?>

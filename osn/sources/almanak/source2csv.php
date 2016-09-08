@@ -32,8 +32,8 @@ foreach ($xml->children($ns) as $child) {
 //                    . $organisatie->naam . "\n");
             $item = array(
                 "almanakId" => ((string) $organisatie->systemId->systemId),
-                "name" => ((string) $organisatie->naam),
-                "comment" => null);
+                "almanakName" => ((string) $organisatie->naam),
+                "almanalComment" => null);
             global $results;
             $results[] = $item;
         }
@@ -57,7 +57,7 @@ foreach ($xml->children($ns) as $child) {
      //  print($row);die();
         $rows .= $row;
     }
-    file_put_contents("organisaties.csv", $header . $rows); 
+    file_put_contents("source-almanak.csv", $header . $rows); 
 
 
 // now save results to somedisk
@@ -87,8 +87,8 @@ function parse_org($organisatie, $mother = null) {
 //            . $mother . " "              . "\n");
     $item = array(
         "almanakId" => ((string) $organisatie->systemId->systemId),
-        "name" => ((string) $organisatie->naam),
-        "comment" => ((string) $mother)
+        "almanakName" => ((string) $organisatie->naam),
+        "almanakComment" => ((string) $mother)
     );
     //push($item);
     global $results;
