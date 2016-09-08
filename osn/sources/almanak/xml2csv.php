@@ -17,16 +17,33 @@ $ns = $namespaces["p"];
 if (!isset($ns))
     die("namespace error");
 
-foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?   
-    parse_orgs($child);
+foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeenten & else?      
+    if ($child->getname() == "gemeenten") {
 
+        foreach ($child as $organisatie) {
+//            print("id: "
+//                    . $organisatie->systemId->systemId . " "
+//                    . $organisatie->naam . "\n");
+            $item = array(
+                "almanakId" => ((string) $organisatie->systemId->systemId),
+                "name" => ((string) $organisatie->naam),
+                "comment" => null);
+            global $results;
+            $results[] = $item;
+        }
+    } else if ($child->getname() == "organisaties") {
+        parse_orgs($child);
+    } else
+        die("\n" . $child->getname());
+
+    // process results 
     foreach ($results[0] as $key => $value) {
         $keys[] = $key;
     }
     $header = '"' . implode('", "', $keys) . '"' . "\n";
 
     foreach ($results as $result) {
-        $values=[];
+        $values = [];
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
@@ -37,7 +54,6 @@ foreach ($xml->children($ns) as $child) {// file contains organisaties & gemeent
 
     //no parsing of gemeenten yet
     //print_r($results);    
-    break;
 }
 
 // now save results to somedisk
@@ -73,7 +89,7 @@ function parse_org($organisatie, $mother = null) {
     //push($item);
     global $results;
 
-    $results[] = $item;     
+    $results[] = $item;
 
     $mother.= "$organisatie->naam - ";
     parse_orgs(($organisatie->organisaties), $mother);
@@ -85,5 +101,4 @@ function parse_org($organisatie, $mother = null) {
 //    $results[] = $item;     
 //    
 //}
-
 ?>
