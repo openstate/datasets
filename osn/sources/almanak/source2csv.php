@@ -41,8 +41,8 @@ foreach ($xml->children($ns) as $child) {
         parse_orgs($child);
     } else
         die("\n" . $child->getname());
-
-    // process results 
+}
+    // process results        
     foreach ($results[0] as $key => $value) {
         $keys[] = $key;
     }
@@ -54,10 +54,11 @@ foreach ($xml->children($ns) as $child) {
             $values[] = $result[$key];
         }
         $row = '"' . implode('", "', $values) . '"' . "\n";
+     //  print($row);die();
         $rows .= $row;
     }
     file_put_contents("organisaties.csv", $header . $rows); 
-}
+
 
 // now save results to somedisk
 // assumes $organisaties->getname() ==  organisaties
