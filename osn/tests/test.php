@@ -17,46 +17,74 @@ $nullvalues;
 // first build a master-view for arjan
 merge_masterview();
 
-function merge_masterview() {
-    global $concept_masterfile, $sources, $valid, $nullvalues;
+save_masterview();
 
+function save_masterview() {
+    global $concept_mastertable;
+    //var_dump($concept_mastertable);
+    // process results        
+    foreach ($concept_mastertable[0] as $key => $value) {
+        $keys[] = $key;
+    }
+    $header = '"' . implode('", "', $keys) . '"' . "\n";
+    print($header);
+    foreach ($concept_mastertable as $result) {
+        $values = [];
+        foreach ($keys as $key) {
+            $values[] = $result[$key];
+        }
+        $row = '"' . implode('", "', $values) . '"' . "\n";
+        print($row);
+      //  die();
+        $rows .= $row;
+    }
+    file_put_contents("./tests/concept-master-view.csv", $header . $rows);
+}
+
+function merge_masterview() {
+    global $concept_masterfile, $sources, $valid, $nullvalues, $concept_mastertable;
     $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
+
 
     foreach ($sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
 
         //lookup values with index source.Id from $src in $dst 
-        if (mergeTable($sourcetable, $concept_mastertable, $source)) {
+        if (mergeTable($concept_mastertable, $sourcetable, $source)) {
             print("Table  $source is merged into masterview\n");
         } else {
-            print("Table $source si not merged is merged into masterview\n");
+            print("Table $source is not merged is merged into masterview\n");
         }
     }
 }
 
 //lookup value in $dst,does it contain all values of the source file
-function mergeTable($src, $dst, $source) {
+function mergeTable(&$src, $dst, $source) {
     global $valid;
     global $nullvalues;
     $valid = 0;
     $nullvalues = 0;
-    foreach ($src as $sourceitem) {
+    foreach ($src as &$sourceitem) {
         if (mergeItem($sourceitem, $dst, $source)) {
             //   print("item valid\n");
             $valid++;
+            // return true; //temporay break
+            //  var_dump($sourceitem);
             continue;
         }
-        print("Item: " . print_r($sourceitem, true) . "\tis invalid\n");
-        return false;
-        // we did not find it, error
+        //print("Item: " . print_r($sourceitem, true) . "\tis invalid\n");
+        //   var_dump($sourceitem);
+//        return false; //correct
+        // we did not find it, no problem through
     }
+
     print("Merge of table $source succesfull; Number of records valid $valid of "
-            . sizeof($src) . " while dropping $nullvalues nullvalues" . "  \n");
+            . sizeof($src) . " while padding $nullvalues nullvalues" . "  \n");
     return true;
 }
 
 //lookup value in $dst
-function mergeItem($sourceitem, $dst, $source) {
+function mergeItem(&$sourceitem, $dst, $source) {
     global $nullvalues;
 
     foreach ($dst as $dstitem) {
@@ -65,18 +93,29 @@ function mergeItem($sourceitem, $dst, $source) {
         if ($sourceitem["$source" . "Id"] == "") {// drop nulls
             // print " dropping\n";
             $nullvalues++;
-            return true;
+            break;
         }
         if ($sourceitem["$source" . "Id"] == $dstitem["$source" . "Id"]) {
-            print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
-die();
+            //  print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
+//            var_dump($sourceitem);
+//            var_dump($dstitem);
+
+            $sourceitem["$source" . "Name"] = $dstitem["$source" . "Name"];
+            $sourceitem["$source" . "Comment"] = $dstitem["$source" . "Comment"];
+
+
 //            print "\tItem found\n";
             return true;
+        } else {
+//            $dstitem["$source" . "Name"] = "";
+//            $dstitem["$source" . "Comment"] = "";
         }
 //           print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
 //           print "\tnot equal,next\n";
     }
-    print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n";
+    $sourceitem["$source" . "Name"] = "";
+    $sourceitem["$source" . "Comment"] = "";
+    //  print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n";
     return false;
 }
 
