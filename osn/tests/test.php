@@ -4,24 +4,26 @@
 // http://www.openstate.eu
 // tests a concept master-table before approving the commit on the master file
 // when succesful, also builds a new master-view
+//assume we are in root of osn
 
-$concept_masterfile = "./tests/concept-master-table.csv"; //expected in test / PWD directory
+$concept_masterfile = "./tests/concept-master-table.csv";
+$old_masterfile = "./master-table.csv";
 $sources = array("almanak", "cbs"); // first run "almanak", "cbs");// name of the source folders 
 // first build a master-view for arjan
 //todo test against old file
 
+if (validate()) {
+    echo ("If this went well you can update the masterfile with your concept master file");
+    echo ("cp ./tests/concept-master-table.csv ./master-table.csv");
+    echo ("git add ./master-table.csv");
+    echo ("git commit");
+} else
+    die("We died\n");
 
-merge_masterview();
-save_masterview();
+build_masterview();
 
-
-function save_masterview() {
-    global $concept_mastertable;
-    saveCSV($concept_mastertable, "./tests/concept-master-view.csv");
-}
-
-function merge_masterview() {
-    global $concept_masterfile, $sources, $concept_mastertable;    
+function build_masterview() {
+    global $concept_masterfile, $sources, $concept_mastertable;
     $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
 
     foreach ($sources as $source) {
@@ -33,6 +35,7 @@ function merge_masterview() {
             print("Table $source is not merged is merged into masterview\n");
         }
     }
+    saveCSV($concept_mastertable, "./tests/concept-master-view.csv");
 }
 
 //lookup value in $dst,does it contain all values of the source file
@@ -86,9 +89,21 @@ function mergeItem(&$sourceitem, $dst, $source) {
     return false;
 }
 
-function validate_sources() {
-    global $concept_masterfile, $sources, $valid, $nullvalues;
+function validate() {
+    global $concept_masterfile, $old_masterfile;
+
     $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
+    //validate_sources($concept_mastertable);
+    // validate against old masterfile
+    $old_mastertable = loadCSV($old_masterfile);
+    foreach ($old_mastertable as $row) {
+        var_dump($row);
+        die('testing validate against old masterfile');
+    }
+}
+
+function validate_sources($concept_mastertable) {
+    global $sources;
 
     foreach ($sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
@@ -100,8 +115,6 @@ function validate_sources() {
             print("Table $source as src invalid\n");
             die("DIE");
         }
-
-
         //lookup values with index source.Id from $dst in $src
         if (validateTable($concept_mastertable, $sourcetable, $source)) {
             print("Table $source as dst is valid\n");
@@ -184,7 +197,7 @@ function saveCSV($results, $target) {
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
-        $row = '"' . implode('";"', $values) . '"' . "\n";       
+        $row = '"' . implode('";"', $values) . '"' . "\n";
         $rows .= $row;
     }
     file_put_contents($target, $header . $rows);
