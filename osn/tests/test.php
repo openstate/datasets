@@ -13,14 +13,14 @@ $sources = array("almanak", "cbs"); // first run "almanak", "cbs");// name of th
 //todo test against old file
 
 if (validate()) {
-    echo ("If this went well you can update the masterfile with your concept master file");
-    echo ("cp ./tests/concept-master-table.csv ./master-table.csv");
-    echo ("git add ./master-table.csv");
-    echo ("git commit");
-} else
+    echo ("If this went well you can update the masterfile with your concept master file\n");
+    echo ("cp ./tests/concept-master-table.csv ./master-table.csv\n");
+    echo ("git add ./master-table.csv\n");
+    echo ("git commit\n");
+    build_masterview();
+} else {
     die("We died\n");
-
-build_masterview();
+}
 
 function build_masterview() {
     global $concept_masterfile, $sources, $concept_mastertable;
@@ -91,7 +91,7 @@ function mergeItem(&$sourceitem, $dst, $source) {
 
 function validate() {
     global $concept_masterfile, $old_masterfile;
-
+return true;
     $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
     //validate_sources($concept_mastertable);
     // validate against old masterfile
@@ -190,14 +190,14 @@ function saveCSV($results, $target) {
     foreach ($results[0] as $key => $value) {
         $keys[] = $key;
     }
-    $header = '"' . implode('";"', $keys) . '"' . "\n";
+    $header = '"' . implode('","', $keys) . '"' . "\n";
     //print($header);
     foreach ($results as $result) {
         $values = [];
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
-        $row = '"' . implode('";"', $values) . '"' . "\n";
+        $row = '"' . implode('","', $values) . '"' . "\n";
         $rows .= $row;
     }
     file_put_contents($target, $header . $rows);
