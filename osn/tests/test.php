@@ -2,17 +2,10 @@
 
 // 2016 Copyleft Lex Slaghuis, Open State Foundation 
 // http://www.openstate.eu
-// tests a concept master-table before approving the commit on the master file
-// when succesful, also builds a new master-view
-//assume we are in root of osn
-// first build a master-view for arjan
-//todo test against old file
+
 $configfile = "./tests/config.json";
-
 $config = json_decode(file_get_contents($configfile));
-var_dump($config);
-
-
+print_r($config);
 
 echo ("\n");
 if (validate()) {
@@ -20,16 +13,23 @@ if (validate()) {
     echo ("cp ./tests/concept-master-table.csv ./master-table.csv\n");
     echo ("git add ./master-table.csv\n");
     echo ("git commit\n\n\n");
-    build_masterview();
+die('remove me');   
+// build_masterview();
 } else {
     die("We died validating\n");
 }
+die('remove me');
+/*
+ * Functions
+ */
+
 
 function build_masterview() {
-    global $concept_masterfile, $sources, $concept_mastertable;
-    $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
+    global $config;    //$concept_masterfile, $sources, $concept_mastertable;
+       
+    $concept_mastertable = loadCSV($config->concept_masterfile); //should be in test dir
 
-    foreach ($sources as $source) {
+    foreach ($config->sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
         //lookup values with index source.Id from $src in $dst 
         if (mergeTable($concept_mastertable, $sourcetable, $source)) {
@@ -38,7 +38,7 @@ function build_masterview() {
             print("\tTable $source is not merged is merged into masterview\n");
         }
     }
-    saveCSV($concept_mastertable, "./tests/concept-master-view.csv");
+    saveCSV($concept_mastertable, "./tests/concept-master-view.csv");// should be in config
     print("\nMerged masterview is saved to disk\n");
 }
 
@@ -91,9 +91,9 @@ function mergeItem(&$sourceitem, $dst, $source) {
 }
 
 function validate() {
-    global $concept_masterfile, $old_masterfile;
+    global $config;//    global $concept_masterfile, $old_masterfile;
 
-    $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
+    $concept_mastertable = loadCSV($config->concept_masterfile); //should be in test dir
     if (!validate_sources($concept_mastertable)) {
         die("validate_sources failed\n");
     } else {
@@ -101,7 +101,7 @@ function validate() {
     }
 
 // validate against old masterfile
-    $old_mastertable = loadCSV($old_masterfile);
+    $old_mastertable = loadCSV($config->old_masterfile);
     if (!validate_oldmastertable($old_mastertable, $concept_mastertable)) {
         die("validate_oldmastertable failed\n");
     } else {
@@ -179,13 +179,16 @@ function validate_oldmastersubrowkeys($omrow, $omkey, $keys, $cmrow) {
 }
 
 function validate_sources($concept_mastertable) {
-    global $sources;
+    global $config;
     global $valid;
     global $nullvalues;
 
-    foreach ($sources as $source) {
+    foreach ($config->sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
 
+        //var_dump($sourcetable);
+       // var_dump($concept_mastertable);
+  
         //lookup values with index source.Id from $src in $dst 
         if (validateTable($sourcetable, $concept_mastertable, $source)) {
             print("\tvalidateTable $source as src is success; Number of records valid $valid of "
@@ -213,7 +216,8 @@ function validateTable($src, $dst, $source) {
     $valid = 0;
     $nullvalues = 0;
     foreach ($src as $sourceitem) {
-        if (validateItem($sourceitem, $dst, $source)) { //   print("item valid\n");
+        if (validateItem($sourceitem, $dst, $source)) { 
+ // print("item valid\n");
             $valid++;
             continue;
         }
@@ -227,9 +231,14 @@ function validateTable($src, $dst, $source) {
 function validateItem($sourceitem, $dst, $source) {
     global $nullvalues;
 
+    //var_dump($dst);die();
+    
     foreach ($dst as $dstitem) {
-        // print(" sourceitem:" . $sourceitem["$source" . "Id"]);
-
+//         print(" sourceitem:" . $sourceitem["$source" . "Id"]);
+  //          print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
+//var_dump($sourceitem);
+//            var_dump($dstitem);
+//            die();      
         if ($sourceitem["$source" . "Id"] == "") {// print " dropping\n";
             $nullvalues++;
             return true;
@@ -242,7 +251,7 @@ function validateItem($sourceitem, $dst, $source) {
 //           print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
 //           print "\tnot equal,next\n";
     }
-    print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n";
+    print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n";//errrors
     return false;
 }
 

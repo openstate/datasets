@@ -21,7 +21,7 @@ b. is every id in the concept masterfile available in the source
 a. that the concept masterfile has a row containing the same key
 b. and that this row contains identical values (both null or equal)
 // the latter should be updated when loading a new data file to allow for additions
-* Build  an new masterview
+* Followed by build  an new masterview 
 
 
 Note approved^: a source that was succesfully imported and is listed in the
