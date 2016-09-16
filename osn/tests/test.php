@@ -5,21 +5,24 @@
 // tests a concept master-table before approving the commit on the master file
 // when succesful, also builds a new master-view
 //assume we are in root of osn
-
-$concept_masterfile = "./tests/concept-master-table.csv";
-$old_masterfile = "./master-table.csv";
-$sources = array("almanak", "cbs"); // first run "almanak", "cbs");// name of the source folders 
 // first build a master-view for arjan
 //todo test against old file
+$configfile = "./tests/config.json";
 
+$config = json_decode(file_get_contents($configfile));
+var_dump($config);
+
+
+
+echo ("\n");
 if (validate()) {
-    echo ("If this went well you can update the masterfile with your concept master file\n");
+    echo ("\n\nIf this went well you can update the masterfile with your concept master file\n");
     echo ("cp ./tests/concept-master-table.csv ./master-table.csv\n");
     echo ("git add ./master-table.csv\n");
-    echo ("git commit\n");
+    echo ("git commit\n\n\n");
     build_masterview();
 } else {
-    die("We died\n");
+    die("We died validating\n");
 }
 
 function build_masterview() {
@@ -30,12 +33,13 @@ function build_masterview() {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
         //lookup values with index source.Id from $src in $dst 
         if (mergeTable($concept_mastertable, $sourcetable, $source)) {
-            print("Table  $source is merged into masterview\n");
+            print("\tTable  $source is merged into masterview\n");
         } else {
-            print("Table $source is not merged is merged into masterview\n");
+            print("\tTable $source is not merged is merged into masterview\n");
         }
     }
     saveCSV($concept_mastertable, "./tests/concept-master-view.csv");
+    print("\nMerged masterview is saved to disk\n");
 }
 
 //lookup value in $dst,does it contain all values of the source file
@@ -69,11 +73,8 @@ function mergeItem(&$sourceitem, $dst, $source) {
         }
         if ($sourceitem["$source" . "Id"] == $dstitem["$source" . "Id"]) {
 //          print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
-//          var_dump($sourceitem);
-//          var_dump($dstitem);
             $sourceitem["$source" . "Name"] = $dstitem["$source" . "Name"];
             $sourceitem["$source" . "Comment"] = $dstitem["$source" . "Comment"];
-//          print "\tItem found\n";
             $valid++;
             return true;
         } else {
@@ -91,37 +92,118 @@ function mergeItem(&$sourceitem, $dst, $source) {
 
 function validate() {
     global $concept_masterfile, $old_masterfile;
-return true;
+
     $concept_mastertable = loadCSV($concept_masterfile); //should be in test dir
-    //validate_sources($concept_mastertable);
-    // validate against old masterfile
-    $old_mastertable = loadCSV($old_masterfile);
-    foreach ($old_mastertable as $row) {
-        var_dump($row);
-        die('testing validate against old masterfile');
+    if (!validate_sources($concept_mastertable)) {
+        die("validate_sources failed\n");
+    } else {
+        print("\nvalidate_sources success\n");
     }
+
+// validate against old masterfile
+    $old_mastertable = loadCSV($old_masterfile);
+    if (!validate_oldmastertable($old_mastertable, $concept_mastertable)) {
+        die("validate_oldmastertable failed\n");
+    } else {
+        print("\nvalidate_oldmastertable success\n");
+    }
+    return true;
+}
+
+function validate_oldmastertable($old_mastertable, $concept_mastertable) {
+    foreach ($old_mastertable as $omrow) {
+        if (!validate_oldmasterrow($concept_mastertable, $omrow)) {
+            die("validate_oldmasterrow failed\n");
+            return false;
+        }
+        //     print("\tvalidate_oldmasterrow success\n");
+    }
+    return true;
+}
+
+function validate_oldmasterrow($concept_mastertable, $omrow) {
+    // print_r($omrow);
+    foreach ($omrow as $omkey => $omvalue) {
+        //    print("\t\tValidating in old mastertable key $omkey with value $omvalue \n");
+        if ($omvalue == null) {
+            //    print("\t\t\tskipping validation of old masterfile null value\n");
+            continue;
+        }
+        if (!validate_oldmasterkey($concept_mastertable, $omrow, $omkey, $omvalue, array_keys($omrow))) {
+            die("validate_oldmasterrow failed\n");
+            return false;
+        }
+    }
+    return true;
+}
+
+function validate_oldmasterkey($concept_mastertable, $omrow, $omkey, $omvalue, $keys) {
+    foreach ($concept_mastertable as $cmrow) {
+        if ($cmrow[$omkey] == $omvalue) {
+            //    print("\t\tSearchkey $omkey Validated  with $cmrow[$omkey] with $omvalue \n");
+            if (!validate_oldmastersubrowkeys($omrow, $omkey, $keys, $cmrow)) {
+                die("validate_oldmastersubrowkeys failed\n");
+            }
+            //    print("\t\tSearchkey $omkey Validated with $cmrow[$omkey] with $omvalue success\n");
+            return true;
+        }
+    }
+    die("We did not find any matching key\n");
+    return false;
+}
+
+function validate_oldmastersubrowkeys($omrow, $omkey, $keys, $cmrow) {
+    foreach ($keys as $key) {
+        if ($key == $omkey) {
+            //          print("\t\t\tKey $key w $omkey already checked \n");
+            continue;
+        } else if ($omrow[$key] == null && $cmrow[$key] == null) {
+            //         print("\t\t\tSkipping Both $key in oldmaster $cmrow[$key] and conceptmaster have null value\n");
+            continue;
+        } else if ($omrow[$key] == null || $cmrow[$key] == null) {
+            var_dump($omrow);
+            var_dump($cmrow);
+            die("either one has null value");
+        }
+
+        if ($cmrow[$key] == $omrow[$key]) {
+            //      print("\t\t\tRowkey Validated $key with $cmrow[$key] and $omrow[$key] \n");
+            // everyhting ok, value matched, continue w. n. $key
+            continue;
+        } // else { // other field is either something else or null
+        //var_dump($omrow); var_dump($cmrow);
+        die("Row Matching  $key  error $cmrow[$key] != $omrow[$key]\n");
+        return false;
+    }
+    return true;
 }
 
 function validate_sources($concept_mastertable) {
     global $sources;
+    global $valid;
+    global $nullvalues;
 
     foreach ($sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
 
         //lookup values with index source.Id from $src in $dst 
         if (validateTable($sourcetable, $concept_mastertable, $source)) {
-            print("Table  $source as src is valid\n");
+            print("\tvalidateTable $source as src is success; Number of records valid $valid of "
+                    . sizeof($sourcetable) . " while dropping $nullvalues nullvalues" . "\n");
         } else {
-            print("Table $source as src invalid\n");
-            die("DIE");
+            die("validateTable $source as src failed\n");
+            return false;
         }
         //lookup values with index source.Id from $dst in $src
         if (validateTable($concept_mastertable, $sourcetable, $source)) {
-            print("Table $source as dst is valid\n");
+            print("\tvalidateTable $source as dst is success; Number of records valid $valid of "
+                    . sizeof($concept_mastertable) . " while dropping $nullvalues nullvalues" . "\n");
         } else {
-            print("Table $source as dst invalid\n");
+            die("validateTable $source as dst failed");
+            return false;
         }
     }
+    return true;
 }
 
 //lookup value in $dst,does it contain all values of the source file
@@ -131,17 +213,13 @@ function validateTable($src, $dst, $source) {
     $valid = 0;
     $nullvalues = 0;
     foreach ($src as $sourceitem) {
-        if (validateItem($sourceitem, $dst, $source)) {
-            //   print("item valid\n");
+        if (validateItem($sourceitem, $dst, $source)) { //   print("item valid\n");
             $valid++;
             continue;
         }
         print("Item: " . print_r($sourceitem, true) . "\tis invalid\n");
-        return false;
-        // we did not find it, error
+        return false; // we did not find it, error
     }
-    print("Validaton of table $source succesfull; Number of records valid $valid of "
-            . sizeof($src) . " while dropping $nullvalues nullvalues" . "  \n");
     return true;
 }
 
@@ -152,9 +230,7 @@ function validateItem($sourceitem, $dst, $source) {
     foreach ($dst as $dstitem) {
         // print(" sourceitem:" . $sourceitem["$source" . "Id"]);
 
-        if ($sourceitem["$source" . "Id"] == ""
-        ) {// drop nulls
-            // print " dropping\n";
+        if ($sourceitem["$source" . "Id"] == "") {// print " dropping\n";
             $nullvalues++;
             return true;
         }
