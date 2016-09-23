@@ -16,12 +16,27 @@ $config = array(
     "servers" => array('http://dataderden.cbs.nl', 'http://opendata.cbs.nl'),
     "blacklist_datasets" => array(),
     "blacklist_id_values" => array(
-        "WBL", "NL00", "NL10", "99900", "99901", "99902", "99903", 
-        "GM9995", "GM9994" ,"GM9993", "GM9992" ,"GM9991" ,"GM9990"
+        "WBL", "NL00", "NL10", "99900", "99901", "99902", "99903",
+        "GM9995", "GM9994", "GM9993", "GM9992", "GM9991", "GM9990", "GM9999"
     ),
     "blacklist_name_values" => array(
         "Waterschappen met traditionele taken", "Waterschappen met waterzuiveringstaak", "Alle waterschappen tezamen"
         , "Nederland", "G4"
+// insert stadsdelen lowercase foutief
+    ),
+    "duplo_names" => array(
+        "Groningen" => array(
+            "0014" => "Groningen (gemeente)",
+            "PV20" => "Groningen (PV)",
+            "GM0014" => "Groningen (gemeente)",
+            "Gronin 14" => "Groningen (gemeente)"
+        ),
+        "Utrecht" => array(
+            "0344" => "Utrecht (gemeente)",
+            "PV26" => "Utrecht (PV)",
+            "GM0344" => "Utrecht (gemeente)",
+            "Utrech 344" => "Utrecht (gemeente)"
+        )
     ),
     "index" => '/ODataApi',
     "path" => './sources/cbs',
@@ -30,9 +45,6 @@ $config = array(
     "whitelist" => array("Gemeenten", "Provincies", "Waterschappen",
         "GemeenschappelijkeRegelingen"));
 
-// not sure about "RegioS"  (corop regio's), Gemeentenaam_1 (?), Gemeentecode_72
-//, Gemeentenaam_73, Gemeentecode_1, Waterschappen, GGDRegio
-// test error log consequtive ly
 
 main();
 die();
@@ -45,9 +57,8 @@ function main() {
 
 
     transform_data($resume_results);
-    //  load does the validation against old source
-    // and puts new file in place ; also provides a delta
-    // and logs the delta against a changes file
+
+    //  loading is independently done by test scripts
 }
 
 function extract_data() {
@@ -74,52 +85,75 @@ function extract_data() {
 
 function transform_data($resume_results) {
     global $results, $config; //import results from extractor
-    if (isset($resume_results))
+    if (isset($resume_results)) {
         $results = $resume_results;
-   
+    }
     $target = [];
     print("Aantal originele records " . sizeof($results) . "\n");
     foreach ($results as $result) {
-
-
+//
+//        if ($result->cbsName == "Enschede") {
+//            var_dump($result); // enschede already gouda
+//            die("hohohoh");
+//        }
         // ignore blacklist stuff
         if (in_array($result->cbsId, $config['blacklist_id_values']) || in_array($result->cbsName, $config['blacklist_name_values'])) {
-           // print("\nDROPPING " . $result->cbsId . "\n");
             continue;
         }
 
-        if (isset($target[$result->cbsName])) {
-            //  print " reeds gevonden " . $target[$result->cbsName]["cbsName"] . ": ";
-        } else {
-            //   print" nieuw! " . $result->cbsName . "\n ";
+        // handle duplo names Utrecht, Groningen, etc
+        if (isset($config['duplo_names'][$result->cbsName])) {
+            if (isset($config['duplo_names'][$result->cbsName][$result->cbsId])) {
+                $result->cbsName = $config['duplo_names'][$result->cbsName][$result->cbsId];
+            } else
+                continue;
         }
-        $id = $result->cbsId; // should be instead Id colomn (bactrack extractor)
-     //   print("\n dus:" . $result->cbsName . ":\n");
+
+        $id = $result->cbsId;
 
         if (is_cbsId($id)) {
-            $target[$result->cbsName]["cbsId"] = $id;
-            $target[$result->cbsName]["cbsIdCount"] = !isset($target[$result->cbsName]["cbsIdCount"]) ? 1 :
-                    $target[$result->cbsName]["cbsIdCount"] + 1;
+            $target[$result->cbsName . $id]["cbsId"] = $id; // overwrites old values
+            $target[$result->cbsName . $id]["cbsIdCount"] = !isset($target[$result->cbsName . $id]["cbsIdCount"]) ? 1 :
+                    $target[$result->cbsName . $id]["cbsIdCount"] + 1;
+            $target[$result->cbsName . $id]["cbsName"] = $result->cbsName; // make conditional 
+            $target[$result->cbsName . $id]["cbsComment"] = $result->cbsComment; // make cs list    
         } else if (is_cbsShort($id)) {
-            $target[$result->cbsName]["cbsShort"] = $id;
-            $target[$result->cbsName]["cbsShortCount"] = !isset($target[$result->cbsName]["cbsShortCount"]) ? 1 :
-                    $target[$result->cbsName]["cbsShortCount"] + 1;
+//            $target[$result->cbsName]["cbsShort"] = $id;
+//            $target[$result->cbsName]["cbsShortCount"] = !isset($target[$result->cbsName]["cbsShortCount"]) ? 1 :
+//                    $target[$result->cbsName]["cbsShortCount"] + 1;
+            continue;
         } else if (is_cbsLong($id)) {
-            $target[$result->cbsName]["cbsLong"] = $id;
-            $target[$result->cbsName]["cbsLongCount"] = !isset($target[$result->cbsName]["cbsLongCount"]) ? 1 :
-                    $target[$result->cbsName]["cbsLongCount"] + 1;
+//            $target[$result->cbsName]["cbsLong"] = $id;
+//            $target[$result->cbsName]["cbsLongCount"] = !isset($target[$result->cbsName]["cbsLongCount"]) ? 1 :
+//                    $target[$result->cbsName]["cbsLongCount"] + 1;
+            continue;
         } else {
             die("FAIL");
         }
-        $target[$result->cbsName]["cbsName"] = $result->cbsName; // make conditional 
-        $target[$result->cbsName]["cbsComment"] = $result->cbsComment; // make cs list                
     }
 
-     print("Aantal deduped records " . sizeof($target) . "\n");
+    print("Aantal deduped records by Name before removing nulls " . sizeof($target) . "\n");
 
+    $dst = [];
+    foreach ($target as $key => $value) {
+        if (!isset($dst[$value['cbsId']])) {
+            $dst[$value['cbsId']] = $value; // just take the data
+        } else {// compare values
+            if ($dst[($value['cbsId'])]['cbsName'] != $value['cbsName']) {
+                // print("Different Names" . $dst[($value['cbsId'])]['cbsName'] . " with " . $value['cbsName'] . "\n");
+                if ($dst[($value['cbsId'])]['cbsIdCount'] < $value['cbsIdCount']) {
+               //     print(" Counts target " . $dst[($value['cbsId'])]['cbsIdCount'] . " smaller then value " . $value['cbsIdCount'] . " INSERTING\n");
+                    $dst[$value['cbsId']] = $value; // just take the data
+                } else {
+                  //  print(" Counts target " . $dst[($value['cbsId'])]['cbsIdCount'] . " larger or equal then value " . $value['cbsIdCount'] . " DROP\n");
+                }
+            }
+        }
+    }
 
-    $records = array_values($target);
- //   var_dump($records[0]);
+    print("Aantal deduped records after removing nulls " . sizeof($dst) . "\n");
+
+    $records = array_values($dst);
 
     saveCSV($records, $config["path"] . "/concept-transformed-source-" . $config['source'] . ".csv");
 }
@@ -176,10 +210,10 @@ function is_cbsId($id) {
 function is_cbsLong($id) {
 
     $word = explode(" ", $id);
-   // print( " END: " . end($word) . ":\n");
+    // print( " END: " . end($word) . ":\n");
 
     if (is_numeric(end($word))) {
-     //   print("ends with numeric\n");
+        //   print("ends with numeric\n");
         return true;
     } else {
         print("does not end with numeric\n");
@@ -189,15 +223,15 @@ function is_cbsLong($id) {
 
 // as 1234 4 bytes, but also 789 (zero accidently dropped)
 function is_cbsShort($id) {
-   // print($id . "\t");
+    // print($id . "\t");
     if (strlen($id) == 4) {
         foreach (str_split($id) as $ch) {
-            if (! ctype_digit($ch)) {
+            if (!ctype_digit($ch)) {
                 die("er is iets ID:$id mis 1");
                 return false;
             }
         }
-   //     print("we keuren CBSSHORT hem goed :$id:\n");
+        //     print("we keuren CBSSHORT hem goed :$id:\n");
         return true;
     }
     return false;
@@ -243,22 +277,22 @@ function get_data_set($server, $link) {
 }
 
 function saveCSV($results, $target) {
-    foreach ($results as $result){
-        foreach($result as $key => $value) {
-        $keys[$key] = $key;
+    foreach ($results as $result) {
+        foreach ($result as $key => $value) {
+            $keys[$key] = $key;
         }
     }
     //var_dump($keys);
-        
+
     $header = '"' . implode('","', $keys) . '"' . "\n";
-    print($header);
+    //print($header);
     foreach ($results as $result) {
         $values = [];
         foreach ($keys as $key) {
             $values[] = $result[$key];
         }
         $row = '"' . implode('","', $values) . '"' . "\n";
-        print($row);
+        //print($row);
         $rows .= $row;
     }
     file_put_contents($target, $header . $rows);
