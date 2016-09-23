@@ -155,7 +155,7 @@ function transform_data($resume_results) {
 
     $records = array_values($dst);
 
-    saveCSV($records, $config["path"] . "/concept-transformed-source-" . $config['source'] . ".csv");
+    saveCSV($records, $config["path"] . "/concept-source-" . $config['source'] . ".csv");
 }
 
 // as GM1345 , fist 2 letters are GM, PV, WS, GR then 4 bytes, optionally extended with letters and numbers
