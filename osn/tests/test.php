@@ -16,7 +16,7 @@ if (validate()) {
 } else {
     die("We died validating\n");
 }
-//build_masterview();
+build_masterview();
 echo ("\n\nIf this went well you can update the masterview with your concept master view\n");
 echo ("cp ./tests/concept-master-view.csv ./master-view.csv\n");
 echo ("git add ./master-view.csv\n");
@@ -102,7 +102,7 @@ function validate() {
     } else {
         print("\nvalidate_sources success\n");
     }
-die();
+
 // validate against old masterfile
     $old_mastertable = loadCSV($config->old_masterfile);
     if (!validate_oldmastertable($old_mastertable, $concept_mastertable)) {
@@ -143,14 +143,15 @@ function validate_oldmasterrow($concept_mastertable, $omrow) {
 function validate_oldmasterkey($concept_mastertable, $omrow, $omkey, $omvalue, $keys) {
     foreach ($concept_mastertable as $cmrow) {
         if ($cmrow[$omkey] == $omvalue) {
-            //    print("\t\tSearchkey $omkey Validated  with $cmrow[$omkey] with $omvalue \n");
+            //      print("\t\tSearchkey $omkey Validated  with $cmrow[$omkey] with $omvalue \n");
             if (!validate_oldmastersubrowkeys($omrow, $omkey, $keys, $cmrow)) {
                 die("validate_oldmastersubrowkeys failed\n");
             }
-            //    print("\t\tSearchkey $omkey Validated with $cmrow[$omkey] with $omvalue success\n");
+            // print("\t\tSearchkey $omkey Validated with $cmrow[$omkey] with $omvalue success\n");
             return true;
         }
     }
+    print("\t\tSearchkey $omkey Validated with $cmrow[$omkey] with $omvalue fail\n");
     die("We did not find any matching key\n");
     return false;
 }
@@ -174,7 +175,8 @@ function validate_oldmastersubrowkeys($omrow, $omkey, $keys, $cmrow) {
             // everyhting ok, value matched, continue w. n. $key
             continue;
         } // else { // other field is either something else or null
-        //var_dump($omrow); var_dump($cmrow);
+        var_dump($omrow);
+        var_dump($cmrow);
         die("Row Matching  $key  error $cmrow[$key] != $omrow[$key]\n");
         return false;
     }
@@ -229,7 +231,7 @@ function validateTable($src, $dst, $source) {
 //lookup value in $dst
 function validateItem($sourceitem, $dst, $source) {
     global $nullvalues;
-    
+
     foreach ($dst as $dstitem) {
         if ($sourceitem["$source" . "Id"] == "") {// print " dropping\n";
             $nullvalues++;
@@ -240,7 +242,6 @@ function validateItem($sourceitem, $dst, $source) {
 //            print "\tItem found\n";
             return true;
         }
-        
     }
     print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n"; //errrors
     return false;
