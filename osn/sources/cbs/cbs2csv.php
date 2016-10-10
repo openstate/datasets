@@ -143,7 +143,7 @@ function transform_data($resume_results) {
                 // print("Different Names" . $dst[($value['cbsId'])]['cbsName'] . " with " . $value['cbsName'] . "\n");
                 if ($dst[($value['cbsId'])]['cbsIdCount'] < $value['cbsIdCount']) {
                //     print(" Counts target " . $dst[($value['cbsId'])]['cbsIdCount'] . " smaller then value " . $value['cbsIdCount'] . " INSERTING\n");
-                    $dst[$value['cbsId']] = $value; // just take the data
+                    $dst[$value['cbsId']] = $value; // just take the data (or drop cbsCounts... Discussion)
                 } else {
                   //  print(" Counts target " . $dst[($value['cbsId'])]['cbsIdCount'] . " larger or equal then value " . $value['cbsIdCount'] . " DROP\n");
                 }
