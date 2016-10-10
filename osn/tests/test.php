@@ -12,21 +12,24 @@ if (validate()) {
     echo ("\n\nIf this went well you can update the masterfile with your concept master file\n");
     echo ("cp ./tests/concept-master-table.csv ./master-table.csv\n");
     echo ("git add ./master-table.csv\n");
-    echo ("git commit\n\n\n");
-die('remove me');   
-// build_masterview();
+    echo ("git commit & git push\n\n\n");
 } else {
     die("We died validating\n");
 }
+//build_masterview();
+echo ("\n\nIf this went well you can update the masterview with your concept master view\n");
+echo ("cp ./tests/concept-master-view.csv ./master-view.csv\n");
+echo ("git add ./master-view.csv\n");
+echo ("git commit & git push\n\n\n");
+
 die('remove me');
 /*
  * Functions
  */
 
-
 function build_masterview() {
     global $config;    //$concept_masterfile, $sources, $concept_mastertable;
-       
+
     $concept_mastertable = loadCSV($config->concept_masterfile); //should be in test dir
 
     foreach ($config->sources as $source) {
@@ -38,7 +41,7 @@ function build_masterview() {
             print("\tTable $source is not merged is merged into masterview\n");
         }
     }
-    saveCSV($concept_mastertable, "./tests/concept-master-view.csv");// should be in config
+    saveCSV($concept_mastertable, "./tests/concept-master-view.csv"); // should be in config
     print("\nMerged masterview is saved to disk\n");
 }
 
@@ -91,7 +94,7 @@ function mergeItem(&$sourceitem, $dst, $source) {
 }
 
 function validate() {
-    global $config;//    global $concept_masterfile, $old_masterfile;
+    global $config; //    global $concept_masterfile, $old_masterfile;
 
     $concept_mastertable = loadCSV($config->concept_masterfile); //should be in test dir
     if (!validate_sources($concept_mastertable)) {
@@ -99,7 +102,7 @@ function validate() {
     } else {
         print("\nvalidate_sources success\n");
     }
-
+die();
 // validate against old masterfile
     $old_mastertable = loadCSV($config->old_masterfile);
     if (!validate_oldmastertable($old_mastertable, $concept_mastertable)) {
@@ -185,10 +188,6 @@ function validate_sources($concept_mastertable) {
 
     foreach ($config->sources as $source) {
         $sourcetable = loadCSV("./sources/" . $source . "/source-" . $source . ".csv");
-
-        //var_dump($sourcetable);
-       // var_dump($concept_mastertable);
-  
         //lookup values with index source.Id from $src in $dst 
         if (validateTable($sourcetable, $concept_mastertable, $source)) {
             print("\tvalidateTable $source as src is success; Number of records valid $valid of "
@@ -216,8 +215,8 @@ function validateTable($src, $dst, $source) {
     $valid = 0;
     $nullvalues = 0;
     foreach ($src as $sourceitem) {
-        if (validateItem($sourceitem, $dst, $source)) { 
- // print("item valid\n");
+        if (validateItem($sourceitem, $dst, $source)) {
+            // print("item valid\n");
             $valid++;
             continue;
         }
@@ -230,15 +229,8 @@ function validateTable($src, $dst, $source) {
 //lookup value in $dst
 function validateItem($sourceitem, $dst, $source) {
     global $nullvalues;
-
-    //var_dump($dst);die();
     
     foreach ($dst as $dstitem) {
-//         print(" sourceitem:" . $sourceitem["$source" . "Id"]);
-  //          print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
-//var_dump($sourceitem);
-//            var_dump($dstitem);
-//            die();      
         if ($sourceitem["$source" . "Id"] == "") {// print " dropping\n";
             $nullvalues++;
             return true;
@@ -248,10 +240,9 @@ function validateItem($sourceitem, $dst, $source) {
 //            print "\tItem found\n";
             return true;
         }
-//           print(" sourceitem:" . $sourceitem["$source" . "Id"] . " dstitem:" . $dstitem["$source" . "Id"]);
-//           print "\tnot equal,next\n";
+        
     }
-    print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n";//errrors
+    print "\tItem:" . $sourceitem["$source" . "Id"] . " not found\n"; //errrors
     return false;
 }
 
