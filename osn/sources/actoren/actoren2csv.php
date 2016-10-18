@@ -23,9 +23,9 @@ die();
 function main() {
     global $config, $results;
     $uri = $config['server'] . $config['index'];
-    print("uri is $uri\n");
+  //  print("uri is $uri\n");
     $link = $uri;
-    while ($res = extract_oai_page($uri)) {      
+    while ($res = extract_oai_page($uri)) {
         $uri = $config['server'] . $config['resumptionpath'] . $res;
         //print("new uri is $uri \n");
     }
@@ -36,8 +36,6 @@ function main() {
 function extract_oai_page($link) {
     global $results;
     print("Starting extractor page w $link\n");
-
-
     $file = file_get_contents($link);
 
     if (empty($file)) {
@@ -64,18 +62,20 @@ function extract_oai_page($link) {
     foreach ($arr["ListRecords"]["record"] as $child) {//
         $cpfDes = $child["metadata"]["eac-cpf"]["cpfDescription"];
         $id = $cpfDes["identity"]["entityId"];
-        
-        
         $name = $cpfDes["identity"]["nameEntry"]["part"];
-        if (is_array($name)){
-            var_dump($cpfDes["identity"]);
+
+        if (is_array($name)) {//  var_dump($cpfDes["identity"]);
             continue;
         }
-       // print ("id $id name $name\n");
 
-        $results[] = array("actorenId" => $id, "ActorenName" => $name);
+        $comment = implode("-", $cpfDes["description"]["existDates"]["dateRange"]);
+
+        print ("id $id name $name comment $comment\n");
+
+        $results[] = array("actorenId" => $id, "actorenName" => $name,
+            "actorenComment" => "$comment");
     }
-    print("exiting extract_oai_page ...\n"); 
+    print("exiting extract_oai_page ...\n");
     return $res;
 }
 
