@@ -23,11 +23,9 @@ die();
 function main() {
     global $config, $results;
     $uri = $config['server'] . $config['index'];
-  //  print("uri is $uri\n");
-    $link = $uri;
+
     while ($res = extract_oai_page($uri)) {
         $uri = $config['server'] . $config['resumptionpath'] . $res;
-        //print("new uri is $uri \n");
     }
 
     saveCSV($results, $config['target']);
@@ -49,10 +47,7 @@ function extract_oai_page($link) {
 
     $arr = json_decode(json_encode($xml), 1); //magic
 
-    $resp = $arr["responseDate"];
-    $request = $arr["request"];
     $res = $arr["ListRecords"]["resumptionToken"];
-    print("resp $resp req $request res $res\n");
 
     if (!isset($res)) {
         print("No resumptiontoken found.. assuming last page\n");
@@ -80,7 +75,7 @@ function extract_oai_page($link) {
 }
 
 /*
- * Code base that is re-used in the proces
+ * Libs
  */
 
 function saveCSV($results, $target) {
