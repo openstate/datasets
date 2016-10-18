@@ -6,95 +6,77 @@
 $config = array(
     "server" => 'https://actorenregister.nationaalarchief.nl',
     "index" => '/oai-pmh?verb=ListRecords&metadataPrefix=eac-cpf',
+    "resumptionpath" => '/oai-pmh?verb=ListRecords&resumptionToken=',
     "path" => './sources/actoren',
     "source" => 'actoren',
     "errorlog" => './sources/actoren/error.log', // shoudl only be file name
+    "target" => './sources/actoren/source-actoren.csv'
 );
+
+// link https://actorenregister.nationaalarchief.nl/oai-pmh?verb=ListRecords&metadataPrefix=eac-cpf
+
+$results = [];
 
 main();
 die();
 
 function main() {
-    global $config;
-    while (1 == 1) {
-        $link = $config['server'] . $config['index'];
-        print("link is $link\n");
-        extract_oai_page($link);
+    global $config, $results;
+    $uri = $config['server'] . $config['index'];
+    print("uri is $uri\n");
+    $link = $uri;
+    while ($res = extract_oai_page($uri)) {      
+        $uri = $config['server'] . $config['resumptionpath'] . $res;
+        //print("new uri is $uri \n");
     }
+
+    saveCSV($results, $config['target']);
 }
 
 function extract_oai_page($link) {
-    $results = [];
+    global $results;
+    print("Starting extractor page w $link\n");
+
+
     $file = file_get_contents($link);
-  // print($file);
- //  die('temove me');
-    if (empty($file))
+
+    if (empty($file)) {
         die("empty file");
+    }
     $xml = simplexml_load_string($file);
     $error = libxml_get_errors();
-    if (!empty($error))
+    if (!empty($error)) {
         die($error);
-
-    $namespaces = $xml->getNamespaces();
-   //var_dump($namespaces);
-    
-    
-    $ns = $namespaces[""];
-    if (!isset($ns))
-        die("namespace error");
-
-    //var_dump($xml->children($ns)->responseDate);// Datetime of response
-    //var_dump($xml->children($ns)->request); // original uri
-   // var_dump($xml->children($ns)->ListRecords);// the data ending w. resumpption token
-    
-
-    foreach ($xml->children($ns)->ListRecords->record as $child) {//
-        
-        print("\nlekker dan " . $child->getname());
-        var_dump($child);
-        var_dump($child->metadata);
-        die();
-        print ("\n");
- 
-        die();
-        
-        continue;
-        die();
-        if ($child->getname() == "gemeenten") {
-
-            foreach ($child as $organisatie) {
-//            print("id: "
-//                    . $organisatie->systemId->systemId . " "
-//                    . $organisatie->naam . "\n");
-                $item = array(
-                    "almanakId" => ((string) $organisatie->systemId->systemId),
-                    "almanakName" => ((string) $organisatie->naam),
-                    "almanalComment" => null);
-                global $results;
-                $results[] = $item;
-            }
-        } else if ($child->getname() == "organisaties") {
-            parse_orgs($child);
-        } else
-            die("\n" . $child->getname());
     }
-    die("END OF SCAN remove me");
-    // process results        
-    foreach ($results[0] as $key => $value) {
-        $keys[] = $key;
-    }
-    $header = '"' . implode('", "', $keys) . '"' . "\n";
 
-    foreach ($results as $result) {
-        $values = [];
-        foreach ($keys as $key) {
-            $values[] = $result[$key];
+    $arr = json_decode(json_encode($xml), 1); //magic
+
+    $resp = $arr["responseDate"];
+    $request = $arr["request"];
+    $res = $arr["ListRecords"]["resumptionToken"];
+    print("resp $resp req $request res $res\n");
+
+    if (!isset($res)) {
+        print("No resumptiontoken found.. assuming last page\n");
+        return false;
+    }
+
+    foreach ($arr["ListRecords"]["record"] as $child) {//
+        $cpfDes = $child["metadata"]["eac-cpf"]["cpfDescription"];
+        $id = $cpfDes["identity"]["entityId"];
+        
+        
+        $name = $cpfDes["identity"]["nameEntry"]["part"];
+        if (is_array($name)){
+            var_dump($cpfDes["identity"]);
+            continue;
         }
-        $row = '"' . implode('", "', $values) . '"' . "\n";
-        //  print($row);die();
-        $rows .= $row;
+       // print ("id $id name $name\n");
+
+        $results[] = array("actorenId" => $id, "ActorenName" => $name);
     }
-    file_put_contents("source-almanak.csv", $header . $rows);
+    print("exiting extract_oai_page ...\n"); 
+    return $res;
 }
 
 /*
@@ -129,4 +111,5 @@ function error($string) {
     date_default_timezone_set('UTC');
     file_put_contents($config[errorlog], date("F j, Y, g:i a e O") . " $string\n", FILE_APPEND);
 }
+
 ?>
