@@ -7,3 +7,4 @@ A collection of datasets which we have enriched and want to share for reuse by o
 - Open Coalitieakkoorden
 - EU Whoiswho
 - Subsidies ministeries 2015
+- Domain names of Dutch government websites
