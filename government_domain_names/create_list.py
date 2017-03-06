@@ -101,6 +101,7 @@ remove = [
     'niet',
     'nvt',
     'N.v.t.',
+    'N.v.t',
     'geen',
     '-',
     '---',
@@ -118,14 +119,25 @@ def extract_csv(filename):
         domain_type = filename.split('.')[0].replace('-', ' ')
         reader = UnicodeReader(IN)
         for row in reader:
+            # Skip empty rows
             if row:
                 domain = []
-                url = row[0].strip().strip(']"').strip()
+                # Strip whitespace (and some ugly ']"' stuff found in
+                # gemeenschappelijke regelingen data)
+                url = row[0].strip().strip(']"').strip().rstrip('.')
+                # Remove more ugly stuff gemeenschappelijke regelingen
+                # data
                 if url.upper() in remove_i:
                     continue
                 if url:
+                    # Remove scheme
                     path = re.sub('https?://', '', url)
-                    domain_name = re.sub('/.*', '', path)
+                    # Remove path
+                    subdomain_name = re.sub('/.*', '', path)
+                    # Remove www
+                    domain_name = re.sub(
+                        r'^www\.(.*\..*)', r'\1', subdomain_name
+                    )
                     if domain_name in known_domains:
                         continue
                     domain.append(domain_name)
