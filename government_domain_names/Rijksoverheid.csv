@@ -84,7 +84,6 @@ eherkenning.nl,BZK
 atlasleefomgeving.nl,IenM
 grensinfopunt.nl,SZW
 forensischinstituut.nl,VenJ
-duurzaamdoen.nl,IenM
 innovatie-estafette.nl,IenM
 agentschapszw.nl,SZW
 inspectieloket.nl,IenM
@@ -295,7 +294,6 @@ campagnevannix.nl,VWS
 cannabisbureau.nl,VWS
 caopolitie.nl,VenJ
 cawsw.nl,IenM
-cbgjaarverslag.nl/jaarverslag.nl,VWS
 cbgjaarverslag2013.nl,VWS
 cbg-meb.nl,VWS
 cbpweb.nl,VenJ
@@ -336,7 +334,6 @@ daarkunjemeethuiskomen.nl,IenM
 daarwordtiedereenbetervan.nl,VWS
 datawonen.nl,BZK
 dcypher.nl,OCW
-defensie.nl/english .nl,DEF
 defensiepijpleidingorganisatie.nl,DEF
 dekinderombudsman.nl,NO
 deleerkaart.nl,BZK
@@ -356,6 +353,7 @@ dezorgagenda.nl,VWS
 dggf.nl,EZ
 dictu.nl,EZ
 diergeneeskunderegister.nl,VWS
+diergeneesmiddeleninformatiebank.nl,VWS
 digicommissaris.nl,BZK
 digitaleoverheid.nl,BZK
 digitaliserenmetbeleid.nl,EZ
@@ -367,7 +365,6 @@ donorregister.nl,VWS
 doorbraakprojectenmetict.nl,EZ
 drupaloverheid.nl,EZ
 duo-jaarberichten.nl,OCW
-duo-jaarberichten.nl/jaarbericht-2015 .nl,OCW
 duo-onderwijsonderzoek.nl,OCW
 dus-i.nl,VWS
 dutchappointments.com,BUZA
@@ -398,7 +395,7 @@ english.autoriteitnvs.nl,IenM
 english.awti.nl,OCW
 english.bigregister.nl,VWS
 english.cbgjaarverslag.nl,VWS
-english.cbgjaarverslag.nl/annualreport.nl,VWS
+english.cbgjaarverslag.nl,VWS
 english.cbg-meb.nl,VWS
 english.ctivd.nl,AZ
 english.deltacommissaris.nl,EZ
@@ -412,8 +409,7 @@ english.kabinetvandekoning.nl,AZ
 english.kiesraad.nl,BZK
 english.kimnet.nl,IenM
 english.magazinesrijkswaterstaat.nl,IenM
-english.magazinesrijkswaterstaat.nl/regulatoryframeworktrucks.nl,
-english.mh17magazine.nl/investigationmh17.nl,
+english.mh17magazine.nl.nl,
 english.ncadierproevenbeleid.nl,EZ
 english.nctv.nl,VenJ
 english.nvwa.nl,EZ
@@ -451,7 +447,6 @@ financieelgezondewerknemers.nl,FIN
 flitspanel.nl,BZK
 fondspodiumkunsten.nl,OCW
 forensicinstitute.nl,VenJ
-forensicinstitute.nl.nl,VenJ
 functiegebouwrijksoverheid.nl,BZK
 functiemix.nl,OCW
 functiemix.minocw.nl,OCW
@@ -460,12 +455,12 @@ gddiergezondheid.nl,EZ
 geluidregisterspoor.nl,IenM
 gemeentenvandetoekomst.nl,BZK
 gemeenteschoon.nl,IenM
+geneesmiddeleninformatiebank.nl,VWS
 gerechtelijkebrief.nl,BZK
 gerechtelijkebrieven.nl,BZK
 geschilleninstantieszorg.nl,VWS
 getij.rws.nl,IenM
 gevaarlijkestoffen.zelfinspectie.nl,SZW
-gewoontoegankelijk.nl,BZK
 gezondeschool.nl,VWS
 gezondheidsraad.nl,VWS
 ggo-vergunningverlening.nl,VWS
@@ -488,8 +483,6 @@ hoewerktnederland.nl,SZW
 hogeraadvanadel.nl,HRvA
 holanda.es,BUZA
 holandaevoce.nl,BUZA
-holandaevoce.nl.nl,BUZA
-holandaevoce.nl.nl,BUZA
 holandanomundo.nl,BUZA
 holandawaanta.nl,BUZA
 hollandavesen.nl,BUZA
@@ -523,9 +516,8 @@ inspectievenj.nl,VenJ
 inspectorateszw.nl,SZW
 integraalveilig-ho.nl,OCW
 integriteitoverheid.nl,BZK
-intern.magazinesrijkswaterstaat.nl/brzoplus .nl,
-intern.magazinesrijkswaterstaat.nl/ppo2020.nl,
-intern.ssc-ictspecials.nl/share .nl,
+intern.magazinesrijkswaterstaat.nl,
+intern.ssc-ictspecials.nl,
 internationalefuncties.nl,BUZA
 investingindutchhousing.nl,BZK
 investinholland.com,EZ
@@ -542,10 +534,6 @@ jaarbericht2013.cjib.nl,VenJ
 jaarberichtrvdk.nl,VenJ
 jaarverantwoordingzorg.nl,VWS
 jaarverslagenrvo.nl,EZ
-jaarverslagenrvo.nl/eia .nl,EZ
-jaarverslagenrvo.nl/elektrisch-vervoer-in-nederland.nl,EZ
-jaarverslagenrvo.nl/jaarverslagen .nl,EZ
-jaarverslagenrvo.nl/miavamil .nl,EZ
 jaarverslagenzorg.nl,VWS
 jeugdinspecties.nl,VWS
 jeugdwerkloosheid.nl,SZW
@@ -554,7 +542,7 @@ justitieleinterventies.nl,VenJ
 kaart.pdok.nl,IenM
 kabinetsformatie2017.nl,AZ
 kamervoordebinnenvisserij.nl,EZ
-kansenvoorallekinderen.nl.nl,
+kansenvoorallekinderen.nl,
 kansrijkgroningen.nl,EZ
 kansspelautoriteit.nl,VenJ
 kb.nl,OCW
@@ -603,96 +591,30 @@ m.werkenvoornederland.nl,BZK
 maakereenpuntvan.nl,VenJ
 maakhetzeniettemakkelijk.nl,VenJ
 magazine.forumstandaardisatie.nl,BZK
-magazines.agentschaptelecom.nl/ontwikkelingenindeether.nl,
-magazines.agentschaptelecom.nl/staatvandeether.nl,
+magazines.agentschaptelecom.nl,
 magazines.algemenebestuursdienst.nl,BZK
-magazines.algemenebestuursdienst.nl/abdblad.nl,
-magazines.algemenebestuursdienst.nl/visieoppubliekleiderschap .nl,
 magazines.algemenerekenkamer.nl,AR
-magazines.algemenerekenkamer.nl/rekenmaar.nl,
-magazines.arboportaal.nl/arbomagazine.nl,
+magazines.arboportaal.nl,
 magazines.defensie.nl,DEF
-magazines.defensie.nl/alle-hens.nl,
-magazines.defensie.nl/defensiekrant .nl,
-magazines.defensie.nl/kmarmagazine .nl,
-magazines.defensie.nl/landmacht .nl,
-magazines.defensie.nl/materieelgezien.nl,
-magazines.defensie.nl/pijler.nl,
-magazines.defensie.nl/specials.nl,
-magazines.defensie.nl/vliegendehollander .nl,
-magazines.deltacommissaris.nl/deltanieuws.nl,
+magazines.deltacommissaris.nl,
 magazines.emissieautoriteit.nl,EZ
-magazines.emissieautoriteit.nl/jaarverslag.nl,
 magazines.erfgoedinspectie.nl,OCW
-magazines.erfgoedinspectie.nl/jaarverslag .nl,
-magazines.erfgoedinspectie.nl/werkprogramma.nl,
-magazines.forensischinstituut.nl/jaarbericht.nl,
-magazines.government.nl/ea/focus-on-economic-affairs .nl,
-magazines.government.nl/fa/focusonhr.nl,
-magazines.ilent.nl/jaarverslag.nl,
-magazines.ilent.nl/meerjarenplan.nl,
+magazines.forensischinstituut.nl,
+magazines.ilent.nl,
 magazines.inspectievenj.nl,VenJ
-magazines.inspectievenj.nl/inspectievenj-jaarbericht.nl,
-magazines.inspectievenj.nl/werkprogramma.nl,
-magazines.kinderbescherming.nl/jaarbericht.nl,
-magazines.klimaattop2016.nl/verslag.nl,
+magazines.kinderbescherming.nl,
+magazines.klimaattop2016.nl,
 magazines.koninklijkhuis.nl,AZ
-magazines.koninklijkhuis.nl/jaaroverzicht.nl,
 magazines.nvwa.nl,EZ
-magazines.nvwa.nl/jaarverslag.nl,
 magazines.onderwijsinspectie.nl,OCW
-magazines.onderwijsinspectie.nl/jaarverslag.nl,
-magazines.onderwijsinspectie.nl/jaarwerkplan.nl,
 magazines.p-direkt.nl,BZK
-magazines.p-direkt.nl/jaarplan.nl,
-magazines.p-direkt.nl/jaarverslag.nl,
-magazines.p-direkt.nl/pdg .nl,
-magazines.platformrijksoverheiddemo.nl .nl,
-magazines.rijksinspecties.nl/magazine-rijksinspecties.nl,
-magazines.rijksoverheid.nl/az/inbeeld.nl,
-magazines.rijksoverheid.nl/bz/hrinbeeld .nl,
-magazines.rijksoverheid.nl/bzk/blikopbzk .nl,
-magazines.rijksoverheid.nl/bzk/kracht .nl,
-magazines.rijksoverheid.nl/cibg/special.nl,
-magazines.rijksoverheid.nl/ez/ezinbeeld.nl,
-magazines.rijksoverheid.nl/ienm/specials.nl,
-magazines.rijksoverheid.nl/ind/indigitaal .nl,
-magazines.rijksoverheid.nl/inspectieszw/jaarstukken .nl,
-magazines.rijksoverheid.nl/knmi/jaaroverzicht .nl,
-magazines.rijksoverheid.nl/knmi/knmispecials .nl,
-magazines.rijksoverheid.nl/ocw/ho2025 .nl,
-magazines.rijksoverheid.nl/scp/werken.nl,
-magazines.rijksoverheid.nl/vws/rechtmatigezorg .nl,
+magazines.platformrijksoverheiddemo.nl,
+magazines.rijksinspecties.nl,
 magazines.rijksvastgoedbedrijf.nl,BZK
-magazines.rijksvastgoedbedrijf.nl/jaarverslag .nl,
-magazines.rijksvastgoedbedrijf.nl/kei .nl,
-magazines.sso3w.nl/jaarverslag.nl,
+magazines.sso3w.nl,
 magazines.zorgpact.nl,VWS
-magazines.zorgpact.nl/samen-leren-zorgen.nl,
-magazinesintern.government.nl/fa/buzz .nl,
-magazinesintern.government.nl/fa/dare-to-be-different.nl,
-magazinesintern.rijksoverheid.nl/bd/b-werk-senior.nl,
-magazinesintern.rijksoverheid.nl/bd-intern.nl,
-magazinesintern.rijksoverheid.nl/ez/sameninbeleid  .nl,
-magazinesintern.rijksoverheid.nl/fin/adrinbeeld.nl,
-magazinesintern.rijksoverheid.nl/ind/jaarplan .nl,
-magazinesintern.rijksoverheid.nl/ind/turfmarkt.nl,
-magazinesintern.rijksoverheid.nl/ocw/atocw .nl,
-magazinesintern.rijksoverheid.nl/rijn-magazine/rijn.nl,
-magazinesintern.rijksoverheid.nl/szw/socialmediaupdate.nl,
-magazinesintern.rijksoverheid.nl/szw/sozavoxonline.nl,
-magazinesintern.rijksoverheid.nl/venj/migration-moves.nl,
-magazinesintern.rijksoverheid.nl/venj/samenwerkenweaan.nl,
-magazinesintern.rijksoverheid.nl/venj/specials.nl,
-magazinesintern.rijksoverheid.nl/venj/venjinbeeld .nl,
 magazinesintern.rijksvastgoedbedrijf.nl,BZK
-magazinesintern.rijksvastgoedbedrijf.nl/kortom .nl,
 magazinesrijkswaterstaat.nl,IenM
-magazinesrijkswaterstaat.nl/bodemplus .nl,
-magazinesrijkswaterstaat.nl/infomil-perspectief .nl,
-magazinesrijkswaterstaat.nl/innovatie .nl,
-magazinesrijkswaterstaat.nl/koers2020 .nl,
-magazinesrijkswaterstaat.nl/zakelijkeninnovatie.nl,
 maison-royale.nl,AZ
 makingwavesnl.nl,IenM
 maritiem-erfgoed.nl,OCW
@@ -708,7 +630,6 @@ meldpunttelecomwet.nl,EZ
 mensenrechten.nl,VenJ
 mensenrechtentulp.nl,BUZA
 mh17magazine.nl,AZ
-mh17magazine.nl/onderzoekmh17.nl,
 miavamiljaarverslag2009.nl,EZ
 miavamiljaarverslag2010.nl,EZ
 mijn.overheid.nl,BZK
@@ -875,7 +796,6 @@ rijksnormering.nl,BZK
 rijksschoonmaak.nl,SZW
 rijkstalentencentrum.nl,BZK
 rijksvastgoedbedrijf.nl,BZK
-rijksvastgoedbedrijf.nl/english .nl,BZK
 rijschoolgegevens.nl,IenM
 rinis.nl,BZK
 rinis.org,BZK
@@ -924,8 +844,6 @@ socialestabiliteit.nl,SZW
 ssc-campus.nl,VWS
 sscicthaaglanden.nl,BZK
 ssc-ictspecials.nl,BZK
-ssc-ictspecials.nl/ictactueel.nl,BZK
-ssc-ictspecials.nl/jaarverslag.nl,BZK
 sso-noord.nl,OCW
 staatsexamensnt2.nl,OCW
 staatsieportretten-bestellen.nl,AZ
@@ -942,6 +860,7 @@ taalakkoord.nl,SZW
 taxiklacht.nl,IenM
 teamwork-against-trafficking-for-labour-exploitation.nl,VenJ
 techniekpact.nl,EZ
+teebstad.nl,EZ
 tenderned.nl,EZ
 thedutchchallenge.nl,BUZA
 thegfce.com,VenJ
