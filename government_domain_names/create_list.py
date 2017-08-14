@@ -85,6 +85,7 @@ rijksoverheid_mapping = {
     'FIN': u'Ministerie van Financiën',
     'HRvA': u'Hoge Raad van Adel',
     'IenM': u'Ministerie van Infrastructuur en Milieu',
+    'Inspectieraad': u'Inspectieraad',
     'NO': u'Nationale Ombudsman',
     'NVAO': u'Nederlands-Vlaamse Accreditatieorganisatie',
     'OCW': u'Ministerie van Onderwijs, Cultuur en Wetenschap',
