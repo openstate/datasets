@@ -254,7 +254,6 @@ almanak.zboregister.overheid.nl,BZK
 almata.nl,VWS
 ambassadeconsulaat.pro,BUZA
 ambassadeursconferentie.nl,BUZA
-arbeidenoverheid.nl,BZK
 arbiterbodembeweging.nl,EZ
 arbo-op-orde.zelfinspectie.nl,SZW
 architectenregister.nl,BZK
@@ -271,10 +270,11 @@ belastingdienst-cn.nl,FIN
 beleefdedeltaroute.nl,IenM
 benchmarkrijk.nl,BZK
 beschikbaarheidbijdrage-medische-vervolgopleidingen.nl,VWS
+beschutaandebak.nl,SZW
 bestandenpostbus.nl,VenJ
 bestrijdingsmiddelen-omwonenden.nl,VWS
 bewustbodemgebruik.nl,IenM
-bezwaarschriftenocw,OCW
+bezwaarschriftenocw.nl,OCW
 biedboek.nl,BZK
 bigregister.nl,VWS
 biociden.nl,VWS
@@ -294,7 +294,6 @@ campagnevannix.nl,VWS
 cannabisbureau.nl,VWS
 caopolitie.nl,VenJ
 cawsw.nl,IenM
-cbgjaarverslag2013.nl,VWS
 cbg-meb.nl,VWS
 cbpweb.nl,VenJ
 cbr.nl,IenM
@@ -310,7 +309,6 @@ chemischestoffengoedgeregeld.nl,VWS
 cibg.nl,VWS
 cibgacademie.nl,VWS
 circulaireeconomienederland.nl,IenM
-citychlor.eu,IenM
 collegesanering.nl,VWS
 comma.elearningbz.nl,BUZA
 commabz.nl,BUZA
@@ -344,7 +342,6 @@ delerarenagenda.nl,OCW
 deltaviewer.nl,IenM
 demijnraad.nl,EZ
 demowijzer.nl,BZK
-denationalepensioendialoog.nl,SZW
 denieuwepraktijk.nl,VWS
 denieuwezorgverzekering.nl,VWS
 derechtspraakvanmorgen.nl,VenJ
@@ -365,7 +362,6 @@ diplomamills.nl,OCW
 doc-direkt.nl,BZK
 donorgegevens.nl,VWS
 donorregister.nl,VWS
-doorbraakprojectenmetict.nl,EZ
 drupaloverheid.nl,EZ
 duo-jaarberichten.nl,OCW
 duo-onderwijsonderzoek.nl,OCW
@@ -389,6 +385,7 @@ effectiefarmoedebeleid.nl,SZW
 egc-group.org,VenJ
 eid-stelsel.nl,BZK
 elearningbz.nl,BUZA
+emissionsauthority.nl,IenM
 energiebesparendoejenu.nl,EZ
 energiekostenprognose.nl,EZ
 energielabelvoorwoningen.nl,EZ
@@ -430,12 +427,12 @@ eranetbioenergy.net,EZ
 erfgoedmodernetijd.nl,OCW
 ertms-nl.nl,IenM
 esttpresse.nl,VWS
+euandgvc.nl,BUZA
 euphix.org,VWS
 europeanenterprisenetwork.nl,EZ
 europeanpartnership-responsibleminerals.eu,EZ
 euthanasiecommissie.nl,VWS
 eutruckplatooning.com,IenM
-evaluationdutchcaribbean.nl,BZK
 evenementenrijk.nl,BZK
 evite-sendmail.nl,VWS
 examenblad.nl,OCW
@@ -448,9 +445,11 @@ ezoefapp.nl,EZ
 farmatec.nl,VWS
 filmfonds.nl,OCW
 financieelgezondewerknemers.nl,FIN
+financieringslink.nl,EZ
 flitspanel.nl,BZK
 fondspodiumkunsten.nl,OCW
 forensicinstitute.nl,VenJ
+forum.topinkomens.nl,BZK
 functiegebouwrijksoverheid.nl,BZK
 functiemix.nl,OCW
 functiemix.minocw.nl,OCW
@@ -494,6 +493,7 @@ hollandavesen.nl,BUZA
 hollandtrade.com,EZ
 hollandtradeandinvest.com,EZ
 hollandturkeytrade.com,BUZA
+hrmetadata.nl,BZK
 huiselijkgeweld.nl,VWS
 humanrightstulip.nl,BUZA
 huurcommissie.nl,BZK
@@ -668,6 +668,7 @@ motrainingen.nl,BZK
 mrsa.rivm.nl,VWS
 multifunctionelelandbouw.net,EZ
 museumencollecties.nl,OCW
+mvicongres.nl,IenM
 naarnederland.nl,SZW
 nationaalcoordinatorgroningen.nl,EZ
 nationaalgeoregister.nl,IenM
@@ -685,6 +686,7 @@ nederlandgezondenwel.nl,VWS
 nederlandinnoveert.com,EZ
 nederlandse-sportraad.nl,VWS
 nederlandsinvesteringsagentschap.nl,EZ
+nederlandtegenkinderarbeid.nl,SZW
 nederlandwereldwijd.nl,BUZA
 netherlandsandyou.nl,BUZA
 netherlandsworldwide.nl,BUZA
@@ -736,7 +738,6 @@ onehealth.nl,VWS
 onsonderwijs2032.nl,OCW
 onswater.nl,IenM
 opendata-award.nl,BZK
-operatiebrp.nl,BZK
 opnieuwthuis.nl,VenJ
 orandatowatashi.nl,BUZA
 orgaandonatie.nu,VWS
@@ -879,6 +880,7 @@ tenderned.nl,EZ
 thedutchchallenge.nl,BUZA
 thegfce.com,VenJ
 toegangocw.nl,OCW
+toegankelijkheidsverklaring.nl,BZK
 toekomstreligieuserfgoed.nl,OCW
 toetsingonline.nl,VWS
 toetsingscommissievp.nl,SZW
@@ -913,6 +915,7 @@ varendoejesamen.nl,IenM
 vastgoedvanhetrijk.nl,BZK
 veiligvakmanschap.nl,SZW
 veiligwerkenmetmachines.nl,SZW
+venjconnect.nl,VenJ
 venjdialoog.nl,VenJ
 venjinbeweging.nl,VenJ
 veranderingenkinderopvang.nl,SZW
@@ -940,6 +943,7 @@ watziterintabak.nl,VWS
 webrichtlijnen.nl,BZK
 weekvanhetgeld.nl,FIN
 weetjewatjijwaardbent.nl,SZW
+wegwijsmetjehuurprijs.nl,BZK
 wegwijzermensenhandel.nl,VenJ
 welvaartenleefomgeving.nl,IenM
 werkdrukenongewenstgedrag.zelfinspectie.nl,SZW
@@ -966,6 +970,7 @@ zoekenvergelijkscholen.nl,OCW
 zoekuwenergielabel.nl,BZK
 zonmw.nl,VWS
 zorgatlas.nl,VWS
+zorgclustertool.nl,VWS
 zorgcsp.nl,VWS
 zorggegevens.nl,VWS
 zorginstituutnederland.nl,VWS
