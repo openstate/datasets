@@ -74,6 +74,30 @@ filenames = [
     'Gemeenschappelijke-Regelingen.csv'
 ]
 
+# Mapping for 2012-2017 ministerie names
+#rijksoverheid_mapping = {
+#    'AR': u'Algemene Rekenkamer',
+#    'AZ': u'Ministerie van Algemene Zaken',
+#    'BUZA': u'Ministerie van Buitenlandse Zaken',
+#    'BZK': u'Ministerie van Binnenlandse Zaken',
+#    'DEF': u'Ministerie van Defensie',
+#    'EK': u'Eerste Kamer',
+#    'EZ': u'Ministerie van Economische Zaken',
+#    'FIN': u'Ministerie van Financiën',
+#    'HRvA': u'Hoge Raad van Adel',
+#    'IenM': u'Ministerie van Infrastructuur en Milieu',
+#    'Inspectieraad': u'Inspectieraad',
+#    'NO': u'Nationale Ombudsman',
+#    'NVAO': u'Nederlands-Vlaamse Accreditatieorganisatie',
+#    'OCW': u'Ministerie van Onderwijs, Cultuur en Wetenschap',
+#    'RvS': u'Raad van State',
+#    'SZW': u'Ministerie van Sociale Zaken en Werkgelegenheid',
+#    'TK': u'Tweede Kamer',
+#    'VenJ': u'Ministerie van Veiligheid en Justitie',
+#    'VWS': u'Ministerie van Volksgezondheid, Welzijn en Sport'
+#}
+
+# Mapping for 2017-now ministerie names
 rijksoverheid_mapping = {
     'AR': u'Algemene Rekenkamer',
     'AZ': u'Ministerie van Algemene Zaken',
@@ -81,10 +105,10 @@ rijksoverheid_mapping = {
     'BZK': u'Ministerie van Binnenlandse Zaken',
     'DEF': u'Ministerie van Defensie',
     'EK': u'Eerste Kamer',
-    'EZ': u'Ministerie van Economische Zaken',
+    'EZK': u'Ministerie van Economische Zaken en Klimaat',
     'FIN': u'Ministerie van Financiën',
     'HRvA': u'Hoge Raad van Adel',
-    'IenM': u'Ministerie van Infrastructuur en Milieu',
+    'IenW': u'ministerie van Infrastructuur en Waterstaat',
     'Inspectieraad': u'Inspectieraad',
     'NO': u'Nationale Ombudsman',
     'NVAO': u'Nederlands-Vlaamse Accreditatieorganisatie',
@@ -92,7 +116,7 @@ rijksoverheid_mapping = {
     'RvS': u'Raad van State',
     'SZW': u'Ministerie van Sociale Zaken en Werkgelegenheid',
     'TK': u'Tweede Kamer',
-    'VenJ': u'Ministerie van Veiligheid en Justitie',
+    'JenV': u'Ministerie van Justitie en Veiligheid ',
     'VWS': u'Ministerie van Volksgezondheid, Welzijn en Sport'
 }
 
