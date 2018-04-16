@@ -106,7 +106,6 @@ nak.nl,EZK
 kasteelgroeneveld.nl,EZK
 p-direkt.nl,BZK
 ruimtelijkeadaptatie.nl,IenW
-nieuwbouweurojust.nl,BZK
 meldknop.nl,EZK
 earonline.nl,BZK
 forensischezorg.nl,JenV
@@ -223,6 +222,7 @@ acvz.org,JenV
 agendaijsselmeergebied2050.nl,IenW
 agendastad.nl,BZK
 agressievrijwerk.nl,BZK
+agrimatie.nl,EZK
 agroberichtenbuitenland.nl,EZK
 aivd.nl,BZK
 algemenebestuursdienst.nl,BZK
@@ -239,18 +239,18 @@ atlasnatuurlijkkapitaal.nl,IenW
 avbapp.com,EZK
 awti.nl,OCW
 bedrijvenbeleidinbeeld.nl,EZK
-beeldmateriaal.nl,BZK
 bekijkjepensioenregeling.nl,FIN
 belandadananda.nl,BUZA
 belastingdienst-cn.nl,FIN
 beleefdedeltaroute.nl,IenW
+belevingsvlucht.nl,IenW
 beschikbaarheidbijdrage-medische-vervolgopleidingen.nl,VWS
 beschutaandebak.nl,SZW
 bestandenpostbus.nl,JenV
 bestrijdingsmiddelen-omwonenden.nl,VWS
 biedboek.nl,BZK
 bigregister.nl,VWS
-binnldagvanhetgedrag.nl,AZ
+binnldagvanhetgedrag.nl,EZK
 biociden.nl,VWS
 bkwi.nl,SZW
 blankenburgverbinding.nl,IenW
@@ -258,6 +258,7 @@ bodemloket.nl,IenW
 bodemrichtlijn.nl,IenW
 bonairegovernment.nl,BZK
 bouwcollege.nl,VWS
+brexitloket.nl,EZK
 bureauft.nl,FIN
 bureaugateway.nl,BZK
 bureauicttoetsing.nl,BZK
@@ -290,6 +291,7 @@ connectingmobility.nl,IenW
 contenttoolsrijksoverheid.nl,AZ
 corpodata.nl,IenW
 cosmeticaklachten.nl,VWS
+covm.nl,DEF
 creatieveindustrieinbeeld.nl,OCW
 criminaliteitinbeeld.nl,EZK
 crl.pkioverheid.nl,BZK
@@ -328,6 +330,7 @@ digitoegankelijk.nl,BZK
 doc-direkt.nl,BZK
 donorgegevens.nl,VWS
 donorregister.nl,VWS
+doortrappen.nl,IenW
 drupaloverheid.nl,EZK
 duo-jaarberichten.nl,OCW
 duo-onderwijsonderzoek.nl,OCW
@@ -359,9 +362,10 @@ english.aivd.nl,JenV
 english.autoriteitnvs.nl,IenW
 english.awti.nl,OCW
 english.bigregister.nl,VWS
-english.cbgjaarverslag.nl,VWS
+english.cannabisbureau.nl,VWS
 english.cbgjaarverslag.nl,VWS
 english.cbg-meb.nl,VWS
+english.collegevanrijksadviseurs.nl,BZK
 english.ctivd.nl,AZ
 english.defensie.nl,DEF
 english.deltacommissaris.nl,EZK
@@ -417,12 +421,14 @@ functiegebouwrijksoverheid.nl,BZK
 functiemix.nl,OCW
 gccs2015.com,BUZA
 gddiergezondheid.nl,EZK
+gebiedsagendawadden2050.nl,IenW
 geluidregisterspoor.nl,IenW
 gemeentenvandetoekomst.nl,BZK
 gemeenteschoon.nl,IenW
 geneesmiddeleninformatiebank.nl,VWS
 geobasisregistraties.nl,BZK
 gerechtelijkebrief.nl,BZK
+geschiedenis.reclassering.nl,JenV
 geschilleninstantieszorg.nl,VWS
 getij.rws.nl,IenW
 gevaarlijkestoffen.zelfinspectie.nl,SZW
@@ -430,10 +436,12 @@ gezondeleefomgeving.nl,VWS
 gezondeschool.nl,VWS
 gezondheidsraad.nl,VWS
 ggo-vergunningverlening.nl,VWS
+globaloceansactionsummit.com,EZK
 gobiernodireino.nl,BZK
 gorrijk.nl,BZK
 greendeals.nl,EZK
 grensinfo.nl,SZW
+halt.nl,JenV
 handelingenbank.info,BZK
 healthymetal.nl,SZW
 helpdesk-efactureren.nl,BZK
@@ -460,6 +468,7 @@ huurcommissie.nl,BZK
 ibestuurcongres.nl,BZK
 ibki.nl,IenW
 ictu.nl,BZK
+ideasfrom.eu,EZK
 idensys.nl,BZK
 igz.nl,VWS
 i-interimrijk.nl,BZK
@@ -502,7 +511,6 @@ jeugdwerkloosheid.nl,SZW
 job.ubrijk.nl,BZK
 jokesmitprijs.nl,OCW
 justitieleinterventies.nl,JenV
-kaart.pdok.nl,BZK
 kabinetsformatie2017.nl,TK
 kamervoordebinnenvisserij.nl,EZK
 kansenvoorallekinderen.nl,SZW
@@ -519,7 +527,7 @@ kiesbeter.nl,VWS
 kiesraad.nl,BZK
 kimnet.nl,IenW
 kinderombudsman.nl,NO
-klimaattop2016.nl,IenW
+klimaattop2016.nl,EZK
 knaw.nl,OCW
 koenigshaus.nl,AZ
 koop.overheid.nl,BZK
@@ -574,7 +582,6 @@ magazines.sso3w.nl,BUZA
 magazines.zorgpact.nl,VWS
 magazinesrijkswaterstaat.nl,IenW
 maison-royale.nl,AZ
-makingwavesnl.nl,IenW
 manifestgroep.pleio.nl,OCW
 maritiem-erfgoed.nl,OCW
 maror.nl,FIN
@@ -602,7 +609,6 @@ mijnoverheidvoorondernemers.nl,EZK
 mijnrvo.nl,EZK
 mijnwwz.nl,SZW
 milieuzones.nl,EZK
-ministerievanvolksgezondheid.nl,VWS
 minvws.pr.co,VWS
 mirta2weerteindhoven.nl,IenW
 mirta67leenderheidezaarderheiken.nl,IenW
@@ -614,6 +620,7 @@ mjpo.nl,IenW
 mobilitylab.nl,IenW
 mondriaanfoundation.nl,OCW
 monitorgezondheid.nl,VWS
+monroeproject.eu,IenW
 monumentaleinterieurs.nl,OCW
 moodcamp.nl,VWS
 motrainingen.nl,BZK
@@ -626,6 +633,7 @@ nationaalgeoregister.nl,BZK
 nationaalovberaad.nl,IenW
 nationaleiconen.nl,EZK
 nationaleombudsman.nl,NO
+nationaleparkenbureau.nl,EZK
 nationalicons.nl,EZK
 natuurlijkveilig.nl,IenW
 ncadierproevenbeleid.nl,EZK
@@ -686,7 +694,7 @@ orandatowatashi.nl,BUZA
 orgaandonatie.nu,VWS
 osamenwerkruimte.nl,BZK
 osamenwerkruimten.nl,BZK
-oteam.nl,IenW
+oteam.nl,BZK
 ouders-uit-elkaar.nl,JenV
 overstroomik.nl,IenW
 ovzebiserva.nl,BZK
@@ -702,6 +710,7 @@ pdokviewer.pdok.nl,BZK
 permanentevertegenwoordigingen.nl,BUZA
 permanentrepresentations.nl,BUZA
 persberichten.rijksoverheid.nl,AZ
+pianoo-congres.nl,EZK
 pilotdtt.nl,OCW
 placesofhope.nl,BZK
 planmonitorwonen.nl,BZK
@@ -733,6 +742,7 @@ rdw.nl,IenW
 rechtenoverheid.nl,JenV
 rechtsbijstand.nl,JenV
 rechtwijzer.nl,JenV
+reclassering.nl,JenV
 referendum-commissie.nl,BZK
 referentiegrootboekschema.nl,BZK
 regelhulp.nl,VWS
@@ -742,6 +752,7 @@ regulatoryscience.nl,VWS
 rekenkamer.nl,AR
 rekentoolfunctiemixvo.nl,OCW
 riec.nl,JenV
+rijkewaddenzee.nl,EZK
 rijksbredekunstvoorziening.nl,OCW
 rijkscampusonline.nl,BZK
 rijksictdashboard.nl,BZK
@@ -805,6 +816,7 @@ stimuleringsfondspers.nl,OCW
 strafrechtketen.nl,JenV
 strakszwangerworden.nl,VWS
 studeermeteenplan.nl,OCW
+subscribe.government.nl,AZ
 subsidieregeling-pg-opleidingen.nl,VWS
 taalakkoord.nl,SZW
 taxiklacht.nl,IenW
@@ -816,10 +828,12 @@ thedutchchallenge.nl,BUZA
 thegfce.com,JenV
 toegangocw.nl,OCW
 toegankelijkheidsverklaring.nl,BZK
+toekomstglb.nl,EZK
 toekomstreligieuserfgoed.nl,OCW
 toetsingonline.nl,VWS
 toetsingscommissievp.nl,SZW
 toezichtopboa.nl,JenV
+toezichtsociaaldomein.nl,VWS
 toolboxinclusief.nl,BZK
 toolkits.loketgezondleven.nl,VWS
 topinkomens.nl,BZK
