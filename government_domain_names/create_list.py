@@ -103,6 +103,7 @@ rijksoverheid_mapping = {
     'AZ': u'Ministerie van Algemene Zaken',
     'BUZA': u'Ministerie van Buitenlandse Zaken',
     'BZK': u'Ministerie van Binnenlandse Zaken',
+    'CBS': u'Centraal Bureau voor de Statistiek',
     'DEF': u'Ministerie van Defensie',
     'EK': u'Eerste Kamer',
     'EZK': u'Ministerie van Economische Zaken en Klimaat',
