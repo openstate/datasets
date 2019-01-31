@@ -53,7 +53,8 @@ with io.open(export_filename, 'w') as OUT:
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.1"}
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.2"}
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.4"}
-ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.5"}
+#ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.5"}
+ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.7"}
 
 # Load the XML
 parser = etree.XMLParser(ns_clean=True)
