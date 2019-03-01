@@ -1,7 +1,7 @@
 Domain Name,Domain Type,Agency
 knmi.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
-uwv.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 rijksoverheid.nl,Rijksoverheid,Ministerie van Algemene Zaken
+uwv.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
 werk.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 kvk.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
@@ -18,7 +18,7 @@ higherlevel.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 rijkswaterstaat.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 vananaarbeter.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 werkenbijdefensie.nl,Rijksoverheid,Ministerie van Defensie
-cbs.nl,Rijksoverheid,Centraal Bureau voor de Statistiek
+cbs.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 gahetna.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 government.nl,Rijksoverheid,Ministerie van Algemene Zaken
 crisis.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
@@ -63,14 +63,14 @@ helpdeskwater.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 kustwacht.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 lerenenwerken.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 waarderingskamer.nl,Rijksoverheid,Ministerie van Financiën
-cbi.eu,Rijksoverheid,Ministerie van Buitenlandse Zaken
+cbi.eu,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 rwsleefomgeving.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 energiesubsidiewijzer.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 vaarweginformatie.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 aandeslagmetdeomgevingswet.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 aimonline.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 rsj.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
-lintjes.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+lintjes.nl,Rijksoverheid,Kanselarij der Nederlandse Orden
 nctv.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 emissieautoriteit.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 bkd.eu,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
@@ -80,7 +80,6 @@ innovatie-estafette.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 dsta.nl,Rijksoverheid,Ministerie van Financiën
 rijksacademie.nl,Rijksoverheid,Ministerie van Financiën
 cultuur.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
-erfgoedinspectie.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 burgernet.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 rechtvoorjou.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 wrr.nl,Rijksoverheid,Ministerie van Algemene Zaken
@@ -293,7 +292,7 @@ contenttoolsrijksoverheid.nl,Rijksoverheid,Ministerie van Algemene Zaken
 cosmeticaklachten.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 covm.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 creatieveindustrieinbeeld.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
-criminaliteitinbeeld.nl,Rijksoverheid,Centraal Bureau voor de Statistiek
+criminaliteitinbeeld.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 crisistest.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 csirtdsp.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 ctivd.nl,Rijksoverheid,Ministerie van Algemene Zaken
@@ -351,7 +350,7 @@ eceonline.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 e-cert.nl,Rijksoverheid,"Ministerie van Landbouw, Natuur en Voedselkwaliteit"
 eemshaven-vierverlaten380kv.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 eerenvrijheid.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
-eerstekamer.nl,Rijksoverheid,Tweede Kamer
+eerstekamer.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
 egc-group.org,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 effectiefarmoedebeleid.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 elo.oidji.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
@@ -376,7 +375,7 @@ english.ctivd.nl,Rijksoverheid,Ministerie van Algemene Zaken
 english.deltacommissaris.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 english.defensie.nl,Rijksoverheid,Ministerie van Defensie
 english.dggf.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
-english.erfgoedinspectie.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
+english.inspectie-oe.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 english.dsta.nl,Rijksoverheid,Ministerie van Financiën
 english.euthanasiecommissie.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 english.farmatec.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -420,6 +419,7 @@ farmatec.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 filmfonds.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 financieelgezondewerknemers.nl,Rijksoverheid,Ministerie van Financiën
 flitspanel.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+fmhaaglanden.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 fondspodiumkunsten.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 forensicinstitute.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 formulierdus-i.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -507,11 +507,13 @@ inspectie-checklist.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegen
 inspectie-jenv.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 inspectie-publicaties.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 inspectieresultatenszw.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
+inspectieview.nl,Rijksoverheid,Inspectieraad
 inspectorateszw.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 instellingsinformatie.duo.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 integriteitoverheid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 integraalveilig-ho.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 internationalerechtshulp.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
+investingindutchhousing.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 investinholland.com,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 iob-evaluatie.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
 ipkd.eu,Rijksoverheid,Ministerie van Binnenlandse Zaken
@@ -557,6 +559,7 @@ korpsnationalereserve.nl,Rijksoverheid,Ministerie van Defensie
 kosteneffectiviteitvanpreventie.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 krachtontour.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 kwaliteitsafsprakenmbo.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
+laamagazine.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 landelijkmeldpuntzorg.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 landelijkregisterkinderopvang.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 langdurigezorg.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -567,7 +570,6 @@ leerplatformmirt.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 leerportaalienw.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 leerwerkloketfriesland.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 leraar.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
-lerarenregister.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 letterenfonds.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 life-ip-deltanatuur.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 linkeddata.gov.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
@@ -586,7 +588,7 @@ magazines.arboportaal.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgeleg
 magazines.defensie.nl,Rijksoverheid,Ministerie van Defensie
 magazines.deltacommissaris.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 magazines.emissieautoriteit.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
-magazines.erfgoedinspectie.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
+magazines.inspectie-oe.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 magazines.forensischinstituut.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 magazines.government.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 magazines.ilent.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
@@ -729,7 +731,6 @@ pdokviewer.pdok.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 pdok.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 permanentevertegenwoordigingen.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
 permanentrepresentations.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
-persberichten.rijksoverheid.nl,Rijksoverheid,Ministerie van Algemene Zaken
 personenregisterkinderopvang.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 pianoo-congres.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 placesofhope.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
@@ -774,7 +775,7 @@ rijkewaddenzee.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 rijksgithub.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 rijksictdashboard.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 rijksictgilde.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
-rijksinspecties.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+rijksinspecties.nl,Rijksoverheid,Inspectieraad
 rijksnormering.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 rijksoverheid.bouwbesluit.com,Rijksoverheid,Ministerie van Binnenlandse Zaken
 rijksoverheidinbeeld.nl,Rijksoverheid,Ministerie van Algemene Zaken
@@ -876,7 +877,7 @@ transplantatiestichting.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzij
 transportenlogistiek.zelfinspectie.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 trendsinbeeldocw.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 tuchtcollege-gezondheidszorg.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
-tweedekamer.nl,Rijksoverheid,Tweede Kamer
+tweedekamer.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
 ubrijk.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 uitvoeringvanbeleidszw.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 usar.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
@@ -900,9 +901,8 @@ verkoopbblbezit.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 verwijzingsportaalbankgegevens.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 veterinairtuchtcollege.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 vib-check.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
-volgdetweedekamer.nl,Rijksoverheid,Tweede Kamer
+volgdetweedekamer.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
 volksgezondheidenzorg.info,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
-vooreenveiligthuis.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 voorkomongevallen.zelfinspectie.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 vraagbaakiv3gemeenten.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 vreemdelingendocumenten.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
@@ -973,6 +973,7 @@ venvn.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 waarborg.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 zboregister.overheid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 rijksconsultatiedag.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+amlc.eu,Rijksoverheid,Ministerie van Financiën
 amlc.nl,Rijksoverheid,Ministerie van Financiën
 eurovignet.nl,Rijksoverheid,Ministerie van Financiën
 eurovignettes.eu,Rijksoverheid,Ministerie van Financiën
@@ -1015,7 +1016,6 @@ oswo.nl,Rijksoverheid,Ministerie van Financiën
 rijkswaterstaatverkeersinformatie.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 rijkswegennoord.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 rivmtoolkit.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
-rivmtopprojecten.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 structuurfondsen.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 veiligtatoeerenenpiercen.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 vwshuisstijl.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -1035,7 +1035,7 @@ magazines.nza.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport
 magazines.dji.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 magazines.toezichtsociaaldomein.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 magazines.woningmarktbeleid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
-cbsinuwbuurt.nl,Rijksoverheid,Centraal Bureau voor de Statistiek
+cbsinuwbuurt.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 realaboutrent.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 aanvragen.nza.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 abonneren.cbg-meb.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -1050,7 +1050,6 @@ stagefonds.formulierdus-i.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welz
 gipdatabank.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 horizonscangeneesmiddelen.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 english.igj.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
-inspectieloketsociaaldomein.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 meldformulier.nza.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 meldingsformulier.nza.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 uitwisselportaal.nza.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -1069,7 +1068,7 @@ sluisplanning.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 over-ons.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
 svbabc.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 intermediairdagen.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
-academy.cbs.nl,Rijksoverheid,Centraal Bureau voor de Statistiek
+academy.cbs.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 gca.org,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 rijksinnovatiecommunity.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 zeroemissiedoelgroepenvervoer.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
@@ -1080,7 +1079,7 @@ prinsjesdagtool.nl,Rijksoverheid,Ministerie van Financiën
 v-lab.ubrijk.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 english.rvo.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 rijbewijs.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
-houseofrepresentatives.nl,Rijksoverheid,Tweede Kamer
+houseofrepresentatives.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
 machtigen.digid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 ezinesbr.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 eherkenning.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
@@ -1120,6 +1119,7 @@ nooituitgeleerd.leraar.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en We
 informatieservice.nederlandwereldwijd.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
 open-overheid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 nas-adaptatietool.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
+nieuwsienw.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
 nederlanddigitaal.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
 belastingdienst-ondernemerscheck.nl,Rijksoverheid,Ministerie van Financiën
 tcbb.nl,Rijksoverheid,Ministerie van Economische Zaken en Klimaat
@@ -1134,6 +1134,7 @@ prettigcontactmetdeoverheid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 waarzitwatin.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 english.ccmo.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 effectieveschuldhulp.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
+reguleringvanwerk.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 onderwijsinderegioincijfers.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 passionado.nl,Rijksoverheid,Ministerie van Justitie en Veiligheid 
 ges2019nl.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
@@ -1149,18 +1150,22 @@ pbt-netwerk.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 toegangsociaaldomein.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 kiezen-en-delen.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 magazines.platformjep.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
+lerarenportfolio.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
+aardgasvrijewijken.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+rijksictstage.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 paleisamsterdam.nl,Rijksoverheid,Dienst van het Koninklijk Huis
 kroondomeinhetloo.nl,Rijksoverheid,Dienst van het Koninklijk Huis
 koninklijkeverzamelingen.nl,Rijksoverheid,Dienst van het Koninklijk Huis
+inspectie-oe.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 samennl.nl,Rijksoverheid,Ministerie van Sociale Zaken en Werkgelegenheid
 a27a12ringutrecht.nl,Rijksoverheid,Ministerie van Infrastructuur en Waterstaat
-derdekamer.nl,Rijksoverheid,Tweede Kamer
-detweedekameraanhetwerk.nl,Rijksoverheid,Tweede Kamer
-erelijst.nl,Rijksoverheid,Tweede Kamer
-ikviermijnstem.nl,Rijksoverheid,Tweede Kamer
-jongerenkamer.nl,Rijksoverheid,Tweede Kamer
-lijstvangevallenen.nl,Rijksoverheid,Tweede Kamer
-parleu2016.nl,Rijksoverheid,Tweede Kamer
+derdekamer.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+detweedekameraanhetwerk.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+erelijst.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+ikviermijnstem.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+jongerenkamer.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+lijstvangevallenen.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
+parleu2016.nl,Rijksoverheid,Eerste Kamer/Tweede Kamer
 isd.acc.owinsp.nl,Rijksoverheid,"Ministerie van Onderwijs, Cultuur en Wetenschap"
 deelditnietmetjevrienden.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 draaiboekhielprikscreening.rivm.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
@@ -1170,8 +1175,24 @@ metenvanduurzaamheid.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn e
 nmdc.eu,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 omgevingsveiligheid.rivm.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 mijn.belastingdienst-cn.nl,Rijksoverheid,Ministerie van Financiën
+overheidvannu.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
 werkenmetdbcs.werkenmetdbcs.nl,Rijksoverheid,"Ministerie van Volksgezondheid, Welzijn en Sport"
 dnadatabank.forensischinstituut.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
+english.donorregister.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+raadvoorhetoverheidspersoneelsbeleid.nl,Rijksoverheid,Ministerie van Binnenlandse Zaken
+ecer.minbuza.nl,Rijksoverheid,Ministerie van Buitenlandse Zaken
+odb.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+fiscalemonitor.nl,Rijksoverheid,Ministerie van Financiën
+academie.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+pih.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+gegevensportaal.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+centraalaanspreekpuntpensioenen.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+werken.belastingdienst.nl,Rijksoverheid,Ministerie van Financiën
+bdmuseum.nl,Rijksoverheid,Ministerie van Financiën
+toeslagenanimatie.toeslagen.nl,Rijksoverheid,Ministerie van Financiën
+douane-inzicht.nl,Rijksoverheid,Ministerie van Financiën
+customsnl-insight.nl,Rijksoverheid,Ministerie van Financiën
+datagedreventoezicht.pleio.nl,Rijksoverheid,Inspectieraad
 provincie.drenthe.nl,Provincies,Provincies
 flevoland.nl,Provincies,Provincies
 fryslan.frl,Provincies,Provincies
@@ -1584,6 +1605,7 @@ vallei-veluwe.nl,Waterschappen,Waterschappen
 vechtstromen.nl,Waterschappen,Waterschappen
 wetterskipfryslan.nl,Waterschappen,Waterschappen
 zuiderzeeland.nl,Waterschappen,Waterschappen
+aquon.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 deltawerkt.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 isdbrabantsewal.rechtopbijstand.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 regioachterhoek.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1616,13 +1638,13 @@ dethon.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 dienstdommelvallei.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 drechtwerk.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ecal.nu,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
-edr.eu,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 emco-groep.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 empatec.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 euregio-rmn.de,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gegevenshuis.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 geldersarchief.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gemeentelijkeombudsman.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+gezamenlijke-brandweer.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdbzo.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggddrenthe.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdhollandsnoorden.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1635,10 +1657,12 @@ ggdzl.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdzw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gobv.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gr-caw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+grenspark-msn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 groningen-seaports.com,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 hameland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 heerlijkbuiten.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 hetpleinzutphen.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+hoefweg.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 husenhiem.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 hvcgroep.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 isd-kompas.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1649,7 +1673,6 @@ isob.net,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 isw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 iw4.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 jeugdhulprijnmond.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
-kempengemeenten.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 kempischbedrijvenpark.com,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 kredietbanklimburg.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 landschapwaterland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1657,7 +1680,9 @@ marn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 meerschap-paterswolde.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 meerstadonline.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 mijngemeentedichtbij.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+milieuparkengeulenmaas.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 munitax.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+nef.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 nieuwlanderfgoed.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 nieuwreijerwaard.eu,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 nlwgroep.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1676,7 +1701,6 @@ over-gemeenten.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 parklingezegen.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 plaspoelpolder.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 portofmoerdijk.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
-prismabedrijvenpark.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ravbrabantmwn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rblbno.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rblwest-brabant.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1736,7 +1760,9 @@ zeeuwsarchief.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 zeeuwsemuziekschool.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 xlpark.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 afeer.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+bedrijvenparkmedel.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 contact.bsgr.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+edr.eu,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggd.groningen.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 hetutrechtsarchief.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 hollandrijnland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1783,6 +1809,7 @@ gblt.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gbtwente.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 geestmerambacht.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdflevoland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+ggdhaaglanden.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdijsselland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ggdzeeland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 gouwepark.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1791,11 +1818,13 @@ hetwaterschapshuis.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelinge
 ictwbw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 igsd-sw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ijmondwerkt.com,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+kempengemeenten.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 kiltunnel.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 laborijn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 maregroep.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 marrekrite.frl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 meerinzicht.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+noorderkwartier.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 odachterhoek.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 oddevallei.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 odijmond.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1817,6 +1846,7 @@ parkhitland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 paswerk.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 portofamsterdam.com,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 radhw.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+randstedelijke-rekenkamer.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rd4.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rdmaasland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rdoghm.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1828,13 +1858,18 @@ regiorivierenland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 regiorvn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 regiotaxihulstsluisterneuzen.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 regiotwente.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+rhcl.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rmn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+rogplus.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+rsddeliemers.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 rsdkrh.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 sabewazeeland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 sallcondiensten.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+samh.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 servicepunt71.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 snn.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 sociaaldomein-maastricht-heuvelland.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+socialedienstoostachterhoek.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 sozawe-nw-fryslan.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 spaarnwoude.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 ssc-zl.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
@@ -1871,3 +1906,4 @@ wvs-nb.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 wvs.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 zhzveilig.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
 zrd.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
+zuidelijkerekenkamer.nl,Gemeenschappelijke Regelingen,Gemeenschappelijke Regelingen
