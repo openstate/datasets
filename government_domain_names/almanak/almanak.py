@@ -88,11 +88,15 @@ for gemeenten in xml.xpath('/p:overheidsorganisaties/p:gemeenten', namespaces=ns
         url = internet_el.xpath('./text()')[0]
         gemeente_el = internet_el.xpath('./ancestor::p:gemeente', namespaces=ns)[0]
         gemeente = ''
-        if gemeente_el.xpath('./p:categorie/@p:naam', namespaces=ns):
-            gemeente = gemeente_el.xpath('./p:categorie/@p:naam', namespaces=ns)[0]
+        if gemeente_el.xpath('./p:type/text()', namespaces=ns):
+            gemeente = gemeente_el.xpath('./p:type/text()', namespaces=ns)[0]
+        # Skip gemeenten which don't exist anymore (i.e., have an
+        # eindDatum)
+        if gemeente_el.xpath('./p:eindDatum/text()', namespaces=ns):
+            continue
         # There is more stuff than just Gemeenten, so select only the
         # items matching 'Gemeenten'
-        if gemeente == 'Gemeenten':
+        if gemeente == 'Gemeente':
             gemeenten_list.append([url, gemeente])
 
 # Save organisaties_list to a csv
