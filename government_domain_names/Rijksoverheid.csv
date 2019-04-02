@@ -30,7 +30,7 @@ afm.nl,FIN
 rijkshuisstijl.nl,AZ
 infomil.nl,IenW
 domeinenrz.nl,FIN
-staatsbosbeheer.nl,EZK
+staatsbosbeheer.nl,LNV
 nvwa.nl,EZK
 justis.nl,JenV
 tno.nl,EZK
@@ -99,7 +99,7 @@ mediatheekrijksoverheid.nl,AZ
 autoriteitnvs.nl,IenW
 dienstterugkeerenvertrek.nl,JenV
 nak.nl,EZK
-kasteelgroeneveld.nl,EZK
+kasteelgroeneveld.nl,LNV
 p-direkt.nl,BZK
 ruimtelijkeadaptatie.nl,IenW
 meldknop.nl,EZK
@@ -197,8 +197,6 @@ nuclearforensics.eu,JenV
 sectorplannen.nl,SZW
 cert.nl,JenV
 1ratio.nl,OCW
-2016.ccmo-jaarverslag.nl,VWS
-2017.ccmo-jaarverslag.nl,VWS
 a4burgerveen-n14.nl,IenW
 a4haaglanden-n14.nl,IenW
 aanbiedersmedicijnen.nl,VWS
@@ -217,8 +215,6 @@ agroberichtenbuitenland.nl,EZK
 aivd.nl,BZK
 akkoordverbeteringproductsamenstelling.nl,VWS
 algemenebestuursdienst.nl,BZK
-allesisgezondheid.nl,VWS
-almanak.zboregister.overheid.nl,BZK
 almanak.overheid.nl,BZK
 ambassadeconsulaat.pro,BUZA
 ambassadeursconferentie.nl,BUZA
@@ -264,7 +260,6 @@ business.gov.nl,EZK
 bzksocialmedia.nl,BZK
 campagnetoolkits.nl,AZ
 cannabisbureau.nl,VWS
-campagnevannix.nl,VWS
 cao-politie.nl,JenV
 cbgjaarverslag.nl,VWS
 cbg-meb.nl,VWS
@@ -297,6 +292,7 @@ csirtdsp.nl,EZK
 ctivd.nl,AZ
 cvdm.nl,OCW
 cvte.nl,OCW
+cybersecurityalliantie.nl,JenV
 cybersecurityraad.nl,JenV
 daarkunjemeethuiskomen.nl,IenW
 daarwordtiedereenbetervan.nl,VWS
@@ -310,7 +306,6 @@ deltaviewer.nl,IenW
 demijnraad.nl,EZK
 demowijzer.nl,BZK
 denationaleomgevingsvisie.nl,BZK
-denieuwepraktijk.nl,VWS
 derijkscampus.nl,BZK
 derechtspraakvanmorgen.nl,JenV
 destaatvandeeconomie.nl,EZK
@@ -417,7 +412,6 @@ ezoefapp.nl,EZK
 farmatec.nl,VWS
 filmfonds.nl,OCW
 financieelgezondewerknemers.nl,FIN
-flitspanel.nl,BZK
 fmhaaglanden.nl,BZK
 fondspodiumkunsten.nl,OCW
 forensicinstitute.nl,JenV
@@ -458,7 +452,6 @@ healthymetal.nl,SZW
 helpdesk-efactureren.nl,BZK
 herbestemmingsoestdijk.nl,BZK
 hetcak.nl,VWS
-hetzorgverhaal.nl,VWS
 hiswa.nl,IenW
 hoepakjijdataan.nl,VWS
 hoewerktnederland.nl,SZW
@@ -556,7 +549,6 @@ knaw.nl,OCW
 koopoverheid.nl,BZK
 korpsnationalereserve.nl,DEF
 kosteneffectiviteitvanpreventie.nl,VWS
-krachtontour.nl,VWS
 kwaliteitsafsprakenmbo.nl,OCW
 laamagazine.nl,BZK
 landelijkmeldpuntzorg.nl,VWS
@@ -723,7 +715,6 @@ onsonderwijs2032.nl,OCW
 onswater.nl,IenW
 ontwerpenaanklimaatenwater.nl,BZK
 opendata-award.nl,BZK
-opportuun.nl,JenV
 orandatowatashi.nl,BUZA
 ordz.nl,VWS
 oteam.nl,BZK
@@ -760,7 +751,7 @@ prinsesbeatrixsluis.nl,IenW
 processinnovation.nl,EZK
 proeftuinenmaakverschil.nl,BZK
 programmasociaaldomein.nl,BZK
-puc.overheid.nl,DEF
+puc.overheid.nl,BZK
 pulsefishing.eu,EZK
 puntenstelsel.nl,JenV
 q-bank.eu,EZK
@@ -982,7 +973,6 @@ visitaties.nl,BZK
 vsregister.venvn.nl,VWS
 venvn.nl,VWS
 waarborg.nl,EZK
-zboregister.overheid.nl,BZK
 rijksconsultatiedag.nl,BZK
 amlc.eu,FIN
 amlc.nl,FIN
@@ -1109,11 +1099,10 @@ logius.nl,BZK
 nlvalidatie.nl,BZK
 logius.online-magazine.nl,BZK
 crl.pkioverheid.nl,BZK
-www.referentiegrootboekschema.nl,EZK
+www.referentiegrootboekschema.nl,BZK
 sbr-nl.nl,BZK
 toegankelijkheidsverklaring.nl,BZK
 platformwow.nl,IenW
-esttpresse.nl,VWS
 zijnjullieeraluit.nl,SZW
 dutchoffshorewindatlas.nl,IenW
 idnfabriek.nl,BZK
@@ -1133,7 +1122,7 @@ pmdbedrijfsafval.nl,IenW
 ontdekderuimte.leraar.nl,OCW
 nooituitgeleerd.leraar.nl,OCW
 informatieservice.nederlandwereldwijd.nl,BUZA
-www.open-overheid.nl,BZK
+open-overheid.nl,BZK
 nas-adaptatietool.nl,IenW
 nieuwsienw.nl,IenW
 nederlanddigitaal.nl,EZK
@@ -1146,14 +1135,16 @@ stijl.mijn.overheid.nl,BZK
 rvomagazines.nl,EZK
 deutsch.postedworkers.nl,SZW
 english.postedworkers.nl,SZW
-www.prettigcontactmetdeoverheid.nl,BZK
+prettigcontactmetdeoverheid.nl,BZK
 waarzitwatin.nl,VWS
+dejuistezorgopdejuisteplek.nl,VWS
 english.ccmo.nl,VWS
 effectieveschuldhulp.nl,SZW
 reguleringvanwerk.nl,SZW
 onderwijsinderegioincijfers.nl,OCW
 passionado.nl,JenV
 ges2019nl.nl,BUZA
+volwaardig-leven.nl,VWS
 bom.pleio.nl,BZK
 deltacoalition.net,IenW
 pleio.nl,FIN
@@ -1196,6 +1187,7 @@ werkenmetdbcs.werkenmetdbcs.nl,VWS
 dnadatabank.forensischinstituut.nl,BUZA
 english.donorregister.nl,BZK
 raadvoorhetoverheidspersoneelsbeleid.nl,BZK
+a1oost.nl,IenW
 ecer.minbuza.nl,BUZA
 odb.belastingdienst.nl,FIN
 fiscalemonitor.nl,FIN
@@ -1209,3 +1201,27 @@ toeslagenanimatie.toeslagen.nl,FIN
 douane-inzicht.nl,FIN
 customsnl-insight.nl,FIN
 datagedreventoezicht.pleio.nl,Inspectieraad
+webshop.incidentmanagement.nl,IenW
+wetten.overheid.nl,BZK
+bag.basisregistraties.overheid.nl,BZK
+brk.basisregistraties.overheid.nl,BZK
+brt.basisregistraties.overheid.nl,BZK
+cvdr.overheid.nl,BZK
+drop.overheid.nl,BZK
+geozet.koop.overheid.nl,BZK
+linkeddata.overheid.nl,BZK
+mnd.overheid.nl,BZK
+oproepingen.overheid.nl,BZK
+pre.omgevingswet.overheid.nl,BZK
+treatydatabase.overheid.nl,BZK
+tuchtrecht.overheid.nl,BZK
+verdragenbank.overheid.nl,BZK
+vergunningenbank.overheid.nl,BZK
+verkeersbesluiten.overheid.nl,BZK
+wetgevingskalender.overheid.nl,BZK
+zoekdienst.overheid.nl,BZK
+eenzaam.nl,VWS
+kennismarkerwadden.nl,IenW
+aanmeldenflitspanel.com,BZK
+hollandnationalparks.com,LNV
+2todrive.nl,IenW
