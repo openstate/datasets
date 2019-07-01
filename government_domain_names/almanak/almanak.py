@@ -56,7 +56,8 @@ with io.open(export_filename, 'w') as OUT:
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.5"}
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.7"}
 #ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.8"}
-ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.9"}
+#ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.9"}
+ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.10"}
 
 # Load the XML
 parser = etree.XMLParser(ns_clean=True)
@@ -89,8 +90,8 @@ for gemeenten in xml.xpath('/p:overheidsorganisaties/p:gemeenten', namespaces=ns
         url = internet_el.xpath('./text()')[0]
         gemeente_el = internet_el.xpath('./ancestor::p:gemeente', namespaces=ns)[0]
         gemeente = ''
-        if gemeente_el.xpath('./p:type/text()', namespaces=ns):
-            gemeente = gemeente_el.xpath('./p:type/text()', namespaces=ns)[0]
+        if gemeente_el.xpath('./p:types/p:type/text()', namespaces=ns):
+            gemeente = gemeente_el.xpath('./p:types/p:type/text()', namespaces=ns)[0]
         # Skip gemeenten which don't exist anymore (i.e., have an
         # eindDatum)
         if gemeente_el.xpath('./p:eindDatum/text()', namespaces=ns):
