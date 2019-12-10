@@ -167,7 +167,6 @@ http://cokz.nl,EZK
 https://ctgb.nl,EZK
 http://doetinchem-wesel380kv.nl,EZK
 http://kcb.nl,EZK
-http://opdrachtgeversforum.nl,EZK
 http://randstad380kv-noordring.nl,EZK
 http://randstad380kv-zuidring.nl,EZK
 https://rda.nl,LNV
@@ -258,7 +257,6 @@ https://cfto.nl,OCW
 http://chemischestoffengoedgeregeld.nl,VWS
 https://cibg.nl,VWS
 http://cibgacademie.nl,VWS
-http://circulaireeconomienederland.nl,IenW
 https://ciz.nl,VWS
 http://ckmbo.nl,OCW
 http://clo.nl,IenW
@@ -740,6 +738,7 @@ https://rinis.org,BZK
 http://risicokaart.nl,IenW
 http://risicotoolboxbodem.nl,VWS
 http://rli.nl,IenW
+http://ror-portaal.nl,IenW
 https://row-minvws.nl,VWS
 https://royal-house.nl,AZ
 http://ruimteinregels.nl,EZK
@@ -827,7 +826,6 @@ http://veiligvakmanschap.nl,SZW
 http://vera-2r.nl,JenV
 https://veranderingenkinderopvang.nl,SZW
 http://verkeersonderneming.nl,IenW
-http://verkeersveiligheid2030.nl,IenW
 http://verkeersveiligheidscampagnes.nl,IenW
 http://verwijzingsportaalbankgegevens.nl,JenV
 http://veterinairtuchtcollege.nl,LNV
@@ -886,7 +884,6 @@ http://innovatieagroennatuur.nl,LNV
 http://naktuinbouw.com,LNV
 http://nederlandsesoorten.nl,LNV
 http://startupdelta.org,EZK
-http://archeologieinnederland.nl,OCW
 http://landschapinnederland.nl,OCW
 http://erfgoedenruimte.nl,OCW
 http://platform.informatieberaadzorg.nl,VWS
@@ -1065,7 +1062,7 @@ http://pleio.nl,FIN
 https://ons.communicatierijk.nl,AZ
 https://informatiehuishouding.nl,OCW
 http://functieruilrijk.nl,BZK
-http://sbr-wonen.nl,IenW
+http://sbr-wonen.nl,BZK
 http://7-concrete-lessen-voor-samen-beslissen.zorginstituutnederland.nl,VWS
 http://pbt-netwerk.nl,OCW
 http://toegangsociaaldomein.nl,VWS
@@ -1233,6 +1230,7 @@ http://werkzaamheden.rijkswaterstaat.nl,IenW
 http://corbey.nl,EZK
 http://www.energiesubsidiewijzer.nl,EZK
 http://mirtverkenninga1-a30.nl,IenW
+http://programmalangerthuis.nl,VWS
 http://mirta15papendrechtgorinchem.nl,IenW
 http://loketenergierws.nl,IenW
 http://dutchhousingpolicy.nl,BZK
@@ -1255,7 +1253,6 @@ http://www.dictu.nl,EZK
 http://loket.anvs.nl,EZK
 http://kennisknooppuntparticipatie.nl,IenW
 http://nieuwsbriefdor.nl,IenW
-http://doejeupdates.nl,EZK
 http://netwerkplatteland.nl,EZK
 http://kennisnetwerkspv.nl,IenW
 http://aanmelder.nl/evenementenbureauvws,VWS
@@ -1292,4 +1289,8 @@ http://waardigouderworden.nl,VWS
 http://wateetnederland.nl,VWS
 http://zibs.nl,VWS
 http://zonmw-jeugdmagazines.nl,VWS
+http://nlbranding.nl,BUZA
 http://aanpakstikstof.nl,LNV
+http://dienstkleding.ipkd.nl,BZK
+http://rorportaal.nl,IenW
+http://mlzopendata.cbs.nl,VWS
