@@ -103,6 +103,7 @@ rijksoverheid_mapping = {
     'AZ': u'Ministerie van Algemene Zaken',
     'BUZA': u'Ministerie van Buitenlandse Zaken',
     'BZK': u'Ministerie van Binnenlandse Zaken',
+    'CAOP': u'Centrum voor Arbeidsverhoudingen Overheidspersoneel',
     'CBS': u'Centraal Bureau voor de Statistiek',
     'DEF': u'Ministerie van Defensie',
     'DKH': u'Dienst van het Koninklijk Huis',

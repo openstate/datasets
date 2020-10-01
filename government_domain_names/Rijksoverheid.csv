@@ -12,6 +12,7 @@ http://a4haaglanden-n14.nl,IenW
 http://a58tilburgbreda.nl,IenW
 http://aanbiedersmedicijnen.nl,VWS
 http://aandeslagmetdeomgevingswet.nl,IenW
+http://aaninhetdonker.nl,IenW
 http://aanmelder.nl/evenementenbureauvws,VWS
 http://aanpaklerarentekort.nl,OCW
 http://aanpakstikstof.nl,LNV
@@ -37,6 +38,7 @@ http://adviescommissievolkenrecht.nl,BUZA
 http://adviescommissievoorvreemdelingenzaken.nl,JenV
 http://adviescommissieweigerendeobservandi.nl,JenV
 http://adviesraadinternationalevraagstukken.nl,BUZA
+http://adviezen.raadrvs.nl,VWS
 http://advisorycommitteeinternationallaw.nl,BUZA
 http://advisorycouncilinternationalaffairs.nl,BUZA
 http://aerius.nl,VWS
@@ -75,7 +77,7 @@ http://aquo.nl,IenW
 http://arbiterbodembeweging.nl,EZK
 http://arbo-op-orde.zelfinspectie.nl,SZW
 http://arboportaal.nl,SZW
-http://architectenregister.nl,BZK
+http://architectenregister.nl,OCW
 http://arorijk.nl,BZK
 http://asbestovertredingen.inspectieszw.nl,SZW
 http://asbestvolgsysteem.nl,IenW
@@ -84,7 +86,7 @@ http://atlasinfectieziekten.nl,VWS
 http://atlasleefomgeving.nl,VWS
 http://atlasnatuurlijkkapitaal.nl,VWS
 http://atr-regeldruk.nl,EZK
-http://authenticatie.inspectieview.nl,Inspectieraad
+http://authenticatie.inspectieview.nl,IenW
 http://autoriteitnvs.nl,IenW
 http://autoriteitpersoonsgegevens.nl,JenV
 http://avghelpdeskzorg.nl,VWS
@@ -168,9 +170,11 @@ http://bzksocialmedia.nl,BZK
 http://c2000.nl,JenV
 http://campagnetoolkits.nl,AZ
 http://cannabisbureau.nl,VWS
-http://caop.nl,BZK
+http://caop.nl,CAOP
 http://cao-politie.nl,JenV
 http://caorijk.nl,BZK
+http://cas2021.com,BUZA
+http://catalogus.cultureelerfgoed.nl,OCW
 http://cbgdagvandeiv.nl,VWS
 http://cbgjaarverslag.nl,VWS
 http://cbg-meb.nl,VWS
@@ -227,13 +231,14 @@ http://contenttoolsrijksoverheid.nl,AZ
 http://controle-informatieplicht.infomil.nl,IenW
 http://coordinatiestroomlijn.nl,IenW
 http://corbey.nl,EZK
+http://coronadashboard.government.nl,VWS
 http://coronadashboard.rijksoverheid.nl,VWS
 http://coronamelder.nl,VWS
 http://corpolitie.nl,JenV
 http://corridoramsterdamhoorn.nl,IenW
 http://cosmeticaklachten.nl,VWS
 http://courtmh17.com,JenV
-http://covm.nl,BZK
+http://covm.nl,DEF
 http://cparegister.nl,JenV
 http://cpb.nl,EZK
 http://cps.pkioverheid.nl,BZK
@@ -244,7 +249,6 @@ http://crisistest.nl,JenV
 http://crl.pkioverheid.nl,BZK
 http://csirtdsp.nl,EZK
 http://ctgb.nl,EZK
-http://ctgb.org,EZK
 http://ctivd.nl,AZ
 http://cultureelerfgoed.nl,OCW
 http://cultuurparticipatie.nl,OCW
@@ -261,7 +265,7 @@ http://daarkunjemeethuiskomen.nl,IenW
 http://daarwordtiedereenbetervan.nl,VWS
 http://dashboards.ilt.rijkscloud.nl/luchtvaartvoorvallen,IenW
 http://dashboards.ilt.rijkscloud.nl/staatvanschiphol,IenW
-http://datagedreventoezicht.pleio.nl,Inspectieraad
+http://datagedreventoezicht.pleio.nl,IenW
 http://data.overheid.nl,BZK
 http://datavoorgezondheid.nl,VWS
 http://datawonen.nl,BZK
@@ -296,6 +300,7 @@ http://demijnraad.nl,EZK
 http://denationaleomgevingsvisie.nl,BZK
 http://dendrochronology.eu,OCW
 http://denkdoeduurzaam.nl,BZK
+http://denkmee.cvte.nl,OCW
 http://derdekamer.nl,TK
 http://derijkscampus.nl,BZK
 http://designsprint.gebruikercentraal.nl,BZK
@@ -338,6 +343,7 @@ http://dopinginfo.nl,VWS
 http://doping.nl,VWS
 http://dopingwaaier.nl,VWS
 http://douane-inzicht.nl,FIN
+http://dp2021.deltaprogramma.nl,IenW
 http://draaiboekhielprikscreening.rivm.nl,VWS
 http://draaiboekpsie.nl,VWS
 http://drop.overheid.nl,BZK
@@ -369,6 +375,7 @@ http://e-cert.nl,LNV
 http://eentegeneenzaamheid.nl,VWS
 http://eenzaam.nl,VWS
 http://eerlijkoverjeid.nl,BZK
+http://eerlijkwerken.zelfinspectie.nl,SZW
 http://eerstekamer.nl,EK
 http://efeat.org,VWS
 http://eherkenning.nl,BZK
@@ -402,6 +409,7 @@ http://english.cultureelerfgoed.nl,OCW
 http://english.defensie.nl,DEF
 http://english.deltacommissaris.nl,IenW
 http://english.dggf.nl,EZK
+http://english.dienstterugkeerenvertrek.nl,JenV
 http://english.donorregister.nl,VWS
 http://english.dsta.nl,FIN
 http://english.emnmagazines.nl/research,JenV
@@ -415,8 +423,8 @@ http://english.kabinetvandekoning.nl,AZ
 http://english.kiesraad.nl,BZK
 http://english.kimnet.nl,IenW
 http://english.magazinesrijkswaterstaat.nl,IenW
-http://english.mh17magazine.nl,BZK
-http://english.mh17magazine.nl/investigationmh17,BZK
+http://english.mh17magazine.nl/investigationmh17,JenV
+http://english.mh17magazine.nl,JenV
 http://english.ncadierproevenbeleid.nl,LNV
 http://english.ncsc.nl,JenV
 http://english.nctv.nl,JenV
@@ -433,12 +441,12 @@ http://english.rvo.nl,EZK
 http://english.scp.nl,VWS
 http://english.sso3w.nl,BUZA
 http://english.uitvoeringvanbeleidszw.nl,SZW
+http://english.wegwijzermensenhandel.nl,JenV
 http://english.wodc.nl,JenV
 http://english.wrr.nl,AZ
 http://english.zorginstituutnederland.nl,VWS
 http://enterpriseeuropenetwork.nl,EZK
 http://enwinfo.nl,IenW
-http://e-overheid.nl,BZK
 http://ep-online.nl,EZK
 http://eranetbioenergy.net,EZK
 http://erelijst.nl,TK
@@ -463,6 +471,7 @@ http://euthanasiecommissie.nl,VWS
 http://examenbladmbo.nl,OCW
 http://examenblad.nl,OCW
 http://excellentescholen.nl,OCW
+http://ex-made.dji.nl,JenV
 http://expertisecentrumlyme.nl,VWS
 http://expertisecentrummggz.nl,DEF
 http://expertisecentrumwarmte.nl,EZK
@@ -480,6 +489,7 @@ http://festivalforensischezorg.nl,JenV
 http://fileshare.rekenkamer.nl,AR
 http://filmfonds.nl,OCW
 http://financieelfittewerknemers.nl,FIN
+http://financiering.versnellingshuisce.nl,IenW
 http://findo.nl,BZK
 http://fiod.nl,FIN
 http://fiscalemonitor.nl,FIN
@@ -550,6 +560,7 @@ http://grensinfo.nl,SZW
 http://grenzeloosienm.nl,IenW
 http://grenzeloosienw.nl,IenW
 http://grknmi.nl,IenW
+http://groei.versnellingshuisce.nl,IenW
 http://groenalliantiemiddenholland.nl,LNV
 http://guaranteeforum.eu,EZK
 http://haaglandenveilig.nl,JenV
@@ -583,7 +594,7 @@ http://houseofrepresentatives.nl,TK
 http://huiselijkgeweld.nl,VWS
 http://huisstijl.belastingdienst.nl,FIN
 http://huisvoorklokkenluiders.nl,BZK
-http://hulpbijprivacy.nl,BZK
+http://hulpbijprivacy.nl,JenV
 http://huurcommissie.nl,BZK
 http://iamcdocumentation.eu,IenW
 http://ibestuurcongres.nl,BZK
@@ -629,7 +640,7 @@ http://innovatieagroennatuur.nl,LNV
 http://innovatiecongresjenv.nl,JenV
 http://innovatie-estafette.nl,IenW
 http://innovatieexpo2021.nl,VWS
-http://innovatietoezicht.nl,Inspectieraad
+http://innovatietoezicht.nl,IenW
 http://innoveermeemetjenv.nl,JenV
 http://innovember.nl,BZK
 http://inspectie-checklist.nl,SZW
@@ -646,6 +657,7 @@ http://integraalveilig-ho.nl,OCW
 http://intermediairdagen.belastingdienst.nl,FIN
 http://internationaalondernemen.nl,EZK
 http://internationalerechtshulp.nl,JenV
+http://intern.catalogus.cultureelerfgoed.nl,OCW
 http://internetconsultatie.nl,JenV
 http://internetspiegel.nl,BZK
 http://interspeciesinfo.com,VWS
@@ -727,6 +739,7 @@ http://knooppunt-hoevelaken.nl,IenW
 http://koenigshaus.nl,AZ
 http://kombijdepolitie.nl,JenV
 http://komuitjeschuld.nl,SZW
+http://komveiligthuis.nl,IenW
 http://koninklijkeverzamelingen.nl,AZ
 http://koninklijkhuis.nl,AZ
 http://koopoverheid.nl,BZK
@@ -766,6 +779,7 @@ http://linkeddata.overheid.nl,BZK
 http://lintjes.nl,KdNO
 http://live.dutchwebinar.com/csbn,JenV
 http://lma.nl,IenW
+http://locatieregister.dwangindezorg.nl,VWS
 http://locatievalkenburg.nl,BZK
 http://locov.nl,IenW
 http://loc.ubrijk.nl,BZK
@@ -821,8 +835,8 @@ http://magazines.p-direkt.nl,BZK
 http://magazines.platformjep.nl/jepzine,SZW
 http://magazines.platformrijksoverheiddemo.nl,AZ
 http://magazines.riec.nl/codegeel,JenV
-http://magazines.rijksinspecties.nl/magazine-rijksinspecties,Inspectieraad
-http://magazines.rijksoverheid.nl/adr/adrover,BZK
+http://magazines.rijksinspecties.nl/magazine-rijksinspecties,IenW
+http://magazines.rijksoverheid.nl/adr/adrover,FIN
 http://magazines.rijksoverheid.nl/bz/,BUZA
 http://magazines.rijksoverheid.nl/bzk/,BZK
 http://magazines.rijksoverheid.nl/cibg/special,VWS
@@ -844,7 +858,6 @@ http://magazines.toezichtsociaaldomein.nl/jaarbeeld,VWS
 http://magazines.tuchtcollege-gezondheidszorg.nl/jaarverslagen,VWS
 http://magazines.ubrijk.nl/productenendienstencatalogus,BZK
 http://magazines.wodc.nl/wodcmagazine,JenV
-http://magazines.woningmarktbeleid.nl/middagvandemiddenhuur,BZK
 http://magazines.zorgpact.nl/samen-leren-zorgen,VWS
 http://maison-royale.nl,AZ
 http://makingwavesnl.nl,IenW
@@ -875,7 +888,7 @@ http://meldpunttelecomwet.nl,EZK
 http://mensenrechten.nl,JenV
 http://menukaart.kansrijkestartnl.nl,VWS
 http://metenvanduurzaamheid.nl,VWS
-http://mh17magazine.nl,BZK
+http://mh17magazine.nl,JenV
 http://mi-cert.nl,EZK
 http://microfoonbanden.nl,EZK
 http://mijn.belastingdienst-cn.nl,FIN
@@ -967,9 +980,10 @@ http://netherlandsandyou.nl,BUZA
 http://netherlandsworldwide.nl,BUZA
 http://nettrofee.nl,EZK
 http://netwerkplatteland.nl,LNV
-http://netwerk.publiektoezicht.nl,Inspectieraad
+http://netwerk.publiektoezicht.nl,IenW
 http://nevenbetrekkingen.om.nl,JenV
 http://nevo-online.rivm.nl,VWS
+http://newsroom.minienw.nl,IenW
 http://nictiz.nl,VWS
 http://niderlandy-i-vy.nl,BUZA
 http://nidos.nl,JenV
@@ -979,6 +993,7 @@ http://nieuwsbrieven.cbg-meb.nl,VWS
 http://nieuwsbrievenminocw.nl,OCW
 http://nieuwsbrieven.rijkswaterstaat.nl,IenW
 http://nieuwsbzk.nl,BZK
+http://nieuwsenkennisportaalbzk.nl,BZK
 http://nieuwsienw.nl,IenW
 http://nieuwsszw.nl,SZW
 http://nifp.nl,JenV
@@ -1005,6 +1020,7 @@ http://nmdc.eu,VWS
 http://noordzeeloket.nl,IenW
 http://noraonline.nl,BZK
 http://northseaportal.eu,IenW
+http://novistukken.nl,BZK
 http://nrgd.nl,JenV
 http://nsgi.nl,BZK
 http://nsl-monitoring.nl,VWS
@@ -1026,7 +1042,6 @@ http://officielebekendmakingen.nl,BZK
 http://oicrf.org,BZK
 http://omgevingsloket.nl,IenW
 http://omgevingsveiligheid.rivm.nl,VWS
-http://omgevingswetportaal.nl,BZK
 http://omgevingswijzer.org,IenW
 http://om.nl,JenV
 http://on2013.nl,IenW
@@ -1048,8 +1063,8 @@ http://ontdekderuimte.leraar.nl,OCW
 http://ontdekdezorg.nl,VWS
 http://ontdeknederland.nl,BUZA
 http://ontwerpenaanklimaatenwater.nl,BZK
-http://ontwerpnovi.nl,BZK
 http://opdrachtgeversforum.nl,EZK
+http://openbare-inspectieresultaten.nvwa.nl,LNV
 http://opendata-award.nl,BZK
 http://opendatabattle.nl,IenW
 http://opendata.tweedekamer.nl,TK
@@ -1158,7 +1173,7 @@ http://raadopenbaarbestuur.nl,BZK
 http://raadrvs.nl,VWS
 http://raadvanstate.nl,RvS
 http://raadvoorcultuur.nl,OCW
-http://raadvoorhetoverheidspersoneelsbeleid.nl,BZK
+http://raadvoorhetoverheidspersoneelsbeleid.nl,CAOP
 http://raadvoorplantenrassen.nl,LNV
 http://randstad380kv-noordring.nl,EZK
 http://randstad380kv-zuidring.nl,EZK
@@ -1202,7 +1217,7 @@ http://rijksfinancien.nl,FIN
 http://rijkshuisstijl.nl,AZ
 http://rijksictdashboard.nl,BZK
 http://rijksinnovatiecommunity.nl,BZK
-http://rijksinspecties.nl,Inspectieraad
+http://rijksinspecties.nl,IenW
 http://rijksnormering.nl,BZK
 http://rijksoverheid.bouwbesluit.com,BZK
 http://rijksoverheid.nl,AZ
@@ -1251,7 +1266,6 @@ http://rwsupdate.nl,IenW
 http://rwsverkeersinfo.nl,IenW
 http://saip.nl,BZK
 http://samenmetenaanluchtkwaliteit.nl,VWS
-http://samennl.nl,SZW
 http://samensnelinternet.nl,EZK
 http://samentegeneenzaamheid.nl,VWS
 http://samenwerkenaanontwerpkracht.nl,OCW
@@ -1319,7 +1333,10 @@ http://staatvanhetmkb.nl,EZK
 http://staatvenz.nl,VWS
 http://stagefonds.formulierdus-i.nl,VWS
 http://standaarden.overheid.nl,BZK
+http://standaarden.rijkswaterstaat.nl,IenW
+http://standaarden.rws.nl,IenW
 http://stapvooruit.nl,JenV
+http://startmetoesorichtlijnen.nl,BUZA
 http://staten-generaal.nl,TK
 http://statiagovernment.com,BZK
 http://stelselcatalogus.nl,BZK
@@ -1332,7 +1349,6 @@ http://structuurfondsen.nl,EZK
 http://studeermeteenplan.nl,OCW
 http://studiegroep.overheidvannu.nl,BZK
 http://studielink.nl,OCW
-http://studiemetkind.nl,SZW
 http://subsidie.cultureelerfgoed.nl,OCW
 http://subsidie.monumenten.nl,OCW
 http://summercourt.nl,JenV
@@ -1361,6 +1377,8 @@ http://terugvoerplicht.nl,JenV
 http://teverantwoordenregelingen.rijksoverheid.nl,BZK
 http://thegfce.org,JenV
 http://tib-ivd.nl,AZ
+http://tip.ncsc.nl,JenV
+http://tlokb.nl,BZK
 http://tno.nl,EZK
 http://toegangocw.nl,OCW
 http://toegangsociaaldomein.nl,VWS
@@ -1377,10 +1395,12 @@ http://toezichtopboa.nl,JenV
 http://toezichtopzorgnetwerken.igj.nl,VWS
 http://toezichtsociaaldomein.nl,VWS
 http://toolboxinclusief.nl,BZK
+http://toolkit.kiesdefiets.nl,IenW
 http://toolkit.nlbranding.nl,BUZA
 http://toolkitomgevingswet.nl,BZK
 http://toolkit.ontdekdezorg.nl,VWS
 http://tools-acc.rijksictgilde.nl,BZK
+http://tools.i-interimrijk.nl,BZK
 http://tools.rijksictgilde.nl,BZK
 http://tools.rijksinnovatiecommunity.nl,BZK
 http://topcorridors.com,IenW
@@ -1439,7 +1459,6 @@ http://verkiezingsuitslagen.nl,BZK
 http://verlofadviescollege.nl,JenV
 http://versnellingshuisce.nl,IenW
 http://vervangingsfonds.nl,OCW
-http://verwey-jonker.nl,BZK
 http://verwijzingsportaalbankgegevens.nl,JenV
 http://veterinairberoepscollege.nl,LNV
 http://veterinairtuchtcollege.nl,LNV
@@ -1467,6 +1486,7 @@ http://vtv2018.nl,VWS
 http://vvg-lenp.nl,JenV
 http://vwscongresmagazine.nl,VWS
 http://vwsdia.nl,VWS
+http://vwsflex.nl,VWS
 http://vwshuisstijl.nl,VWS
 http://vwsnet.nl,VWS
 http://vzvz.nl,VWS
@@ -1533,6 +1553,7 @@ http://woningmarktbeleid.nl,BZK
 http://woononderzoek.nl,BZK
 http://wozep.nl,IenW
 http://wozwaardeloket.nl,BZK
+http://wpfc2020.com,BUZA
 http://wrr.nl,AZ
 http://wtzi.nl,VWS
 http://www.dictu.nl,EZK
@@ -1542,7 +1563,7 @@ http://www.hetcak.nl,VWS
 http://www.impactzuid.nl/impact-magazine,JenV
 http://www.kinderbescherming.nl,JenV
 http://www.laamagazine.nl/aanpak-adreskwaliteit,BZK
-http://www.mh17magazine.nl/onderzoekmh17,BZK
+http://www.mh17magazine.nl/onderzoekmh17,JenV
 http://www.mijnwlzaanvraag.ciz.nl,VWS
 http://www.ncsc.nl,JenV
 http://www.rvig.nl,BZK
@@ -1551,6 +1572,7 @@ http://www.topinkomens.nl,BZK
 http://www.tuchtcollege-gezondheidszorg.nl,VWS
 http://www.verrekeningneveninkomsten.nl,BZK
 http://www.zelfinspectie.nl,SZW
+http://youthatheart.nl,BUZA
 http://zakelijk.duo.nl,OCW
 http://zakelijk.kadaster.nl,BZK
 http://zakendoeninchina.org,BUZA

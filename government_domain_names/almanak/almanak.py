@@ -49,7 +49,7 @@ with io.open(export_filename, 'w') as OUT:
 # Specify the namespace used by the export archive XML
 # NOTE: this namespace changes every now and then, so if the output CSVs
 # are empty then check if the namespace has changed and update it
-ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.16"}
+ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.17"}
 
 # Load the XML
 parser = etree.XMLParser(ns_clean=True)
