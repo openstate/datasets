@@ -115,6 +115,7 @@ rijksoverheid_mapping = {
     'KdNO': u'Kanselarij der Nederlandse Orden',
     'KvdK': u'Kabinet van de Koning',
     'LNV': u'Ministerie van Landbouw, Natuur en Voedselkwaliteit',
+    'ICTU': u'ICTU (ICT-Uitvoeringsorganisatie)',
     'IenW': u'Ministerie van Infrastructuur en Waterstaat',
     'Inspectieraad': u'Inspectieraad',
     'NO': u'Nationale Ombudsman',
