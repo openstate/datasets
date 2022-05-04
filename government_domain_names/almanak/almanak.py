@@ -42,14 +42,14 @@ class UnicodeWriter:
 export_filename = 'export-%s.xml' % (datetime.now().isoformat()[:10])
 
 # Download and save the export archive
-r = requests.get('https://almanak.overheid.nl/archive/exportOO.xml', verify=False)
+r = requests.get('https://organisaties.overheid.nl/archive/exportOO.xml', verify=False)
 with io.open(export_filename, 'w') as OUT:
     OUT.write(r.text)
 
 # Specify the namespace used by the export archive XML
 # NOTE: this namespace changes every now and then, so if the output CSVs
 # are empty then check if the namespace has changed and update it
-ns = {"p": "https://almanak.overheid.nl/static/schema/oo/export/2.4.20"}
+ns = {"p": "https://organisaties.overheid.nl/static/schema/oo/export/2.5.1"}
 
 # Load the XML
 parser = etree.XMLParser(ns_clean=True)
